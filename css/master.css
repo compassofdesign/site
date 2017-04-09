@@ -211,6 +211,9 @@ body {
 @keyframes fadeIn {
   to {
     opacity: 1; } }
+p {
+  margin: 1.5em 0; }
+
 a, a:link, a:visited, a:hover, a:focus {
   transition: all ease 0.3s;
   text-decoration: none;
@@ -223,17 +226,17 @@ h2, h3, h4, h5, h6 {
 h6 {
   font-size: 1.8rem;
   font-weight: 400;
-  margin-bottom: #eee; }
+  margin-bottom: 1.5em; }
 
 h5 {
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: #eee; }
+  margin-bottom: 1.5em; }
 
 h4 {
   font-size: 2.3rem;
   font-weight: 300;
-  margin-bottom: #eee; }
+  margin-bottom: 1.5em; }
 
 h3 {
   font-size: 2.9rem;
@@ -309,7 +312,16 @@ i {
 
 form#mc-embedded-subscribe-form {
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  transform: translate(-50%, 0);
+  left: 50%; }
+  form#mc-embedded-subscribe-form input {
+    display: block;
+    margin: 1.5em 0;
+    border: #fff 2px solid;
+    border-radius: 5px;
+    padding: 0.5em; }
 
 @media only screen and (min-width: 800px) {
   .col {
