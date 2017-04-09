@@ -307,6 +307,10 @@ i {
       padding-bottom: 0;
       margin-left: 1em; } }
 
+form {
+  width: 70%;
+  margin: 0 auto; }
+
 @media only screen and (min-width: 800px) {
   .col {
     display: inline-block; }
