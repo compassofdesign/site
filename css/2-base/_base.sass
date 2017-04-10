@@ -111,7 +111,7 @@ i
 
 // Scaffolding
 .hero
-  height: calc(40vw / 1.777)
+  height: calc(60vw / 1.777)
   clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%)
   text-align: center
   display: flex
@@ -121,9 +121,6 @@ i
   text-align: center
   .row
     display: inline-flex
-    img
-
-
   img
     width: 35%
   h1
@@ -149,7 +146,13 @@ i
     & ~ .col
       padding-bottom: 0
       margin-left: 1em
-
+.pull
+  margin-top: -5%
+  padding-top: 4em
+  background: #fafafa
+  border-radius: 10px
+  width: 50%
+  @include center(true, false)
 
 // Forms
 form#mc-embedded-subscribe-form
