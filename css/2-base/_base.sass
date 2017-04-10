@@ -110,12 +110,30 @@ i
   margin-right: 0
 
 // Scaffolding
+.hero
+  height: calc(40vw / 1.777)
+  clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%)
+  text-align: center
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+  text-align: center
+  .row
+    display: inline-flex
+    img
+
+
+  img
+    width: 35%
+  h1
+    width: 70%
+    margin: 0 auto
+
 
 // Columns
 .container
   @include container()
-  img
-    @include center(true, false)
 .container .row
   position: inherit
   display: inline-block

@@ -281,13 +281,26 @@ i {
   margin-left: 2em;
   margin-right: 0; }
 
+.hero {
+  height: calc(40vw / 1.777);
+  clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+  .hero .row {
+    display: inline-flex; }
+  .hero img {
+    width: 35%; }
+  .hero h1 {
+    width: 70%;
+    margin: 0 auto; }
+
 .container {
   font-size: 0;
   position: relative; }
-  .container img {
-    position: relative;
-    transform: translate(-50%, 0);
-    left: 50%; }
 
 .container .row {
   position: inherit;
@@ -334,5 +347,8 @@ form#mc-embedded-subscribe-form {
     padding: 1em; }
   form ~ label.module {
     margin-left: 1em; } }
+.hero-index {
+  background: url("/assets/img/a.jpg") center center;
+  background-size: cover; }
 
 /*# sourceMappingURL=master.css.map */
