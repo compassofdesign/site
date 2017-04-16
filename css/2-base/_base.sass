@@ -13,7 +13,7 @@ body
   line-height: 1.8
   overflow-x: hidden
   @media only screen and (min-width: 200px)
-    font-size: 1.4rem
+    font-size: 1.4em
   @media only screen and (min-width: 800px)
     font-size: 1.8rem
 .main
@@ -55,7 +55,6 @@ a, a:link, a:visited, a:hover, a:focus
   border-bottom: 1px solid $main
 h2, h3, h4, h5, h6
   position: relative
-  width: fit-content
 h6
   font-size: 1.8rem
   font-weight: 400
@@ -71,6 +70,8 @@ h4
 h3
   font-size: 2.9rem
   font-weight: 300
+  color: $highlight
+  mix-blend-mode: multiply
   margin-bottom: $margin
 h2
   font-size: 3.2rem
@@ -97,7 +98,7 @@ i
   border-radius: 5px
   padding: 1em
   &.secondary
-    background: $secondary
+    background: $highlight
     color: $dark
   &.tertiary
     background: $tertiary
@@ -109,12 +110,12 @@ i
   background-color: lighten($secondary, 25%)
   color: $dark
 .button ~ .button,a.button ~ a.button
-  margin-left: 2em
-  margin-right: 0
+  margin: 2rem 0 0 0
+
 
 // Scaffolding
 .hero
-  height: calc(60vw / 1.777)
+  height: calc(30vw * 1.777)
   clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%)
   text-align: center
   display: flex
@@ -125,10 +126,17 @@ i
   .row
     display: inline-flex
   img
-    width: 35%
+    width: 95%
   h1
     width: 70%
     margin: 0 auto
+.slant
+  @include center(true, false)
+  padding: 1.2em
+  width: 100vw
+  background: url('/assets/img/topograph.png')  bottom center
+  background-size: cover
+  background-repeat: no-repeat
 
 
 // Columns
@@ -185,9 +193,6 @@ i
 
 // Forms
 form#mc-embedded-subscribe-form
-  width: 70%
-  margin: 0 auto
-  @include center(true, false)
   input
     display: block
     margin: $margin 0

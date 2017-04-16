@@ -165,7 +165,7 @@ td, th {
   padding: 0; }
 
 html {
-  background: #eee;
+  background: #fff;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 10px;
   color: #353263; }
@@ -176,7 +176,7 @@ body {
   overflow-x: hidden; }
   @media only screen and (min-width: 200px) {
     body {
-      font-size: 1.4rem; } }
+      font-size: 1.4em; } }
   @media only screen and (min-width: 800px) {
     body {
       font-size: 1.8rem; } }
@@ -225,8 +225,7 @@ a, a:link, a:visited, a:hover, a:focus {
   border-bottom: 1px solid #353263; }
 
 h2, h3, h4, h5, h6 {
-  position: relative;
-  width: fit-content; }
+  position: relative; }
 
 h6 {
   font-size: 1.8rem;
@@ -246,6 +245,8 @@ h4 {
 h3 {
   font-size: 2.9rem;
   font-weight: 300;
+  color: #eb2441;
+  mix-blend-mode: multiply;
   margin-bottom: 1.5em; }
 
 h2 {
@@ -269,12 +270,12 @@ i {
   min-width: 8em;
   background: #353263;
   font-size: 1.8rem;
-  color: #eee;
+  color: #fff;
   border: none;
   border-radius: 5px;
   padding: 1em; }
   .button.secondary, a.button.secondary {
-    background: #eee;
+    background: #eb2441;
     color: #331141; }
   .button.tertiary, a.button.tertiary {
     background: #eee;
@@ -289,11 +290,10 @@ i {
   color: #331141; }
 
 .button ~ .button, a.button ~ a.button {
-  margin-left: 2em;
-  margin-right: 0; }
+  margin: 2rem 0 0 0; }
 
 .hero {
-  height: calc(60vw / 1.777);
+  height: calc(30vw * 1.777);
   clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%);
   text-align: center;
   display: flex;
@@ -304,10 +304,20 @@ i {
   .hero .row {
     display: inline-flex; }
   .hero img {
-    width: 35%; }
+    width: 95%; }
   .hero h1 {
     width: 70%;
     margin: 0 auto; }
+
+.slant {
+  position: relative;
+  transform: translate(-50%, 0);
+  left: 50%;
+  padding: 1.2em;
+  width: 100vw;
+  background: url("/assets/img/topograph.png") bottom center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .container {
   font-size: 0;
@@ -385,19 +395,13 @@ i {
   transform: translate(-50%, 0);
   left: 50%; }
 
-form#mc-embedded-subscribe-form {
-  width: 70%;
-  margin: 0 auto;
-  position: relative;
-  transform: translate(-50%, 0);
-  left: 50%; }
-  form#mc-embedded-subscribe-form input {
-    display: block;
-    margin: 1.5em 0;
-    border: #fff 2px solid;
-    border-radius: 5px;
-    padding: 0.5em;
-    max-width: 100%; }
+form#mc-embedded-subscribe-form input {
+  display: block;
+  margin: 1.5em 0;
+  border: #fff 2px solid;
+  border-radius: 5px;
+  padding: 0.5em;
+  max-width: 100%; }
 
 @media only screen and (min-width: 800px) {
   .col {
@@ -409,8 +413,16 @@ form#mc-embedded-subscribe-form {
   form ~ label.module {
     margin-left: 1em; } }
 .hero-index {
-  background: url("/assets/img/bg2.jpg") bottom center;
+  background: url("/assets/img/Topograph-med.png") bottom center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+@media only screen and (min-width: 1000px) {
+  .hero {
+    height: calc(60vw / 1.777); }
+    .hero img {
+      width: 35%; }
+
+  margin: 0 0 0 2rem; }
 
 /*# sourceMappingURL=master.css.map */
