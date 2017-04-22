@@ -419,7 +419,7 @@ form#mc-embedded-subscribe-form input {
   form ~ label.module {
     margin-left: 1em; } }
 .hero-index {
-  background: url("/assets/img/topograph-med.png") bottom center;
+  background: url("../assets/img/topograph-med.png") bottom center;
   background-size: cover;
   background-repeat: no-repeat; }
 
