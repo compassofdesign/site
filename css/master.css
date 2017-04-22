@@ -182,7 +182,8 @@ body {
       font-size: 1.8rem; } }
 
 .main {
-  padding: 0 10%; }
+  padding: 0 10%;
+  width: 100%; }
 
 .hidden {
   display: none !important;
@@ -233,29 +234,29 @@ h6 {
   margin-bottom: 1.5em; }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   font-weight: 900;
   margin-bottom: 1.5em; }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 1.5em; }
 
 h3 {
-  font-size: 1.563rem;
+  font-size: 2rem;
   font-weight: 300;
   color: #eb2441;
   mix-blend-mode: multiply;
   margin-bottom: 1.5em; }
 
 h2 {
-  font-size: 1.953rem;
+  font-size: 2.8rem;
   font-weight: 300;
   margin-bottom: 1.5em; }
 
 h1 {
-  font-size: 2.441rem;
+  font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0rem; }
 
@@ -294,7 +295,6 @@ i {
   margin: 0 0 0 2rem; }
 
 .hero {
-  height: calc(90vw * 1.777);
   clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%);
   text-align: center;
   display: flex;
@@ -382,6 +382,10 @@ i {
   @media only screen and (min-width: 800px) {
     .module ~ .module {
       padding-bottom: 0; } }
+  .module .landing {
+    width: 70%; }
+    .module .landing img {
+      width: 100%; }
 
 @media only screen and (min-width: 800px) {
   .module {
@@ -419,9 +423,10 @@ form#mc-embedded-subscribe-form input {
   form ~ label.module {
     margin-left: 1em; } }
 .hero-index {
-  background: url("../assets/img/topograph-med.png") bottom center;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../assets/img/topograph-med.png") bottom center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 150px 0; }
 
 @media only screen and (min-width: 1000px) {
   h6 {
@@ -435,7 +440,7 @@ form#mc-embedded-subscribe-form input {
     margin-bottom: 1.5em; }
 
   h4 {
-    font-size: 1.618rem;
+    font-size: 2.618rem;
     font-weight: 300;
     margin-bottom: 1.5em; }
 
@@ -449,17 +454,15 @@ form#mc-embedded-subscribe-form input {
   h2 {
     font-size: 4.236rem;
     font-weight: 300;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1rem; }
 
   h1 {
     font-size: 6.854rem;
     font-weight: 500;
     margin-bottom: 0rem; }
 
-  .hero {
-    height: calc(70vw / 1.777); }
-    .hero img {
-      width: 35%; }
+  .hero img {
+    width: 35%; }
 
   margin: 0 0 0 2rem; }
 
