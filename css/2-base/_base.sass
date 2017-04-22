@@ -56,30 +56,31 @@ a, a:link, a:visited, a:hover, a:focus
 h2, h3, h4, h5, h6
   position: relative
 h6
-  font-size: 1.8rem
-  font-weight: 400
+  font-size: 1.125rem
+  font-weight: 600
   margin-bottom: $margin
 h5
-  font-size: 2rem
-  font-weight: 400
+  font-size: 1.125rem
+  font-weight: 900
   margin-bottom: $margin
 h4
-  font-size: 2.3rem
+  font-size: 1.25rem
   font-weight: 300
   margin-bottom: $margin
 h3
-  font-size: 2.9rem
+  font-size: 1.563rem
   font-weight: 300
   color: $highlight
   mix-blend-mode: multiply
   margin-bottom: $margin
 h2
-  font-size: 3.2rem
+  font-size: 1.953rem
   font-weight: 300
   margin-bottom: $margin
 h1
-  font-size: 4rem
+  font-size: 2.441rem
   font-weight: 500
+  margin-bottom: 0rem
 i
   margin-right: 2rem
   margin-left: 2rem
@@ -98,24 +99,23 @@ i
   border-radius: 5px
   padding: 1em
   &.secondary
-    background: $highlight
+    background: $light
     color: $dark
   &.tertiary
     background: $tertiary
     color: $dark
 .button:active, .button:focus,a.button:active, a.button:focus
-  background-color: lighten($secondary, 45%)
-  color: $dark
+  background-color: darken($main, 15%)
+  color: $light
 .button:hover, a.button:hover
-  background-color: lighten($secondary, 25%)
-  color: $dark
+  background-color: darken($main, 25%)
+  color: $light
 .button ~ .button,a.button ~ a.button
-  margin: 2rem 0 0 0
-
+  margin:  0 0 0 2rem
 
 // Scaffolding
 .hero
-  height: calc(30vw * 1.777)
+  height: calc(90vw * 1.777)
   clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%)
   text-align: center
   display: flex
@@ -137,6 +137,8 @@ i
   background: url('/assets/img/topograph.png')  bottom center
   background-size: cover
   background-repeat: no-repeat
+.focus
+  @include center(true, false)
 
 
 // Columns
