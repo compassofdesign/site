@@ -3,6 +3,7 @@
   box-sizing: border-box
   margin: 0
   padding: 0
+  transition: $transition
 html
   background: $light
   font-family: "Trebuchet MS", sans-serif
@@ -140,8 +141,15 @@ i
   background-repeat: no-repeat
 .focus
   @include center(true, false)
-
-
+.alert
+  padding: 2em 0 .5em
+  background-color: $main
+  color: $light
+  text-align: center
+  & ~ a img:hover
+    opacity: .4
+  a
+    color: lighten($main, 40%)
 // Columns
 .container
   @include container()
@@ -176,6 +184,8 @@ i
   position: inherit
   font-size: 1.8rem
   padding: 0 0 1.5rem 0
+  img
+    width: 100%
   @media only screen and (min-width: 800px)
     & ~ .module
       padding-bottom: 0
@@ -190,13 +200,8 @@ i
     &.landing
       @include center(true, false)
       width: 70%
-.pull
-  margin-top: 5%
-  padding-top: 4em
-  background: #fafafa
-  border-radius: 10px
-  width: 50%
-  @include center(true, false)
+.point
+  margin-top: -28%
 
 // Forms
 form#mc-embedded-subscribe-form
