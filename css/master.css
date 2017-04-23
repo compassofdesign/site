@@ -408,23 +408,29 @@ i {
       transform: translate(-50%, 0);
       left: 50%;
       width: 70%; } }
-.point {
-  margin-top: -28%; }
+.point .point-title {
+  color: #353263;
+  font-size: 2.5em;
+  margin-bottom: 0;
+  text-transform: uppercase; }
 
-form#mc-embedded-subscribe-form input {
-  display: block;
-  margin: 1.5em 0;
-  border: #fff 2px solid;
-  border-radius: 5px;
-  padding: 0.5em;
-  max-width: 100%; }
+form#mc-embedded-subscribe-form {
+  background-color: #fafafa;
+  padding: 1em;
+  border-radius: 10px; }
+  form#mc-embedded-subscribe-form input {
+    display: block;
+    margin: 1.5em 0;
+    border: #ddd 2px solid;
+    border-radius: 5px;
+    padding: 0.5em;
+    max-width: 100%; }
 
 @media only screen and (min-width: 800px) {
   .col {
     display: inline-block; }
 
   form label.module {
-    width: calc(34% - .6em);
     padding: 1em; }
   form ~ label.module {
     margin-left: 1em; } }
@@ -474,9 +480,22 @@ form#mc-embedded-subscribe-form input {
     margin: 0 0 0 2rem; }
 
   .module .support-img {
-    width: 50%;
-    position: relative;
-    transform: translate(-50%, 0);
-    left: 50%; } }
+    width: 70%;
+    transform: translate(-50%, 50%);
+    left: 90%;
+    top: 50%; }
+  .module.group {
+    margin-top: -25%; }
+
+  .point {
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 50%;
+    width: 70%; }
+    .point .point-title {
+      font-size: 4em; }
+
+  form#mc-embedded-subscribe-form {
+    padding: 3em; } }
 
 /*# sourceMappingURL=master.css.map */
