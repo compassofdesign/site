@@ -38,8 +38,9 @@
       transform: translate(-50%, 50%)
       left: 90%
       top: 50%
-    &.group
-      margin-top: -20%
+    &.group ~ .group, .landing-group ~ .landing-group
+      margin-top: -25%
+
     &.signup
       width: 55%
     &.signupimg

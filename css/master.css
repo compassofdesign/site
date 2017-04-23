@@ -503,8 +503,8 @@ footer {
     transform: translate(-50%, 50%);
     left: 90%;
     top: 50%; }
-  .module.group {
-    margin-top: -20%; }
+  .module.group ~ .group, .module .landing-group ~ .landing-group {
+    margin-top: -25%; }
   .module.signup {
     width: 55%; }
   .module.signupimg {
