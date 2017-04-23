@@ -414,17 +414,21 @@ i {
   margin-bottom: 0;
   text-transform: uppercase; }
 
-form#mc-embedded-subscribe-form {
-  background-color: #fafafa;
+form {
+  background-color: #f7f7f7;
   padding: 1em;
   border-radius: 10px; }
-  form#mc-embedded-subscribe-form input {
+  form input {
     display: block;
     margin: 1.5em 0;
     border: #ddd 2px solid;
     border-radius: 5px;
     padding: 0.5em;
     max-width: 100%; }
+  form textarea {
+    width: 70%;
+    height: 15vw;
+    resize: none; }
 
 @media only screen and (min-width: 800px) {
   .col {
@@ -435,6 +439,12 @@ form#mc-embedded-subscribe-form {
   form ~ label.module {
     margin-left: 1em; } }
 .hero-index {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../assets/img/top1.png") bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0; }
+
+footer {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../assets/img/top1.png") bottom center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -486,6 +496,11 @@ form#mc-embedded-subscribe-form {
     top: 50%; }
   .module.group {
     margin-top: -25%; }
+  .module.signup {
+    width: 55%; }
+  .module.signupimg {
+    width: 28%;
+    margin-right: 5%; }
 
   .point {
     transform: translate(-50%, -50%);
@@ -496,6 +511,9 @@ form#mc-embedded-subscribe-form {
       font-size: 4em; }
 
   form#mc-embedded-subscribe-form {
-    padding: 3em; } }
+    padding: 3em; }
+    form#mc-embedded-subscribe-form .mc-field-group {
+      display: inline-block;
+      width: 33%; } }
 
 /*# sourceMappingURL=master.css.map */
