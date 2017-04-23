@@ -1,10 +1,10 @@
 @media only screen and (min-width: 1000px)
   h6
-    font-size: 1.3rem
+    font-size: 1.8rem
     font-weight: 600
     margin-bottom: $margin
   h5
-    font-size: 1.3rem
+    font-size: 1.8rem
     font-weight: 900
     margin-bottom: $margin
   h4
@@ -15,7 +15,6 @@
     font-size: 2.618rem
     font-weight: 300
     color: $highlight
-    mix-blend-mode: multiply
     margin-bottom: $margin
   h2
     font-size: 4.236rem
@@ -31,7 +30,8 @@
       width: 35%
   .button ~ .button,a.button ~ a.button
     margin: 0 0 0 2rem
-  .landing
+  .main
+    padding: 0 10%
   .module
     .support-img
       width: 70%
@@ -39,12 +39,14 @@
       left: 90%
       top: 50%
     &.group
-      margin-top: -25%
+      margin-top: -20%
     &.signup
       width: 55%
     &.signupimg
       width: 28%
       margin-right: 5%
+    &.pricing
+      width: 33%
   .point
     transform: translate(-50%, -50%)
     left: 20%
@@ -52,6 +54,13 @@
     width: 70%
     .point-title
       font-size: 4em
+  .buy
+    .pricing
+      padding: 2em
+      margin-top: 45px
+    .preferred
+      margin-top: 0
+
   form#mc-embedded-subscribe-form
     padding: 3em
     .mc-field-group

@@ -18,7 +18,7 @@ body
   @media only screen and (min-width: 800px)
     font-size: 1.8rem
 .main
-  padding: 0 10%
+  padding: 0 4%
   width: 100%
 .hidden
   display: none !important
@@ -58,11 +58,11 @@ a, a:link, a:visited, a:hover, a:focus
 h2, h3, h4, h5, h6
   position: relative
 h6
-  font-size: 1.125rem
+  font-size: 1.6rem
   font-weight: 600
   margin-bottom: $margin
 h5
-  font-size: 1.3rem
+  font-size: 1.6rem
   font-weight: 900
   margin-bottom: $margin
 h4
@@ -73,7 +73,6 @@ h3
   font-size: 2rem
   font-weight: 300
   color: $highlight
-  mix-blend-mode: multiply
   margin-bottom: $margin
 h2
   font-size: 2.8rem
@@ -150,6 +149,14 @@ i
     opacity: .4
   a
     color: lighten($main, 40%)
+.buy
+  .pricing
+    padding: .3em
+    background: $tertiary
+    text-align: center
+  .preferred
+    background: $grey
+    color: $light !important
 // Columns
 .container
   @include container()

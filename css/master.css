@@ -183,7 +183,7 @@ body {
       font-size: 1.8rem; } }
 
 .main {
-  padding: 0 10%;
+  padding: 0 4%;
   width: 100%; }
 
 .hidden {
@@ -230,12 +230,12 @@ h2, h3, h4, h5, h6 {
   position: relative; }
 
 h6 {
-  font-size: 1.125rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.5em; }
 
 h5 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 900;
   margin-bottom: 1.5em; }
 
@@ -248,7 +248,6 @@ h3 {
   font-size: 2rem;
   font-weight: 300;
   color: #eb2441;
-  mix-blend-mode: multiply;
   margin-bottom: 1.5em; }
 
 h2 {
@@ -335,6 +334,14 @@ i {
     opacity: 0.4; }
   .alert a {
     color: #9a97ca; }
+
+.buy .pricing {
+  padding: 0.3em;
+  background: #eee;
+  text-align: center; }
+.buy .preferred {
+  background: #333;
+  color: #fff !important; }
 
 .container {
   font-size: 0;
@@ -452,12 +459,12 @@ footer {
 
 @media only screen and (min-width: 1000px) {
   h6 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1.5em; }
 
   h5 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 900;
     margin-bottom: 1.5em; }
 
@@ -470,7 +477,6 @@ footer {
     font-size: 2.618rem;
     font-weight: 300;
     color: #eb2441;
-    mix-blend-mode: multiply;
     margin-bottom: 1.5em; }
 
   h2 {
@@ -489,18 +495,23 @@ footer {
   .button ~ .button, a.button ~ a.button {
     margin: 0 0 0 2rem; }
 
+  .main {
+    padding: 0 10%; }
+
   .module .support-img {
     width: 70%;
     transform: translate(-50%, 50%);
     left: 90%;
     top: 50%; }
   .module.group {
-    margin-top: -25%; }
+    margin-top: -20%; }
   .module.signup {
     width: 55%; }
   .module.signupimg {
     width: 28%;
     margin-right: 5%; }
+  .module.pricing {
+    width: 33%; }
 
   .point {
     transform: translate(-50%, -50%);
@@ -509,6 +520,12 @@ footer {
     width: 70%; }
     .point .point-title {
       font-size: 4em; }
+
+  .buy .pricing {
+    padding: 2em;
+    margin-top: 45px; }
+  .buy .preferred {
+    margin-top: 0; }
 
   form#mc-embedded-subscribe-form {
     padding: 3em; }
