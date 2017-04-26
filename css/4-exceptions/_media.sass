@@ -3,29 +3,33 @@
     font-size: 1.8rem
     font-weight: 600
     margin-bottom: $margin
+    line-height: $line
   h5
     font-size: 1.8rem
     font-weight: 900
     margin-bottom: $margin
+    line-height: $line
   h4
     font-size: 2.618rem
     font-weight: 300
     margin-bottom: $margin
+    line-height: $line
   h3
     font-size: 2.618rem
     font-weight: 300
     color: $highlight
     margin-bottom: $margin
+    line-height: $line
   h2
     font-size: 4.236rem
     font-weight: 300
     margin-bottom: 1rem
+    line-height: $line
   h1
     font-size: 6.854rem
     font-weight: 500
-    margin-bottom: 0rem
+    margin-bottom: 3rem
   .hero
-    // height: calc(70vw / 1.777)
     img
       width: 35%
   .button ~ .button,a.button ~ a.button
@@ -33,13 +37,7 @@
   .main
     padding: 0 10%
   .module
-    .support-img
-      width: 70%
-      transform: translate(-50%, 50%)
-      left: 90%
-      top: 50%
-    &.group ~ .group, .landing-group ~ .landing-group
-      margin-top: -25%
+    display: inline-block
 
     &.signup
       width: 55%
@@ -48,14 +46,29 @@
       margin-right: 5%
     &.pricing
       width: 33%
-  .point
-    transform: translate(-50%, -50%)
-    left: 20%
-    top: 50%
-    width: 70%
-    .point-title
-      font-size: 4em
-  .buy
+  .group, .landing-group
+    display: inline-flex
+    justify-content: space-around
+    align-items: center
+    flex-flow: row-reverse
+    .point
+      width: 50%
+      display: flex
+      flex-direction: column
+      margin-left: 10%
+    .support-img
+      width: 50%
+  .landing-group
+    margin-bottom: 50px
+    .point
+      width: 70%
+    .support-img
+      margin-left: 5%
+      text-align: center
+      img
+        margin-bottom: 2em
+  .row.buy
+    display: flex
     .pricing
       padding: 2em
       margin-top: 45px

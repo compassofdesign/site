@@ -3,7 +3,6 @@
   box-sizing: border-box
   margin: 0
   padding: 0
-  transition: $transition
 html
   background: $light
   font-family: "Trebuchet MS", sans-serif
@@ -11,7 +10,7 @@ html
   color: $main
 body
   font-size: 1.2em
-  line-height: 1.8
+  line-height: 0
   overflow-x: hidden
   @media only screen and (min-width: 200px)
     font-size: 1.4em
@@ -50,6 +49,7 @@ body
 p
   margin: 0 0 $margin 0
   font-family: Georgia
+  line-height: 1.8
 a, a:link, a:visited, a:hover, a:focus
   transition: $transition
   text-decoration: none
@@ -57,6 +57,7 @@ a, a:link, a:visited, a:hover, a:focus
   border-bottom: 1px solid $main
 h2, h3, h4, h5, h6
   position: relative
+  line-height: 1.2
 h6
   font-size: 1.6rem
   font-weight: 600
@@ -81,7 +82,8 @@ h2
 h1
   font-size: 3.5rem
   font-weight: 500
-  margin-bottom: 0rem
+  margin-bottom: 0
+  line-height: 1.4
 i
   margin-right: 2rem
   margin-left: 2rem
@@ -98,26 +100,33 @@ i
   color: $light
   border: none
   border-radius: 5px
-  padding: 1em
+  padding: 1.3em
   &.secondary
     background: $light
     color: $dark
+    border-color: $tertiary
+    border-width: 1px
+    border-style: solid
   &.tertiary
     background: $tertiary
     color: $dark
 .button:active, .button:focus,a.button:active, a.button:focus
   background-color: darken($main, 15%)
   color: $light
+  &.secondary
+    background: $tertiary
 .button:hover, a.button:hover
-  background-color: darken($main, 25%)
+  background-color: darken($main, 15%)
   color: $light
+  &.secondary
+    background: $tertiary
 .button ~ .button,a.button ~ a.button
   margin:  0 0 0 2rem
 
 // Scaffolding
 .hero
   // height: calc(90vw * 1.777)
-  clip-path: polygon(0 0, 3000px 0, 3000px 75%, 0 100%)
+  clip-path: polygon(0 0, 3000px 0, 3000px 50%, 0 100%)
   text-align: center
   display: flex
   flex-direction: column
@@ -127,17 +136,13 @@ i
   .row
     display: inline-flex
   img
-    width: 95%
+    width: 100%
   h1
-    width: 70%
-    margin: 0 auto
-.slant
-  @include center(true, false)
-  padding: 1.2em
-  width: 100vw
-  background: url('/assets/img/topograph.png')  bottom center
-  background-size: cover
-  background-repeat: no-repeat
+    width: 100%
+    margin: .3em auto
+.media
+  margin-bottom: 2em
+  width: 100%
 .focus
   @include center(true, false)
 .alert
@@ -145,10 +150,20 @@ i
   background-color: $main
   color: $light
   text-align: center
-  & ~ a img:hover
-    opacity: .4
   a
     color: lighten($main, 40%)
+.notify
+  transition: $transition
+  img
+    transition: $transition
+  .button
+    opacity: 0
+    @include center(true, true)
+  &:hover
+    img
+      opacity: .5
+    .button
+      opacity: 1
 .buy
   .pricing
     padding: .3em
@@ -165,42 +180,20 @@ i
     display: inline-block
     font-size: 1.8rem
     @include col(1, 1, 0)
-  .col
-    @include center(true, false)
-    width: 65%
-    display: block
-    vertical-align: top
-    position: inherit
-    font-size: 1.8rem
-    padding: 0 0 1.5rem 0
-    @media only screen and (min-width: 800px)
-      & ~ .col
-        padding-bottom: 0
-        margin-left: 1em
-@media only screen and (min-width: 600px)
-  .container .col
-    @include col(1, 2)
-    width: calc(50% - 2em)
-@media only screen and (min-width: 800px)
-  .container .col
-    @include col(1, 4)
-    width: calc(25% - 2em)
+    margin-bottom: 50px
 .module
   display: block
   vertical-align: top
   position: inherit
   font-size: 1.8rem
   padding: 0 0 1.5rem 0
-  img
-    width: 100%
   @media only screen and (min-width: 800px)
     & ~ .module
       padding-bottom: 0
-      // margin-left: 1em
+  img
+    width: 100%
   .landing
     width: 70%
-    img
-      width: 100%
 @media only screen and (min-width: 800px)
   .module
     display: inline-block
