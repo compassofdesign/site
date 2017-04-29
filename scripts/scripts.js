@@ -11,7 +11,4 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
-
-
 });
-var item1 = new Rellax('.support-img')

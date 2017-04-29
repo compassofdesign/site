@@ -54,6 +54,8 @@ a, a:link, a:visited, a:hover, a:focus
   transition: $transition
   text-decoration: none
   color: $main
+  border-bottom: 1px solid $secondary
+a:hover
   border-bottom: 1px solid $main
 h2, h3, h4, h5, h6
   position: relative
@@ -119,7 +121,7 @@ i
   background-color: darken($main, 15%)
   color: $light
   &.secondary
-    background: $tertiary
+    background-color: $grey
 .button ~ .button,a.button ~ a.button
   margin:  0 0 0 2rem
 
