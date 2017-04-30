@@ -53,10 +53,10 @@ p
 a, a:link, a:visited, a:hover, a:focus
   transition: $transition
   text-decoration: none
-  color: $main
+  color: $highlight
   border-bottom: 1px solid $secondary
 a:hover
-  border-bottom: 1px solid $main
+  border-bottom: 1px solid $highlight
 h2, h3, h4, h5, h6
   position: relative
   line-height: 1.2
@@ -91,7 +91,9 @@ i
   margin-left: 2rem
   span
     display: none
-
+span
+  &.highlight
+    color: $highlight
 // Buttons
 .button, a.button
   transition: $transition
@@ -126,6 +128,8 @@ i
   margin:  0 0 0 2rem
 
 // Scaffolding
+.assess
+  height: calc(90vw * 1.777)
 .hero
   // height: calc(90vw * 1.777)
   clip-path: polygon(0 0, 3000px 0, 3000px 50%, 0 100%)
@@ -222,6 +226,9 @@ i
 
 // Forms
 form
+  display: flex
+  flex-direction: column
+  justify-content: space-around
   background-color: #f7f7f7
   padding: 2em
   border-radius: 10px
@@ -233,10 +240,12 @@ form
     padding: .5em
     max-width: 100%
   textarea
+    display: block
     width: 70%
     height: 15vw
-    resize: none
+    resize: vertical
     margin-bottom: $margin
+    color: $main
 
 @media only screen and (min-width: 800px)
   .col
@@ -246,3 +255,5 @@ form
       padding: 1em
     & ~ label.module
       margin-left: 1em
+  fieldset
+    margin-bottom: $margin
