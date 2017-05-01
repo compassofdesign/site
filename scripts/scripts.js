@@ -1,9 +1,8 @@
-
-var total, section1, s1answers, section2, s2answers, section3, s3answers, section4, s4answers, questions, submit;
-s1answers = [];
-s2answers = [];
-s3answers = [];
-s4answers = [];
+var total,
+		answers,
+		questions,
+		submit;
+answers = [, , , , , , , , , , , , , , , ];
 
 
 $(document).ready(function(){
@@ -15,16 +14,30 @@ $(document).ready(function(){
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 900, 'swing', function () {
+	    }, 700, 'swing', function () {
 	        window.location.hash = target;
 	    });
 	});
 	submit = $('#submit');
-	submit.on('click', function(){
-		alert('hi');
-	})
 	questions = $('[id^="q"]:not([id*="-"])');
-	questions.on('click', function(e){
+	questions.on('change', function(e){
+		var target = $(e.target);
+		var thisqestion;
+		if(target.attr('type') === 'radio') {
+			thisquestion = target.parent().parent().parent().parent().parent();
+			thisquestion.attr('value', target.val());
+			for(i = 0; i < answers.length; i++){
+				if (thisquestion.attr('id') == questions[i].id){
+					answers[i] = thisquestion.attr('value');
+					console.log(thisquestion.attr('value'));
+					break;
+				}
+			};
+			};
+		});
+	submit.on('click', function(e){
+		var original = $(this).attr('href');
+		$(this).attr('href', original + '?=' + answers);
+	})
 
-	});
 });
