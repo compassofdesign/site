@@ -38,31 +38,27 @@ $(document).ready(function(){
 			};
 		});
 	submit.on('click', function(e){
-		var original = $(this).attr('href');
-		$(this).attr('href', original + '?=' + answers);
+		var original = $(this).attr('value');
+		$(this).attr('value', original + '?=' + answers);
 	})
+
 	if(window.location.href.indexOf("results") > -1) {
-		function getParameterByName(name, url) {
-			var location = window.location.href;
+		var location = window.location.href;
+		answers = location.split('=')[1].split(',').map(function(item){
+		return parseInt(item, 10);
+		});
+		var section1 = answers.slice(0, 4);
+		var section2= answers.slice(4, 9);
+		var section3 = answers.slice(9, 15);
+		var section4 = answers.slice(15, 20);
+		var s1a = section1.reduce(function(a,b){return a +b;}, 0);
+		var s2a = section2.reduce(function(a,b){return a +b;}, 0);
+		var s3a = section3.reduce(function(a,b){return a +b;}, 0);
+		var s4a = section4.reduce(function(a,b){return a +b;}, 0);
+		var displaytotal = $('#score');
+		total =  answers.reduce(function(a,b){return a + b;}, 0);
 
-answers = location.split('=')[1].split(',').map(function(item){
-return parseInt(item, 10);
-});
-
-var section1 = answers.slice(0, 4);
-
-var section2= answers.slice(4, 9);
-
-var section3 = answers.slice(9, 15);
-
-var section4 = answers.slice(15, 20);
-
-var s1a = section1.reduce(function(a,b){return a +b;}, 0);
-var s2a = section2.reduce(function(a,b){return a +b;}, 0);
-var s3a = section3.reduce(function(a,b){return a +b;}, 0);
-var s4a = section4.reduce(function(a,b){return a +b;}, 0);
-
-total = $('#score').prepend('<span>' + answers.reduce(function(a,b){return a + b;}, 0) + '/ 81</span>');
+		displaytotal.append('<span>: ' + total + '/ 81 </span>');
 		}
-			}
+
 });

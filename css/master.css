@@ -452,6 +452,11 @@ form {
     resize: vertical;
     margin-bottom: 1.5em;
     color: #353263; }
+  form.assessment {
+    background: none;
+    display: block;
+    padding: 0;
+    border-radius: 0; }
 
 fieldset {
   display: flex;
