@@ -432,9 +432,7 @@ span.highlight {
     height: calc(70vw * 1.777); }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: block;
   background-color: #f7f7f7;
   padding: 2em;
   border-radius: 10px; }
@@ -459,7 +457,9 @@ form {
     border-radius: 0; }
 
 fieldset {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 1.5em; }
   fieldset label {
     margin-bottom: 1.5em;
