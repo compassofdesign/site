@@ -40,6 +40,7 @@ $(document).ready(function(){
 	submit.on('click', function(e){
 		var original = $(this).attr('value');
 		$(this).attr('value', original + '?=' + answers);
+		$('#message').val(answers)
 	})
 
 	if(window.location.href.indexOf("results") > -1) {
