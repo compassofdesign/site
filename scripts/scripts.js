@@ -38,9 +38,9 @@ $(document).ready(function(){
 			};
 		});
 	submit.on('click', function(e){
-		var original = $(this).attr('value');
-		$(this).attr('value', original + '?=' + answers);
-		$('#message').val(answers)
+		var original = $('#results').attr('value');
+		$('#results').attr('value', original + '?=' + answers);
+		$('#message').attr('value', answers);
 	})
 
 	if(window.location.href.indexOf("results") > -1) {
