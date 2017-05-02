@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>{{page.title}}</title>
     <meta name="description" content="{{page.description | truncate: 200}}" />
-    <link rel="stylesheet" href="{{site.baseurl}}/css/master.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/master.css" type="text/css" media="all">
 
     <link rel="author" href="https://plus.google.com/106679625106063278529" />
     <meta name="theme-color" content="#353263" />
@@ -34,6 +34,15 @@
     <meta property="og:site_name" content="Darian Rosebrook" />
     <meta property="og:locale" content="en_US" />
 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="{{site.baseurl}}/scripts/jquery-3.2.1.min.js"></script>
+    <script>
+      if(!window.jQuery){
+        var script = document.createElement('script');
+        script.src = '{{site.baseurl}}/scripts/jquery-3.2.1.min.js';
+        document.head.appendChild(script);
+      }
+    </script>
   </head>
   <body>
     {{content}}
@@ -63,14 +72,6 @@
       ga('create', 'UA-97409864-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-      if(!window.jQuery){
-        var script = document.createElement('script');
-        script.src = 'https://code.jquery.com/jquery-3.2.1.min.js';
-        document.head.appendChild(script);
-      }
     </script>
     <script type="text/javascript" src="{{site.baseurl}}/scripts/scripts.js">
     </script>
