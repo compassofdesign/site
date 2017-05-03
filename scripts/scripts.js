@@ -3,7 +3,7 @@ var total,
 		questions,
 		string,
 		submit;
-answers = [, , , , , , , , , , , , , , , , , , , ];
+answers = [, , , , , , , , , , , , , , , , , , , , ];
 
 
 $(document).ready(function(){
@@ -65,7 +65,7 @@ $(document).ready(function(){
 		var section4score = $('#section-4-score');
 		total =  answers.reduce(function(a,b){return a + b;}, 0) / 81;
 		if (total >= .85) {
-			total = "Master";
+			total = "Skilled";
 		} else if (total >= .70) {
 			total = "Proficient";
 		} else if (total >= .60) {
@@ -74,7 +74,7 @@ $(document).ready(function(){
 			total = "Beginner";
 		}
 		if (s1a >= .85) {
-			s1a = "Master";
+			s1a = "Skilled";
 		} else if (s1a >= .70) {
 			s1a = "Proficient";
 		} else if (s1a >= .60) {
@@ -83,7 +83,7 @@ $(document).ready(function(){
 			s1a = "Beginner";
 		}
 		if (s2a >= .85) {
-			s2a = "Master";
+			s2a = "Skilled";
 		} else if (s2a >= .70) {
 			s2a = "Proficient";
 		} else if (s2a >= .60) {
@@ -92,7 +92,7 @@ $(document).ready(function(){
 			s2a = "Beginner";
 		}
 		if (s3a >= .85) {
-			s3a = "Master";
+			s3a = "Skilled";
 		} else if (s3a >= .70) {
 			s3a = "Proficient";
 		} else if (s3a >= .60) {
@@ -101,7 +101,7 @@ $(document).ready(function(){
 			s3a = "Beginner";
 		}
 		if (s4a >= .85) {
-			s4a = "Master";
+			s4a = "Skilled";
 		} else if (s4a >= .70) {
 			s4a = "Proficient";
 		} else if (s4a >= .60) {
