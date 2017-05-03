@@ -592,5 +592,11 @@ footer {
     form#mc-embedded-subscribe-form .mc-field-group {
       display: inline-block;
       width: 33%; } }
+@media only print {
+  * {
+    color: #000 !important; }
+
+  body {
+    font-size: 8pt !important; } }
 
 /*# sourceMappingURL=master.css.map */
