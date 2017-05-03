@@ -65,7 +65,7 @@ $(document).ready(function(){
 		var scoring = function(a) {
 	}
 	};
-	if(window.location.href.indexOf("results") > -1) {
+if(window.location.href.indexOf("results") > -1) {
 		var location = window.location.href;
 		answers = location.split('=')[1].split(',').map(function(item){
 		return parseInt(item, 10);
@@ -106,7 +106,7 @@ $(document).ready(function(){
 			action[0].html('Get around people in your industry and make some connections. You can do so online like the <a href="https://compassofdesign.com/community">Compass of Design Community</a> or through other channels like local meetups or conferences.')
 		} else {
 			s1a = "Beginner";
-			action[0].html('Start getting the information you need to look up design topics. Medium.com, DesignerNews.co, or <a href=\"https://medium.com/compass-of-deisgn\">even our articles</a> can help. Find a few great books, like Michael Beirut\'s \"How to\" book, or Thinking with type by Ellen Lupton. You can even go to the <a href=\"https://compassofdesign.com/community\">Compass of Design Community</a> to get help.')
+			action[0].html('Start getting the information you need to look up design topics. Medium.com, DesignerNews.co, or <a href="https://medium.com/compass-of-deisgn">even our articles</a> can help. Find a few great books, like Michael Beirut\'s \"How to\" book, or Thinking with type by Ellen Lupton. You can even go to the <a href="https://compassofdesign.com/community">Compass of Design Community</a> to get help.')
 		}
 		if (s2a >= .85) {
 			s2a = "Skilled";
