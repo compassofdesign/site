@@ -21,29 +21,46 @@ $(document).ready(function(){
 	});
 	submit = $('#submit');
 	questions = $('[id^="q"]:not([id*="-"])');
-	questions.on('change', function(e){
-		var target = $(e.target);
-		var thisqestion;
-		if(target.attr('type') === 'radio') {
-			thisquestion = target.parent().parent().parent().parent().parent();
-			thisquestion.attr('value', target.val());
-			for(i = 0; i <= answers.length; i++){
-				if (thisquestion.attr('id') == questions[i].id){
-					answers[i] = thisquestion.attr('value');
-					string = string + thisquestion.attr('value');
-					console.log(thisquestion.attr('value'));
-					break;
-				}
-			};
-			};
-		});
-	submit.on('click', function(e){
-		var original = $('#results').attr('value');
-		$('#results').attr('value', original + '?=' + answers);
-		$('#message').attr('value', answers);
-	})
-	var scoring = function(a) {
-
+	if(window.location.href.indexOf("assessment") > -1) {
+		questions.on('change', function(e){
+			var target = $(e.target);
+			var thisqestion;
+			if(target.attr('type') === 'radio') {
+				thisquestion = target.parent().parent().parent().parent().parent();
+				thisquestion.attr('value', target.val());
+				for(i = 0; i <= answers.length; i++){
+					if (thisquestion.attr('id') == questions[i].id){
+						answers[i] = thisquestion.attr('value');
+						string = string + thisquestion.attr('value');
+						console.log(thisquestion.attr('value'));
+						break;
+					}
+				};
+				};
+			});
+			var section1score = $('#section1');
+			var section2score = $('#section2');
+			var section3score = $('#section3');
+			var section4score = $('#section4');
+		submit.on('click', function(e){
+			var original = $('#results').attr('value');
+			var section1 = answers.slice(0, 5);
+			var section2= answers.slice(5, 10);
+			var section3 = answers.slice(10, 15);
+			var section4 = answers.slice(15, 21);
+			var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 17;
+			var s2a = section2.reduce(function(a,b){return a +b;}, 0) / 20;
+			var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 24;
+			var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 20;
+			$('#results').attr('value', original + '?=' + answers);
+			$('#message').attr('value', answers);
+			section1score.attr('value', section1);
+			section2score.attr('value', section2);
+			section3score.attr('value', section3);
+			section4score.attr('value', section4);
+		})
+		var scoring = function(a) {
+	}
 	};
 	if(window.location.href.indexOf("results") > -1) {
 		var location = window.location.href;
