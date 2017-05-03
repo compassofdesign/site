@@ -85,7 +85,7 @@ if(window.location.href.indexOf("results") > -1) {
 		var section4score = $('#section-4-score');
 		total =  answers.reduce(function(a,b){return a + b;}, 0) / 88;
 
-		var action = $('.action-step')
+		var action = $('.action-step');
 		if (total >= .85) {
 			total = "Skilled";
 		} else if (total >= .70) {
@@ -94,7 +94,7 @@ if(window.location.href.indexOf("results") > -1) {
 			total = "Competent";
 		} else {
 			total = "Beginner";
-		}
+		};
 		if (s1a >= .85) {
 			s1a = "Skilled";
 			action[0].html('You sit at a unique stage in your life where you have a lot of experience under your belt. Many could benefit from that, and you could start helping the designers for the new decade shine. We all grow together, and the more people we have like you, the better.')
@@ -107,7 +107,7 @@ if(window.location.href.indexOf("results") > -1) {
 		} else {
 			s1a = "Beginner";
 			action[0].html('Start getting the information you need to look up design topics. Medium.com, DesignerNews.co, or <a href="https://medium.com/compass-of-deisgn">even our articles</a> can help. Find a few great books, like Michael Beirut\'s \"How to\" book, or Thinking with type by Ellen Lupton. You can even go to the <a href="https://compassofdesign.com/community">Compass of Design Community</a> to get help.')
-		}
+		};
 		if (s2a >= .85) {
 			s2a = "Skilled";
 			action[1].html('You have a lot of these down pat, congrats! That isn\'t the easiest thing to do. Our steps for you are to start understanding the psychology and theories on how design makes people think or act certain ways. Why hospitals are more trustworthy if the walls are white and squeaky clean vs. a dirty / grimy hospital. People have perceptive abilities to learn from what they visually see. It is the same with design. You can do a lot of good in the world with good design.');
@@ -120,7 +120,7 @@ if(window.location.href.indexOf("results") > -1) {
 		} else {
 			s2a = "Beginner";
 			action[1].html('You might not have been aware that some of these even existed as skills for designers. Each one of these is a great tool in our toolbelt that helps us effectively solve the difficult things we come across. No two design challenges are the same. But they can all be tackled with the same tools to make great design. Your action step is to get further knowledge on these. We have a course for this at <a href="https://compassofdesign.com/course">Design with Confidence</a> thta will go over all of these skills in depth. Or you can use the internet to find great resources like "Hack Design", or "Theory Sprints" that will go over some things on this list.');
-		}
+		};
 		if (s3a >= .85) {
 			s3a = "Skilled";
 			action[2].html('You have a good, solid process for getting things done. You have experience with breaking down design briefs and breaking the grid (so to speak). How do you level up from here? You want to tackle higher and more difficult problems, maybe there are challenges at work you can help tackle with your team, or you can search out bigger clients for a more in depth engagement. It\'s up to you.');
@@ -133,7 +133,7 @@ if(window.location.href.indexOf("results") > -1) {
 		} else {
 			s3a = "Beginner";
 			action[2].html('Our action step for you is to figure out what a lot of these are and start doing a lot of reading and writing. Keep a journal of the things you are learning along the way. Look up Briefbox.me and look for some practice design briefs. Tackling small things like this will help you grow quicker.');
-		}
+		};
 		if (s4a >= .85) {
 			s4a = "Skilled";
 			action[3].html('You are a wizard. Not many designers have this skill. You have evaluated much of your efforts and how confident you are getting the work out there. How do you grow from where you are now to 10x your current outreach? I don\'t know the answer to this, but know that the work that got you here now is NOT the same effort that will get you to the next step or the one after that. You have a hard game to play if you plan on continuing. Good job. I think we could benefit from people like you in the <a href="https://compassofdesign.com/community">Compass of Design Community</a>');
@@ -146,13 +146,13 @@ if(window.location.href.indexOf("results") > -1) {
 		} else {
 			s4a = "Beginner";
 			action[3].html('You need to have your work out there somehow. It may look bad now, but as you grow you can pull the old work and replace it with new. You want to get as much of yourself out there as you can. Learn marketing skills or basic things you can from places like youtube to help build your confidence level here');
-		}
+		};
 		displaytotal.append('<span>' + total + ' Designer</span>');
 		section1score.append('<span>' + s1a + '</span>');
 		section2score.append('<span>' + s2a + '</span>');
 		section3score.append('<span>' + s3a + '</span>');
 		section4score.append('<span>' + s4a + '</span>');
 
-		}
+		};
 
 });
