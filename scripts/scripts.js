@@ -31,7 +31,7 @@ $(document).ready(function(){
 				if (thisquestion.attr('id') == questions[i].id){
 					answers[i] = thisquestion.attr('value');
 					string = string + thisquestion.attr('value');
-					console.log(thisquestion.attr('value'),);
+					console.log(thisquestion.attr('value'));
 					break;
 				}
 			};
