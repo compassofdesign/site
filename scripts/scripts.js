@@ -3,7 +3,7 @@ var total,
 		questions,
 		string,
 		submit;
-answers = [, , , , , , , , , , , , , , , , , , , , ];
+answers = [,,,,,,,,,,,,,,,,,,,,,];
 
 
 $(document).ready(function(){
@@ -42,22 +42,25 @@ $(document).ready(function(){
 			var section2score = $('#section2');
 			var section3score = $('#section3');
 			var section4score = $('#section4');
+			var totals =$('#totals');
 		submit.on('click', function(e){
-			var original = $('#results').attr('value');
-			var section1 = answers.slice(0, 5);
-			var section2= answers.slice(5, 10);
-			var section3 = answers.slice(10, 15);
-			var section4 = answers.slice(15, 21);
-			var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 17;
-			var s2a = section2.reduce(function(a,b){return a +b;}, 0) / 20;
-			var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 24;
-			var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 20;
-			$('#results').attr('value', original + '?=' + answers);
-			$('#message').attr('value', answers);
-			section1score.attr('value', section1);
-			section2score.attr('value', section2);
-			section3score.attr('value', section3);
-			section4score.attr('value', section4);
+
+					var original = $('#results').attr('value');
+					var section1 = answers.slice(0, 5);
+					var section2= answers.slice(5, 10);
+					var section3 = answers.slice(10, 15);
+					var section4 = answers.slice(15, 21);
+					var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 23;
+					var s2a = section2.reduce(function(a,b){return a +b;}, 0) / 20;
+					var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 20;
+					var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 25;
+					$('#results').attr('value', original + '?=' + answers);
+					$('#message').attr('value', answers);
+					section1score.attr('value', section1);
+					section2score.attr('value', section2);
+					section3score.attr('value', section3);
+					section4score.attr('value', section4);
+					totals.attr('value', [s1a, s2a, s3a, s4a])
 		})
 		var scoring = function(a) {
 	}
@@ -71,10 +74,10 @@ $(document).ready(function(){
 		var section2= answers.slice(4, 9);
 		var section3 = answers.slice(9, 15);
 		var section4 = answers.slice(15, 20);
-		var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 17;
+		var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 23;
 		var s2a = section2.reduce(function(a,b){return a +b;}, 0) / 20;
-		var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 24;
-		var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 20;
+		var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 20;
+		var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 25;
 		var displaytotal = $('#score');
 		var section1score = $('#section-1-score');
 		var section2score = $('#section-2-score');
