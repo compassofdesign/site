@@ -315,6 +315,17 @@ span.highlight {
 .button ~ .button, a.button ~ a.button {
   margin: 0 0 0 2rem; }
 
+footer.main.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  footer.main.container div {
+    width: fit-content;
+    text-align: center;
+    margin-top: 40px; }
+
 .assess {
   height: calc(90vw * 1.777); }
 
@@ -437,26 +448,26 @@ span.highlight {
   .assess.first {
     height: calc(70vw * 1.777); }
 
-form {
+form.signup {
   display: block;
   background-color: #f7f7f7;
   padding: 2em;
   border-radius: 10px; }
-  form input {
+  form.signup input {
     display: block;
     margin: 1.5em 0;
     border: #ddd 2px solid;
     border-radius: 5px;
     padding: 0.5em;
     max-width: 100%; }
-  form textarea {
+  form.signup textarea {
     display: block;
     width: 70%;
     height: 15vw;
     resize: vertical;
     margin-bottom: 1.5em;
     color: #353263; }
-  form.assessment {
+  form.signup.assessment {
     background: none;
     display: block;
     padding: 0;
