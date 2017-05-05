@@ -575,7 +575,8 @@ footer {
       width: 50%; }
 
   .landing-group {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    justify-content: center; }
     .landing-group .point {
       width: 70%; }
     .landing-group .support-img {
@@ -583,6 +584,8 @@ footer {
       text-align: center; }
       .landing-group .support-img img {
         margin-bottom: 2em; }
+    .landing-group .button {
+      margin-top: 1em; }
 
   .row.buy {
     display: flex; }
