@@ -1,3 +1,28 @@
+function byId(id) {
+  return document.getElementById(id);
+}
+function byClass(className) {
+  return document.getElementsByClassName(className);
+}
+var wHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+function visible(a){
+	return !(a.bottom - wHeight  < 0 || a.top - wHeight >= 0);
+}
+var hero = byId('hero');
+var nav = byId('nav');
+if(hero){
+	var wScroll;
+	window.addEventListener('scroll', function(){
+	  wScroll = window.pageYOffset;
+		console.log(visible(hero.getBoundingClientRect()));
+	  if(visible(hero.getBoundingClientRect())) {
+	    nav.classList.remove('active');
+	  } else {
+			nav.classList.add('active');
+  	}
+});
+}
+
 var total,
 		answers,
 		questions,
@@ -5,8 +30,8 @@ var total,
 		submit;
 answers = [,,,,,,,,,,,,,,,,,,,,,];
 
-
 $(document).ready(function(){
+
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 

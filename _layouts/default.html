@@ -56,6 +56,19 @@
     </script>
   </head>
   <body>
+    <input type="checkbox" class="hidden " data-continue="true" id="toggle" name="toggle" value="" >
+    <nav class="navigation transition active" id="nav">
+      <label class="transition toggle " for="toggle"><img src="{{site.baseurl}}/assets/img/cod-avatar.svg" alt="" /></label>
+      <ul>
+        <li class="list-item-1 hidden"><a href="{{site.baseur}}">Home</a></li>
+        <li class="list-item-2 hidden"><a href="{{site.baseurl}}/archive/products">Products</a></li>
+      </ul>
+      <ul>
+        <li class="list-item-3 hidden"><a href="{{site.baseurl}}/archive/articles">Articles</a></li>
+        <li class="list-item-4 hidden"><a href="{{site.baseurl}}/community">Community</a></li>
+      </ul>
+    </nav>
+    <label class="transition escape " for="toggle"><span style="opacity: 0">close</span></label>
     {{content}}
     <footer class="main container">
       <article class="row">

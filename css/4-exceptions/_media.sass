@@ -86,6 +86,14 @@
     .mc-field-group
       display: inline-block
       width: 33%
+  .article
+    width: 75%
+    max-width: 960px
+    margin: 0 auto
+    @include center(true, false)
+  input[data-continue="true"]:checked
+    & ~ nav ul
+      width: auto
 @media only print
   *
     color: #000 !important

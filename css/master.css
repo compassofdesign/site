@@ -8,8 +8,9 @@
     opacity: 0;
     transform: translateX(-50%); }
   to {
-    opacity: 0.3;
-    transform: translateX(0); } }
+    opacity: 1;
+    transform: translateX(0);
+    transition-timing-function: ease-in-out; } }
 @keyframes fadeIn {
   to {
     opacity: 1; } }
@@ -188,6 +189,9 @@ body {
   display: none !important;
   opacity: 0; }
 
+.active {
+  display: block; }
+
 .mobile {
   display: block;
   opacity: 1; }
@@ -213,6 +217,44 @@ body {
 
 .cf::after, .cf::before {
   display: block; }
+
+nav.navigation {
+  transition: all ease 0.3s;
+  position: relative;
+  transform: translate(-50%, 0);
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-bottom: #eee 2px solid;
+  background-color: #fff;
+  top: -500px;
+  height: 400px;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  color: #331141; }
+  nav.navigation label {
+    transition: inherit;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    top: calc(380px + 1em); }
+    nav.navigation label img {
+      width: 40px; }
+  nav.navigation ul li {
+    opacity: 1; }
+  nav.navigation.active {
+    top: -360px; }
+  nav.navigation ~ .escape {
+    width: 1px;
+    height: 1px;
+    background: none; }
 
 p {
   margin: 0 0 1.5em 0;
@@ -321,7 +363,7 @@ footer.main.container {
   justify-content: space-around;
   align-items: center; }
   footer.main.container div {
-    width: fit-content;
+    width: 100%;
     text-align: center;
     margin-top: 40px; }
 
@@ -447,6 +489,9 @@ footer.main.container {
   .assess.first {
     height: calc(70vw * 1.777); }
 
+hr {
+  margin-bottom: 1.5em; }
+
 form.signup {
   display: block;
   background-color: #f7f7f7;
@@ -454,16 +499,16 @@ form.signup {
   border-radius: 10px; }
   form.signup input {
     display: block;
-    margin: 1.5em 0;
-    border: #ddd 2px solid;
-    border-radius: 5px;
-    padding: 0.5em;
-    max-width: 100%; }
+    margin: 1.5em 0; }
+    form.signup input:not(.button), form.signup input ~ textarea {
+      width: 75%;
+      border: #ddd 2px solid;
+      border-radius: 5px;
+      padding: 0.5em; }
   form.signup textarea {
     display: block;
-    width: 70%;
     height: 15vw;
-    resize: vertical;
+    resize: none;
     margin-bottom: 1.5em;
     color: #353263; }
   form.signup.assessment {
@@ -504,6 +549,61 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0; }
+
+.navigation li {
+  display: none;
+  animation: slideIn 0.3s backwards; }
+
+input[data-continue="true"]:checked ~ nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; }
+input[data-continue="true"]:checked ~ nav ul li.hidden {
+  display: inline-flex !important; }
+
+.navigation .list-item-1 {
+  animation-delay: 0.16667s; }
+
+.navigation .list-item-2 {
+  animation-delay: 0.33333s; }
+
+.navigation .list-item-3 {
+  animation-delay: 0.5s; }
+
+.navigation .list-item-4 {
+  animation-delay: 0.66667s; }
+
+.navigation .list-item-5 {
+  animation-delay: 0.83333s; }
+
+.navigation .list-item-6 {
+  animation-delay: 1s; }
+
+.navigation .list-item-7 {
+  animation-delay: 1.16667s; }
+
+.navigation .list-item-8 {
+  animation-delay: 1.33333s; }
+
+.navigation .list-item-9 {
+  animation-delay: 1.5s; }
+
+.toggle {
+  background-color: #fff;
+  border-bottom: #eee 2px solid;
+  border-radius: 50%;
+  padding: 1em; }
+
+#toggle:checked ~ nav {
+  top: 0; }
+  #toggle:checked ~ nav label {
+    top: 50%; }
+#toggle:checked ~ .escape {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: calc(100vw * 1.777);
+  z-index: 199; }
 
 @media only screen and (min-width: 1000px) {
   h6 {
@@ -604,7 +704,18 @@ footer {
     padding: 3em; }
     form#mc-embedded-subscribe-form .mc-field-group {
       display: inline-block;
-      width: 33%; } }
+      width: 33%; }
+
+  .article {
+    width: 75%;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%; }
+
+  input[data-continue="true"]:checked ~ nav ul {
+    width: auto; } }
 @media only print {
   * {
     color: #000 !important; }
