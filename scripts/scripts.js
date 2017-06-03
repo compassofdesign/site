@@ -6,15 +6,16 @@ function byClass(className) {
 }
 var wHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
 function visible(a){
-	return !(a.bottom - wHeight  < 0 || a.top - (wHeight / 2) >= 0);
+	return (a.top  >= 0);
 }
 var hero = byId('hero');
 var nav = byId('nav');
+console.log(wHeight, (wHeight / 2), hero.getBoundingClientRect)
 if(hero){
 	var wScroll;
 	window.addEventListener('scroll', function(){
 	  wScroll = window.pageYOffset;
-		console.log(visible(hero.getBoundingClientRect()));
+		console.log(hero.getBoundingClientRect());
 	  if(visible(hero.getBoundingClientRect())) {
 	    nav.classList.remove('active');
 	  } else {
