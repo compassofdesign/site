@@ -244,14 +244,21 @@ nav.navigation {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    top: calc(380px + 1em); }
+    top: calc(380px + 1em);
+    width: 65px;
+    height: 65px; }
     nav.navigation label img {
-      width: 40px; }
+      width: 40px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%; }
   nav.navigation ul li {
     opacity: 1; }
   nav.navigation.active {
     top: -360px; }
   nav.navigation ~ .escape {
+    position: absolute;
     width: 1px;
     height: 1px;
     background: none; }

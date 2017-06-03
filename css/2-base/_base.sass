@@ -67,14 +67,18 @@ nav.navigation
     display: block
     @include center(true, true)
     top: calc(380px + 1em)
+    width: 65px
+    height: 65px
     img
       width: 40px
+      @include center(true, true)
   ul
     li
       opacity: 1
   &.active
     top: -360px
   & ~ .escape
+    position: absolute
     width: 1px
     height: 1px
     background: none

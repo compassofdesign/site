@@ -6,7 +6,7 @@ function byClass(className) {
 }
 var wHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
 function visible(a){
-	return !(a.bottom - wHeight  < 0 || a.top - wHeight >= 0);
+	return !(a.bottom - wHeight  < 0 || a.top - (wHeight / 2) >= 0);
 }
 var hero = byId('hero');
 var nav = byId('nav');
