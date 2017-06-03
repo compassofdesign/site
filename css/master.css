@@ -635,7 +635,7 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     font-size: 2.618rem;
     font-weight: 300;
     color: #eb2441;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.3em;
     line-height: 1.3em; }
 
   h2 {
