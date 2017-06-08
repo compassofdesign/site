@@ -711,7 +711,7 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     padding: 3em; }
     form#mc-embedded-subscribe-form .mc-field-group {
       display: inline-block;
-      width: 33%; }
+      width: 100%; }
 
   .article {
     width: 75%;
