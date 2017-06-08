@@ -6,11 +6,10 @@ function byClass(className) {
 }
 var wHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
 function visible(a){
-	return (a.top  >= 0);
+	return (a.top  >= -100);
 }
 var hero = byId('hero');
 var nav = byId('nav');
-console.log(wHeight, (wHeight / 2), hero.getBoundingClientRect)
 if(hero){
 	var wScroll;
 	window.addEventListener('scroll', function(){
