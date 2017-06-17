@@ -1,4 +1,4 @@
-@keyframes scaleIn {
+@keyframes scaleIn { 
   from {
     transform: translate(-50%, -50%) scale(0); }
   to {
