@@ -14,7 +14,7 @@ if(hero){
 	var wScroll;
 	window.addEventListener('scroll', function(){
 	  wScroll = window.pageYOffset;
-		console.log(hero.getBoundingClientRect());
+		
 	  if(visible(hero.getBoundingClientRect())) {
 	    nav.classList.remove('active');
 	  } else {
@@ -57,7 +57,6 @@ $(document).ready(function(){
 					if (thisquestion.attr('id') == questions[i].id){
 						answers[i] = thisquestion.attr('value');
 						string = string + thisquestion.attr('value');
-						console.log(thisquestion.attr('value'));
 						break;
 					}
 				};

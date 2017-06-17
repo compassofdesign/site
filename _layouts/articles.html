@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
+<header class="hero-index {{post.header}}">
+  {%if post.header%}<img src="{{site.baseurl}}/{{post.header}}" alt="{{post.headerImgDesc}}">{%endif%}
+</header>
 <section class="main container">
   <article class="row">
-    <div class="module article">{{content}}</div>
+    <div class="module article">
+
+      {{content}}
+    </div>
   </article>
 </section>

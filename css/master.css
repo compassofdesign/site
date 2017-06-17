@@ -1,8 +1,8 @@
 @keyframes scaleIn {
   from {
-    transform: translateY(-50%) scale(0); }
+    transform: translate(-50%, -50%) scale(0); }
   to {
-    transform: translateY(-50%) scale(1); } }
+    transform: translate(-50%, -50%) scale(1); } }
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -363,6 +363,18 @@ span.highlight {
 .button ~ .button, a.button ~ a.button {
   margin: 0 0 0 2rem; }
 
+.intro {
+  position: relative;
+  transform: translate(-50%, 0);
+  left: 50%;
+  text-align: center; }
+  .intro h1 {
+    font-size: 1.5em;
+    margin-bottom: 0; }
+
+.featured {
+  padding: 0 4%; }
+
 footer.main.container {
   width: 100vw;
   display: flex;
@@ -484,8 +496,7 @@ footer.main.container {
 .point .point-title {
   color: #353263;
   font-size: 2.5em;
-  margin-bottom: 0;
-  text-transform: uppercase; }
+  margin-bottom: 0; }
 
 .assess {
   display: flex;
@@ -635,7 +646,7 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     font-size: 2.618rem;
     font-weight: 300;
     color: #eb2441;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.8em;
     line-height: 1.3em; }
 
   h2 {
@@ -668,6 +679,9 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     .module.pricing {
       width: 33%; }
 
+  .intro h1 {
+    font-size: 2.5em; }
+
   .group, .landing-group {
     display: inline-flex;
     justify-content: space-around;
@@ -680,6 +694,28 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
       margin-left: 10%; }
     .group .support-img, .landing-group .support-img {
       width: 50%; }
+
+  .featured {
+    padding: 0; }
+    .featured .row {
+      display: flex;
+      justify-content: space-between; }
+
+  .landing-feature {
+    display: inline-flex;
+    width: 50%;
+    flex-direction: column; }
+    .landing-feature .point {
+      text-align: center;
+      padding: 2em;
+      width: 100%; }
+    .landing-feature .support-img {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: inline-flex; }
+      .landing-feature .support-img img {
+        height: 100%; }
 
   .landing-group {
     margin-bottom: 50px;
