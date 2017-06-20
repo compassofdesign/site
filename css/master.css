@@ -1,4 +1,4 @@
-@keyframes scaleIn { 
+@keyframes scaleIn {
   from {
     transform: translate(-50%, -50%) scale(0); }
   to {
@@ -375,6 +375,14 @@ span.highlight {
 .featured {
   padding: 0 4%; }
 
+.landing-product {
+  vertical-align: top;
+  display: inline-block;
+  width: 48%; }
+  .landing-product img {
+    width: 100%;
+    margin-bottom: 2em; }
+
 footer.main.container {
   width: 100vw;
   display: flex;
@@ -716,6 +724,19 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
       display: inline-flex; }
       .landing-feature .support-img img {
         height: 100%; }
+
+  .landing-product {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    height: 100%;
+    text-align: center;
+    margin-right: 1%; }
+    .landing-product.done {
+      margin-right: 0; }
+    .landing-product img {
+      height: 100%; }
 
   .landing-group {
     margin-bottom: 50px;

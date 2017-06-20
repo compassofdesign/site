@@ -49,24 +49,16 @@ description: For people who are looking to level up their design skills, Compass
     </div>
   </article>
 </section>
-<section class="main container">
-  <article class="row">
-    <div class="module">
-
-      <div class="module landing-group">
-        <article class="module support-img">
-          <img src="/assets/img/topograph-buy.png"  alt="Making faster design decisions"/>
-          <a href="https://coach.compassofdesign.com/topographic-vectors-and-images" class="button">Check out the pack.</a>
+<section class="main container">{% for post in site.categories.products%}
+    {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
+    {% if article == '1' %}<article class="row buy">{% endif %}
+        <article class="landing-product {% if article == '4'%}done{% endif %}">
+          <a href="{% if post.link_to %}{{post.link_to}}{% else %}{{post.url}}{% endif %}" ><img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
+          <h5>{{post.title}}</h5>
+          <h6>{{post.price}}</h6></a>
         </article>
-        <article class="module point">
-          <h3 class="point-title">Maps and more maps</h3>
-          <h3>Get the right feel for your backgrounds with this topographic map kit.</h3>
-          <p>9 Map vectors to use in your next design project</p>
-          <p>Three sizes 3000x3000, 1580x1024, 800x600. Each one is unique and editable with the Adobe Illustrator. You get 3 of each size and .ai, .png, .svg, and .jpg files of each.</p>
-        </article>
-      </div>
-    </div>
-  </article>
+    {% if article == '4' or forloop.last %}</article>{% endif %}
+        {% endfor %}
 
 </section>
 
