@@ -182,6 +182,10 @@ span
   vertical-align: top
   display: inline-block
   width: 48%
+  .product
+    & h5, & h6
+      color: $main
+      font-size: 1em
   img
     width: 100%
     margin-bottom: 2em
@@ -278,6 +282,8 @@ footer.main.container
       padding-bottom: 0
   img
     width: 100%
+    transition: $transition
+    transform-origin: 50% 50%
   .landing
     width: 70%
 @media only screen and (min-width: 800px)

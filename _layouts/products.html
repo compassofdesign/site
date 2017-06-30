@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-{% if page.header %}
-  <header class="container hero hero-index">
-    <article class="row hero-inset">
-      <a href="{{site.baseurl}}/"><img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." /></a>
-      <h1>Start becoming a more effective designer</h1>
-      <h3>Get weekly tips on design and how to better your skills by getting around other self start designers like you</h3>
-      <a href="#join" class="button " >Join the Pack</a>
-      <a href="#more" class="button secondary" >Learn More</a>
-    </article>
-  </header>
-{% endif %}
-<section class="main container">
+<section class="main container product-header">
+  <article class="row">
+    <div class="module">
+      <img src="{{site.baseurl}}/{{page.product_image}}" alt="Solid foundation in design priniciples"/>
+    </div>
+    <div class="module">
+      <h1 class="point-title">{{page.title}}</h1>
+      <h3>Start projects faster</h3>
+      <p>{{page.description}}</p>
+      <a href="{% if page.soon == true %}{{site.baseurl}}/community/#join{% elsif page.link_to %}{{page.link_to}}/buy{% else %}#buy{% endif%}" class="button " >Get Access {% if  page.soon == true %}Soon{% elsif page.bundle%}Below{% elsif page.price %}for {{page.price}}{% endif %}</a>
+
+    </div>
+
+  </article>
 </section>
