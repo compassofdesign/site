@@ -10,7 +10,7 @@ link:
 price: $20
 bundle: true
 bundle_title: Professional Design Proposal
-product_image: assets/img/p/project-proposal-animated.gif
+product_image: assets/img/p/userflow.png
 soon: yes
 sitemap:
   lastmod: 2016-05-01
