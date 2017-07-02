@@ -2,14 +2,15 @@
 layout: products
 category: products
 title: Hi Resolution Dry Brush Splotches
-description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna a ...
-id: branding-and-logo-design
+description: 30 Super high resolution brushes for use on your next design. It's available as Adobe Photoshop brush sets, vector EPS and SVG as well as Adobe Illustrator files.
+id: vector
+related: [template, pdf, freebie]
 index_image: assets/img/t/flyer.jpg
-link_to: https://coach.compassofdesign.com/hi-resolution-dry-brushed-ink-textures
+link:
 price: $9
 bundle: false
 bundle_title: Professional Design Proposal
-product_image: assets/img/p/project-proposal-animated.gif
+product_image: assets/img/p/dry-brush-texture/flyer.jpg
 sitemap:
   lastmod: 2016-05-01
   priority: 0.7

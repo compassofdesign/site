@@ -3,9 +3,10 @@ layout: articles
 category: products
 title: Vector Topographic Map Kit
 description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna a ...
-id: branding-and-logo-design
+id: kit
+related: [vector, category, kit, template]
 index_image: assets/img/t/topograph.jpg
-link_to: https://coach.compassofdesign.com/topographic-vectors-and-images
+link:
 price: $10
 sitemap:
   lastmod: 2016-05-01

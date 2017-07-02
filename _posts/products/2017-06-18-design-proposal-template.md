@@ -3,9 +3,10 @@ layout: articles
 category: products
 title: Professional Design Proposal Template
 description:  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna a ...
-id: branding-and-logo-design
+id: template
+related: [template, pdf]
 index_image: assets/img/t/projectproposal.jpg
-link_to: archive/design-proposal-bundle
+link: archive/design-proposal-bundle
 price: Free
 sitemap:
   lastmod: 2016-05-01

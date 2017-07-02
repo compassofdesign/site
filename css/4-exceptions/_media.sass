@@ -32,6 +32,10 @@
   .hero
     img
       width: 35%
+    &.product-header
+      clip-path: none
+      img
+        width: 100%
   .button ~ .button,a.button ~ a.button
     margin: 0 0 0 2rem
   .main
@@ -76,7 +80,6 @@
     flex-direction: column
     &:hover
       img
-        box-shadow: 0px 47px 60px -20px rgba(0, 0, 0, .3)
         filter: brightness(100%)
     .point
       text-align: center

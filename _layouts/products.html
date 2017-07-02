@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="main container product-header">
+<header id="hero" class="main hero container product-header">
   <article class="row">
     <div class="module">
       <img src="{{site.baseurl}}/{{page.product_image}}" alt="Solid foundation in design priniciples"/>
@@ -11,8 +11,27 @@ layout: default
       <h3>Start projects faster</h3>
       <p>{{page.description}}</p>
       <a href="{% if page.soon == true %}{{site.baseurl}}/community/#join{% elsif page.link_to %}{{page.link_to}}/buy{% else %}#buy{% endif%}" class="button " >Get Access {% if  page.soon == true %}Soon{% elsif page.bundle%}Below{% elsif page.price %}for {{page.price}}{% endif %}</a>
-
     </div>
+  </article>
+</header>
 
+<section class="main container">
+  <h3>Other products you may enjoy</h3>
+  <article class="row ">
+    {%  for post in site.categories.products limit:3 %}
+      <article class="landing-product ">
+        <a class="product" href="{% if post.link%}{{post.link}}{% else %}{{post.url}}{%endif%}" >
+          <img src="{{site.baseurl}}/{{post.index_image}}"  alt="{{post.title}}"/>
+          <h5>{{post.title}}</h5>
+        </a>
+      </article>
+    {% endfor %}
+  </article>
+</section>
+
+<section id="join" class="container main ">
+  <article class="row">
+  {% if page.soon %}{% include mailchimp.html %}{% else %}
+    <a class="button" href="{{site.baseurl}}/community">Join the Design Community</a>{% endif %}
   </article>
 </section>

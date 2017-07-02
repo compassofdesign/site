@@ -1,11 +1,11 @@
 ---
 layout: products
 category: products
-title: Professional Design Proposal and Invoice
+title: Vector Wireframe Essentials
 description:  Quickly create professional design proposals in an instant. You can save tons of time not having to design your proposals every time. Having a reuseable template will not only help you close clients faster, but make sure that you're proposals are hitting all the points a client needs.
 id: template
 related: [template, pdf, freebie]
-index_image: assets/img/t/proposal.jpg
+index_image: assets/img/p/user-flow/userflow-landing.jpg
 link:
 price: $20
 bundle: true

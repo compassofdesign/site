@@ -14,7 +14,7 @@ if(hero){
 	var wScroll;
 	window.addEventListener('scroll', function(){
 	  wScroll = window.pageYOffset;
-		
+
 	  if(visible(hero.getBoundingClientRect())) {
 	    nav.classList.remove('active');
 	  } else {

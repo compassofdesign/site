@@ -13,7 +13,8 @@ description: For people who are looking to level up their design skills, Compass
 <section class="main container">
   <article class="row">
     <div class="module intro">
-      <h1>Specially crafted resources for Designers</h1>
+      <h1>Need to level up your design skills?</h1>
+      <h3>Check out these specially crafted resources for Designers</h3>
     </div>
   </article>
 </section>
@@ -45,42 +46,21 @@ description: For people who are looking to level up their design skills, Compass
 <section class="main container">
   <article class="row">
     <div class="module intro">
-      <h3>Products</h3>
+      <h3 id="products">Products</h3>
     </div>
   </article>
 </section>
-<section class="main container">{% for post in site.categories.products%}
+<section class="main container">
+  {% for post in site.categories.products%}
     {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
     {% if article == '1' %}<article class="row buy">{% endif %}
         <article class="landing-product {% if article == '4'%}done{% endif %}">
-          <a class="product" href="{% if post.link_to %}{{post.link_to}}{% else %}{{post.url}}{% endif %}" >
+          <a class="product" href="{% if post.link%}{{post.link}}{% else %}{{post.url}}{%endif%}" >
             <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
             <h5>{{post.title}}</h5>
             <h6>{{post.price}}</h6>
           </a>
         </article>
     {% if article == '4' or forloop.last %}</article>{% endif %}
-        {% endfor %}
-</section>
-
-<section class="main container">
-  <article class="row">
-    <div class="landing module">
-      <h2>Any Questions? Send us a message!</h2>
-      <form action="https://formspree.io/mgowvjom" method="POST" class="signup">
-        <input type="text" name="_gotcha" style="display: none">
-        <label for="form-name">Full Name</label>
-        <input id="form-name" type="text" name="_Name" placeholder="Full Name" required="true">
-        <label for="form-name">Email</label>
-        <input id="form-name" type="text" name="_Email" placeholder="So I can email you back.">
-        <label for="form-subject">Subject</label>
-        <input id="form-subject" type="text" name="_Subject" placeholder="Subject" required="true">
-        <label for="form-message"></label>
-        <textarea id="form-message" name="Message" required="true"></textarea>
-        <br />
-        <input type="hidden" name="_next" value="{{site.baseurl}}/form" />
-        <button class="button" type="submit">Send</button>
-      </form>
-    </div>
-  </article>
+  {% endfor %}
 </section>
