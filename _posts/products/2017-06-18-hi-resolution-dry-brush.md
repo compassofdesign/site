@@ -9,7 +9,7 @@ index_image: assets/img/t/flyer.jpg
 link:
 price: $9
 bundle: false
-bundle_title: Professional Design Proposal
+bundle_title:
 product_image: assets/img/p/dry-brush-texture/flyer.jpg
 sitemap:
   lastmod: 2016-05-01

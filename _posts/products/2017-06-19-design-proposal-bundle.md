@@ -7,7 +7,7 @@ id: template
 related: [template, pdf, freebie]
 index_image: assets/img/t/proposal.jpg
 link:
-price: $20
+price: $19
 bundle: true
 bundle_title: Professional Design Proposal
 product_image: assets/img/p/project-proposal-animated.gif

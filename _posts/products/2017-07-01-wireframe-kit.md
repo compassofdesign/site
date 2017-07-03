@@ -7,9 +7,9 @@ id: template
 related: [template, pdf, freebie]
 index_image: assets/img/p/user-flow/userflow-landing.jpg
 link:
-price: $20
-bundle: true
-bundle_title: Professional Design Proposal
+price: $19
+bundle: false
+bundle_title:
 product_image: assets/img/p/user-flow/userflow.png
 soon: yes
 sitemap:

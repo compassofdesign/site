@@ -18,14 +18,14 @@ description: Here is where you can find posts about design, growing your design 
   </article>
 </section>
 <section class="main container">
-  {% for post in site.categories.products%}
-    {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-    {% if article == '1' %}<article class="row buy">{% endif %}
-        <div class="module">
-          <a class="product" href="{{post.url}}" >
-            <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
+  {% for post in site.categories.articles%}
+  {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
+  {% if article == '1' %}<article class="row buy">{% endif %}
+      <div class="article-thumb landing-product {% if article == '4'%}done{% endif %}">
+          <a class="" href="{% if post.link_to %}{{post.link_to}}{% else %}{{post.url}}{% endif %}" >
+            <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/{{post.index_image}}{% endif %}"  alt="{{post.title}}"/>
             <h5>{{post.title}}</h5>
-            <h6>{{post.price}}</h6>
+            <p >{{post.description | truncate:200}}</p>
           </a>
         </div>
     {% if article == '4' or forloop.last %}</article>{% endif %}

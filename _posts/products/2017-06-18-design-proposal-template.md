@@ -7,7 +7,11 @@ id: template
 related: [template, pdf]
 index_image: assets/img/t/projectproposal.jpg
 link: archive/design-proposal-bundle
-price: Free
+price: $5
+bundle: true
+bundle_title: Professional Design Proposal
+product_image:
+soon: yes
 sitemap:
   lastmod: 2016-05-01
   priority: 0.7

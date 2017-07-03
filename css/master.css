@@ -402,6 +402,10 @@ footer.main.container {
     text-align: center;
     margin-top: 40px; }
 
+.article-thumb p {
+  color: #331141;
+  font-size: 0.7em; }
+
 .assess {
   height: calc(90vw * 1.777); }
 
@@ -820,6 +824,9 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     position: relative;
     transform: translate(-50%, 0);
     left: 50%; }
+
+  .article-thumb p {
+    font-size: 1em; }
 
   input[data-continue="true"]:checked ~ nav ul {
     width: auto; } }

@@ -14,7 +14,15 @@ layout: default
     </div>
   </article>
 </header>
-
+{% if page.content %}
+  <section class="main container">
+    <article class="row">
+      <div class="module">
+        {{content}}
+      </div>
+    </article>
+  </section>
+{% endif %}
 <section class="main container">
   <h3>Other products you may enjoy</h3>
   <article class="row ">
