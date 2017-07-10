@@ -2,9 +2,9 @@
 layout: products
 category: products
 title: Vector Wireframe Essentials
-description:  Quickly create professional design proposals in an instant. You can save tons of time not having to design your proposals every time. Having a reuseable template will not only help you close clients faster, but make sure that you're proposals are hitting all the points a client needs.
+description: One thing that might bottleneck your projects is creating wireframes and user flows with your websites. I've had it happen and plenty others have where you're trying to get a client to visually understand how people are currently or will go through their website. You can outline areas or sections of which content might be best for their site.
 id: template
-related: [template, pdf, freebie]
+tags: [template, pdf, freebie]
 index_image: assets/img/p/user-flow/userflow-landing.jpg
 link:
 price: $19
