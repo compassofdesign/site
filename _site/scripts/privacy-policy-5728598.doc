@@ -1,0 +1,1438 @@
+<html xmlns:office="urn:schemas-microsoft-com:office:office" xmlns:word="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><xml><word:WordDocument><word:View>Print</word:View><word:Zoom>90</word:Zoom><word:DoNotOptimizeForBrowser/></word:WordDocument></xml>
+                            
+                            
+                            
+                            
+<style alt>.msocomanchor, .msocomoff, .MsoCommentText, .msocomtxt, .MsoCommentReference{display: none !important; visibility: hidden !important; opacity: 0;}</style>
+
+
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"Comment Text";
+	mso-style-link:"Comment Subject Char";
+	mso-style-next:"Comment Text";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Tahoma;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.MsoSubtleEmphasis
+	{mso-style-priority:19;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	color:#404040;
+	mso-themecolor:text1;
+	mso-themetint:191;
+	font-style:italic;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"Comment Text Char";
+	mso-style-link:"Comment Subject";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:Tahoma;
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:11.0pt;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-oto-margin:.5in;
+	mso-oto-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:51127478;
+	mso-list-type:hybrid;
+	mso-list-template-ids:616956576 67698689 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:75589664;
+	mso-list-template-ids:-598543668;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:469129782;
+	mso-list-type:hybrid;
+	mso-list-template-ids:217480972 67698689 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l3
+	{mso-list-id:508108175;
+	mso-list-type:hybrid;
+	mso-list-template-ids:204081522 67698711 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l4
+	{mso-list-id:1637103584;
+	mso-list-type:hybrid;
+	mso-list-template-ids:581733888 67698705 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l4:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5
+	{mso-list-id:2031027007;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1383987038 67698711 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+text-align:center;line-height:27.0pt;mso-outline-level:1'><b><span
+style='font-size:16.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333;
+mso-font-kerning:18.0pt'>ONLINE PRIVACY POLICY AGREEMENT<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:27.0pt;mso-outline-level:1'><b><span style='font-size:22.5pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333;mso-font-kerning:18.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span>, (<span class='saved-var company_contact_short_name step-0'>So Magnetic</span>), is
+committed to keeping any and all personal information collected of those
+individuals that visit our website and make use of our online facilities and
+services accurate, confidential, secure and private. Our privacy policy has
+been designed and created to ensure those affiliated with <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+of our commitment and realization of our obligation not only to meet but to
+exceed most existing privacy standards. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:#333333'>THEREFORE</span></i></b><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>, this
+Privacy Policy Agreement shall apply to <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span><??>
+	<a
+	style='mso-oto:BF_1;mso-oto:20131023T1707'> and any
+	subsidiary company listed below</a><??>
+</span><span class=MsoCommentReference><span
+style='font-size:8.0pt'><![if !supportAnnotations]><a class=msocomanchor
+id="_anchor_1" onmouseover="msoCommentShow('_anchor_1','_com_1')"
+onmouseout="msoCommentHide('_com_1')" href="#_msocom_1" language=JavaScript
+name="_msoanchor_1">[BF1]</a><![endif]></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>, and
+thus it shall govern any and all data collection and usage thereof. Through the
+use of https://compassofdesign.com 
+
+
+</span><span
+class=MsoCommentReference><span style='font-size:8.0pt'><![if !supportAnnotations]><a
+class=msocomanchor id="_anchor_2"
+onmouseover="msoCommentShow('_anchor_2','_com_2')"
+onmouseout="msoCommentHide('_com_2')" href="#_msocom_2" language=JavaScript
+name="_msoanchor_2">[BF2]</a><![endif]></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'> you
+are herein consenting to the following data procedures expressed within this
+agreement. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+ 
+		
+	<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 width="100%"
+	 style='width:100.0%;border-collapse:collapse;border:none;mso-yfti-tbllook:
+	 1184;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:none;mso-border-insidev:
+	 none'>
+
+		 
+		 <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+		  <td width="50%" valign=top style='width:50.0%;padding:0in 5.4pt 0in 5.4pt'>
+		  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+		  justify;line-height:13.5pt'><a style='mso-oto:BF_5;mso-oto:
+		  20131023T1705'></a>
+
+						  <a style='mso-oto:BF_3;mso-oto:
+			  20131023T1653'><span style='mso-comment-continuation:5'><b style='mso-bidi-font-weight:
+			  normal'><span style='font-size:12.0pt;font-family:"Times New Roman";
+			  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+			  color:#333333'>Subsidiary Company:</span></b></span></a>
+			
+		  <span
+		  style='mso-comment-continuation:5'><span class=MsoCommentReference><span
+		  style='font-size:8.0pt'><![if !supportAnnotations]><a class=msocomanchor
+		  id="_anchor_3" onmouseover="msoCommentShow('_anchor_3','_com_3')"
+		  onmouseout="msoCommentHide('_com_3')" href="#_msocom_3" language=JavaScript
+		  name="_msoanchor_3">[BF3]</a><![endif]><span style='mso-special-character:
+		  comment'>&nbsp;</span></span></span></span><span style='mso-comment-continuation:
+		  5'><span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+		  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></span></p>
+		  </td>
+		  <td width="50%" valign=top style='width:50.0%;padding:0in 5.4pt 0in 5.4pt'>
+		  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+		  justify;line-height:13.5pt'>
+
+			
+		
+		  </td>
+		 </tr>
+		
+		 
+		 <tr style='mso-yfti-irow:1'>
+		  <td width="50%" valign=top style='width:50.0%;padding:0in 5.4pt 0in 5.4pt'>
+		  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+		  justify;line-height:13.5pt'><a style='mso-oto:BF_6;mso-oto:
+		  20131023T1655'><span style='font-size:12.0pt;font-family:"Times New Roman";
+		  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+		  color:#333333'>
+		  
+		  		  	<span class='saved-var company_subsidiary_name_0 step-1'>Compass Of Design</span> 
+		  		  
+		  <o:p></o:p></span></a></p>
+		  </td>
+		  <td width="50%" valign=top style='width:50.0%;padding:0in 5.4pt 0in 5.4pt'>
+		  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+		  justify;line-height:13.5pt'><span style='mso-comment-continuation:6'><span
+		  style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+		  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>
+
+		  		  
+
+		  </span></span><span
+		  class=MsoCommentReference><span style='font-size:8.0pt'><![if !supportAnnotations]><a
+		  class=msocomanchor id="_anchor_6"
+		  onmouseover="msoCommentShow('_anchor_6','_com_6')"
+		  onmouseout="msoCommentHide('_com_6')" href="#_msocom_6" language=JavaScript
+		  name="_msoanchor_6">[BF6]</a><![endif]><span style='mso-special-character:
+		  comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+		  "Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+		  "Times New Roman";color:#333333'><o:p></o:p></span></p>
+		  </td>
+		 </tr>
+		
+				 <tr style='mso-yfti-irow:2'>
+		  <td width="50%" valign=top style='width:50.0%;padding:0in 5.4pt 0in 5.4pt'>
+		  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+		  justify;line-height:13.5pt'><a style='mso-oto:BF_7;mso-oto:
+		  20131023T1657'><span style='font-size:12.0pt;font-family:"Times New Roman";
+		  mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+		  color:#333333'>
+
+		  		  	<span class='saved-var company_subsidiary_name_1 step-1'>Darian Rosebrook Designs</span> 
+		  		  
+		  
+
+		  <o:p></o:p></span></a></p>
+		  </td>
+		  <td width="50%" valign=top style='width:50.0%;padding:0in 5.4pt 0in 5.4pt'>
+		  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+		  justify;line-height:13.5pt'><span style='mso-comment-continuation:7'><span
+		  style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+		  "Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>
+
+		  		  
+
+		  </span></span><span
+		  class=MsoCommentReference><span style='font-size:8.0pt'><![if !supportAnnotations]><a
+		  class=msocomanchor id="_anchor_7"
+		  onmouseover="msoCommentShow('_anchor_7','_com_7')"
+		  onmouseout="msoCommentHide('_com_7')" href="#_msocom_7" language=JavaScript
+		  name="_msoanchor_7">[BF7]</a><![endif]><span style='mso-special-character:
+		  comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+		  "Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+		  "Times New Roman";color:#333333'><o:p></o:p></span></p>
+		  </td>
+		 </tr>
+		
+		
+	</table>
+
+
+ 
+	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+	justify;line-height:13.5pt'><span class=MsoCommentReference><span
+	style='font-size:8.0pt'><a style='mso-oto:BF_9;mso-oto:
+	20131023T1658'></a><![if !supportAnnotations]><a class=msocomanchor
+	id="_anchor_9" onmouseover="msoCommentShow('_anchor_9','_com_9')"
+	onmouseout="msoCommentHide('_com_9')" href="#_msocom_9" language=JavaScript
+	name="_msoanchor_9">[BF9]</a><![endif]></span></span><span
+	style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+	"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><b><u><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Collection
+of Information<o:p></o:p></span></u></b></p>
+
+ 
+	<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+	margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><a
+	style='mso-oto:BF_10;mso-oto:20130927T1915'><span
+	style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+	"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>This
+	website collects various types of information, such as:<o:p></o:p></span></a></p>
+
+ 
+	<p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+	margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+	text-align:justify;line-height:normal;mso-outline-level:2'><span
+	class=MsoCommentReference><span style='font-size:8.0pt'><![if !supportAnnotations]><a
+	class=msocomanchor id="_anchor_10"
+	onmouseover="msoCommentShow('_anchor_10','_com_10')"
+	onmouseout="msoCommentHide('_com_10')" href="#_msocom_10" language=JavaScript
+	name="_msoanchor_10">[BF10]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span><a style='mso-oto:BF_11;mso-oto:
+	20130927T1915'></a><![if !supportAnnotations]><a class=msocomanchor
+	id="_anchor_11" onmouseover="msoCommentShow('_anchor_11','_com_11')"
+	onmouseout="msoCommentHide('_com_11')" href="#_msocom_11" language=JavaScript
+	name="_msoanchor_11">[BF11]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+	"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+	"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+ 
+	<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+	.0001pt;mso-add-space:auto;text-indent:-.25in;line-height:13.5pt;mso-list:l0 level1 lfo5'><a
+	style='mso-oto:BF_12;mso-oto:20130927T1924'><![if !supportLists]><span
+	style='font-size:12.0pt;mso-fareast-font-family:Symbol;
+	mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&bull;<span
+	style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+	style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+	"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Voluntarily
+	provided information which may include your name, address, email address, billing
+	and/or credit card information etc., which may be used when you purchase products
+	and/or services and to deliver the services you have requested.<o:p></o:p></span></a></p>
+
+	<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+	margin-bottom:0in;margin-left:1.5in;margin-bottom:.0001pt;mso-add-space:auto;
+	line-height:13.5pt'><span style='mso-comment-continuation:12'><span
+	style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+	"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'><span
+	style="mso-spacerun:yes">&nbsp;</span><span style="mso-spacerun:yes">&nbsp;
+	</span></span></span><span class=MsoCommentReference><span style='font-size:
+	8.0pt'><![if !supportAnnotations]><a class=msocomanchor id="_anchor_12"
+	onmouseover="msoCommentShow('_anchor_12','_com_12')"
+	onmouseout="msoCommentHide('_com_12')" href="#_msocom_12" language=JavaScript
+	name="_msoanchor_12">[BF12]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+	"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+	"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+ 
+	<p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
+	mso-add-space:auto;text-indent:-.25in;line-height:13.5pt;mso-list:l0 level1 lfo5'><a
+	style='mso-oto:BF_13;mso-oto:20131002T1232'><![if !supportLists]><span
+	style='font-size:12.0pt;mso-fareast-font-family:Symbol;
+	mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&bull;<span
+	style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+	style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+	"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Information
+	automatically collected when visiting our website, which may include cookies,
+	third party tracking technologies and server logs. <o:p></o:p></span></a></p>
+
+	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+	13.5pt'><span style='mso-comment-continuation:13'><span style='font-size:12.0pt;
+	font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><span
+	style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</span></span></span><span class=MsoCommentReference><span style='font-size:
+	8.0pt'><![if !supportAnnotations]><a class=msocomanchor id="_anchor_13"
+	onmouseover="msoCommentShow('_anchor_13','_com_13')"
+	onmouseout="msoCommentHide('_com_13')" href="#_msocom_13" language=JavaScript
+	name="_msoanchor_13">[BF13]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+	"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+	"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+ 
+	<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+	margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><a
+	style='mso-oto:BF_14;mso-oto:20130927T1919'><span
+	style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+	color:#333333'>Please rest assured that this site shall only collect personal
+	information that you knowingly and willingly provide by way of surveys,
+	completed membership forms, and emails. It is the intent of this site to use
+	personal information only for the purpose for which it was requested and any
+	additional uses specifically provided on this site. <o:p></o:p></span></a></p>
+
+	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+	justify'><span style='mso-comment-continuation:14'><span style='font-size:12.0pt;
+	line-height:115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><span style='mso-tab-count:
+	6'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+	class=MsoCommentReference><span style='font-size:8.0pt;line-height:115%'><![if !supportAnnotations]><a
+	class=msocomanchor id="_anchor_14"
+	onmouseover="msoCommentShow('_anchor_14','_com_14')"
+	onmouseout="msoCommentHide('_com_14')" href="#_msocom_14" language=JavaScript
+	name="_msoanchor_14">[BF14]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+	<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+	margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><a
+	style='mso-oto:BF_15;mso-oto:20130927T1918'><span
+	style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+	color:#333333'>We may also gather information about the type of browser you are using, 
+	IP address or type of operating system to assist us in providing and maintaining superior quality service.<o:p></o:p></span></a></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify'><span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'>It is highly recommended and suggested that you review the
+privacy policies and statements of any website you choose to use or frequent as
+a means to better understand the way in which other websites garner, make use of
+and share information collected. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify'><span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify'><b style='mso-bidi-font-weight:normal'><u><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'>Use of Information Collected<o:p></o:p></span></u></b></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify'><span style='font-size:12.0pt;line-height:115%;font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> may collect and may
+make use of personal information to assist in the operation of our website and
+to ensure delivery of the services you need and request. At times, we may find
+it necessary to use personally identifiable information as a means to keep you informed of
+other possible products and/or services that may be available to you from https://compassofdesign.com<??>
+ and our subsidiaries<??>
+</span><span
+class=MsoCommentReference><span style='font-size:8.0pt;line-height:115%'><![if !supportAnnotations]><a
+class=msocomanchor id="_anchor_17"
+onmouseover="msoCommentShow('_anchor_17','_com_17')"
+onmouseout="msoCommentHide('_com_17')" href="#_msocom_17" language=JavaScript
+name="_msoanchor_17">[B17]</a><![endif]><span style='mso-special-character:
+comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333'>. <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+
+ 
+	<a
+	style='mso-oto:BF_18;mso-oto:20131023T1704'> and our
+	subsidiaries</a>
+
+</span><span class=MsoCommentReference><span style='font-size:
+8.0pt;line-height:115%'><![if !supportAnnotations]><a class=msocomanchor
+id="_anchor_18" onmouseover="msoCommentShow('_anchor_18','_com_18')"
+onmouseout="msoCommentHide('_com_18')" href="#_msocom_18" language=JavaScript
+name="_msoanchor_18">[BF18]</a><![endif]><span style='mso-special-character:
+comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;line-height:
+115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333'> may also be in contact
+with you with regards to completing surveys and/or research questionnaires related
+to your opinion of current or potential future services that may be
+offered.<b style='mso-bidi-font-weight:normal'><u><o:p></o:p></u></b></span></p>
+
+ 
+	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+	justify'><a style='mso-oto:B_19;mso-oto:20130905T1628'><span
+	style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+	color:#333333'><o:p>&nbsp;</o:p></span></a></p>
+
+	<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+	margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><span
+	style='mso-comment-continuation:19'><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+	does not now, nor will it in the future, sell, rent or lease any of our
+	customer lists and/or names to any third parties.</span></span><span
+	class=MsoCommentReference><span style='font-size:8.0pt;line-height:115%'><![if !supportAnnotations]><a
+	class=msocomanchor id="_anchor_19"
+	onmouseover="msoCommentShow('_anchor_19','_com_19')"
+	onmouseout="msoCommentHide('_com_19')" href="#_msocom_19" language=JavaScript
+	name="_msoanchor_19">[B19]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+ 
+	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+	justify'><a style='mso-oto:B_20;mso-oto:20130905T1628'><span
+	style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+	color:#333333'><o:p>&nbsp;</o:p></span></a></p>
+
+	<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+	margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><span
+	style='mso-comment-continuation:20'><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> may feel it necessary,
+	from time to time, to make contact with you on behalf of
+	other external business partners with regards to a potential new offer which may be
+	of interest to you. If you consent or show interest in presented offers, then,
+	at that time, specific identifiable information, such as name, email address
+	and/or telephone number, may be shared with the third party. </span></span><span
+	class=MsoCommentReference><span style='font-size:8.0pt;line-height:115%'><![if !supportAnnotations]><a
+	class=msocomanchor id="_anchor_20"
+	onmouseover="msoCommentShow('_anchor_20','_com_20')"
+	onmouseout="msoCommentHide('_com_20')" href="#_msocom_20" language=JavaScript
+	name="_msoanchor_20">[B20]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+
+ 
+	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+	justify'><a style='mso-oto:B_22;mso-oto:20130905T1636'><span
+	style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+	color:#333333'><o:p>&nbsp;</o:p></span></a></p>
+
+	<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+	margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><span
+	style='mso-comment-continuation:22'><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+	may deem it necessary to follow websites and/or pages that our users may frequent
+	in an effort to gleam what types of services and/or products may be the most
+	popular to customers or the general public.</span></span><span
+	class=MsoCommentReference><span style='font-size:8.0pt;line-height:115%'><![if !supportAnnotations]><a
+	class=msocomanchor id="_anchor_22"
+	onmouseover="msoCommentShow('_anchor_22','_com_22')"
+	onmouseout="msoCommentHide('_com_22')" href="#_msocom_22" language=JavaScript
+	name="_msoanchor_22">[B22]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;line-height:
+	115%;font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify'><span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> may disclose your personal information,
+without prior notice to you, only if required to do so in accordance with applicable
+laws and/or in a good faith belief that such action is deemed necessary or is required in an effort to:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify'><span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
+mso-add-space:auto;text-indent:-.25in;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+style='font-size:12.0pt;line-height:115%;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&bull;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'>Remain in conformance with any decrees, laws and/or statutes or in an effort to
+comply with any process which may be served upon <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+and/or our website;<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;mso-add-space:auto'><span style='font-size:12.0pt;line-height:115%;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+style='font-size:12.0pt;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&bull;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Maintain, safeguard
+and/or preserve all the rights and/or property of <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span>; and<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;mso-add-space:auto;line-height:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+style='font-size:12.0pt;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#333333'><span style='mso-list:Ignore'>&bull;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Perform
+under demanding conditions in an effort to safeguard the personal safety of
+users of https://compassofdesign.com and/or the general public. <o:p></o:p></span></p>
+
+ 
+	<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+	.0001pt;mso-add-space:auto;line-height:normal'><a style='mso-oto:
+	B_23;mso-oto:20130905T1645'><span style='font-size:12.0pt;font-family:
+	"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+	"Times New Roman";color:#333333'><o:p>&nbsp;</o:p></span></a></p>
+
+	<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+	margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+	text-align:justify;line-height:normal;mso-outline-level:2'><span
+	style='mso-comment-continuation:23'><b><u><span style='font-size:12.0pt;
+	font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";color:#333333'>Children Under Age of 13<o:p></o:p></span></u></b></span></p>
+
+	<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+	margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+	text-align:justify;line-height:normal;mso-outline-level:2'><span
+	style='mso-comment-continuation:23'><span style='font-size:12.0pt;font-family:
+	"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+	"Times New Roman";color:#333333;mso-bidi-font-weight:bold'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+	does not knowingly collect personal identifiable information from children
+	under the age of thirteen (13) without verifiable parental consent. If it is
+	determined that such information has been inadvertently collected on anyone
+	under the age of thirteen (13), we shall immediately take the necessary steps
+	to ensure that such information is deleted from our system's database. Anyone
+	under the age of thirteen (13) must seek and obtain parent or guardian
+	permission to use this website.</span></span><span class=MsoCommentReference><span
+	style='font-size:8.0pt'><![if !supportAnnotations]><a class=msocomanchor
+	id="_anchor_23" onmouseover="msoCommentShow('_anchor_23','_com_23')"
+	onmouseout="msoCommentHide('_com_23')" href="#_msocom_23" language=JavaScript
+	name="_msoanchor_23">[B23]</a><![endif]><span style='mso-special-character:
+	comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+	"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+	"Times New Roman";color:#333333;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;line-height:normal;mso-outline-level:2'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333;
+mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;line-height:normal;mso-outline-level:2'><b><u><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Unsubscribe
+or Opt-Out</span></u></b><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>All
+users and/or visitors to our website have the option to discontinue receiving
+communication from us and/or reserve the right to discontinue receiving
+communications by way of email or newsletters. To discontinue or unsubscribe to
+our website please send an email that you wish to unsubscribe to hello@compassofdesign.com. If you wish to unsubscribe or opt-out from any
+third party websites, you must go to that specific website to unsubscribe
+and/or opt-out. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;text-align:justify;
+line-height:normal;mso-outline-level:2'><b><u><span style='font-size:12.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333'>Links to Other Web Sites<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:normal;
+mso-outline-level:2'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333;mso-bidi-font-weight:bold'>Our website does contain links to
+affiliate and other websites. <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> does not claim nor accept
+responsibility for any privacy policies, practices and/or procedures of other
+such websites. Therefore, we encourage all users and visitors to be aware when
+they leave our website and to read the privacy statements of each and every
+website that collects personally identifiable information. The aforementioned
+Privacy Policy Agreement applies only and solely to the information collected
+by our website. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:normal;
+mso-outline-level:2'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:normal;
+mso-outline-level:2'><b><u><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'>Security</span></u></b><span style='font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:#333333;mso-bidi-font-weight:bold'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> 
+shall endeavor and shall take every precaution to maintain adequate physical,
+procedural and technical security with respect to our offices and information
+storage facilities so as to prevent any loss, misuse, unauthorized access,
+disclosure or modification of the user's personal information under our
+control. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'>
+
+ 
+	<a
+	style='mso-oto:ST_24;mso-oto:20130807T2055'><span
+	style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+	"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>The
+	company also uses Secure Socket Layer (SSL) for authentication and private
+	communications in an effort to build users' trust and confidence in the
+	internet and website use by providing simple and secure access and communication
+	of credit card and personal information.</span></a>
+
+<span
+class=MsoCommentReference><span style='font-size:8.0pt'><![if !supportAnnotations]><a
+class=msocomanchor id="_anchor_24"
+onmouseover="msoCommentShow('_anchor_24','_com_24')"
+onmouseout="msoCommentHide('_com_24')" href="#_msocom_24" language=JavaScript
+name="_msoanchor_24">[ST24]</a><![endif]><span style='mso-special-character:
+comment'>&nbsp;</span></span></span>
+
+
+
+
+ 
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+
+
+
+
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><b><u><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Changes
+to Privacy Policy Agreement</span></u></b><span style='font-size:12.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#333333'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt;
+tab-stops:.25in'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> reserves the right to update and/or
+change the terms of our privacy policy, and as such we will post those change
+to our website homepage at https://compassofdesign.com, so that our users
+and/or visitors are always aware of the type of information we collect, how it
+will be used, and under what circumstances, if any, we may disclose such
+information. If at any point in time <span class='saved-var company_contact_name step-0'>So Magnetic LLC</span> decides to make
+use of any personally identifiable information on file, in a manner vastly
+different from that which was stated when this information was initially collected,
+the user or users shall be promptly notified by email. Users at that time shall
+have the option as to whether or not to permit the use of their information in
+this separate manner. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.25in;margin-bottom:.0001pt;mso-add-space:auto;text-align:justify;
+line-height:13.5pt'><b style='mso-bidi-font-weight:normal'><u><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Acceptance
+of Terms<o:p></o:p></span></u></b></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Through
+the use of this website, you are hereby accepting the terms and conditions
+stipulated within the aforementioned Privacy Policy Agreement. If you are not
+in agreement with our terms and conditions, then you should refrain from
+further use of our sites. In addition, your continued use of our website
+following the posting of any updates or changes to our terms and conditions
+shall mean that you are in agreement and acceptance of such changes. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><b><u><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>How to
+Contact Us</span></u></b><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;margin-bottom:.0001pt;text-align:justify;line-height:13.5pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>If you
+have any questions or concerns regarding the Privacy Policy Agreement related
+to our website, please feel free to contact us at the following email,
+telephone number or mailing address.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
+justify;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Email:</span></b><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'> <span class='saved-var company_contact_email_sc step-0'>4256225706</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'>
+
+
+<span
+style='mso-comment-continuation:31'><span style='font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:#333333'> </span></span><span
+class=MsoCommentReference><span style='font-size:8.0pt'><![if !supportAnnotations]><a
+class=msocomanchor id="_anchor_31"
+onmouseover="msoCommentShow('_anchor_31','_com_31')"
+onmouseout="msoCommentHide('_com_31')" href="#_msocom_31" language=JavaScript
+name="_msoanchor_31">[BF31]</a><![endif]><span style='mso-special-character:
+comment'>&nbsp;</span></span></span><span style='font-size:12.0pt;font-family:
+"Times New Roman";mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:#333333'><span class='empty-var company_contact_telephone step-0'></span><o:p></o:p></span></p>
+
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:#333333'>Mailing
+Address:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class='saved-var company_contact_name step-0'>So Magnetic LLC</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class='saved-var company_contact_address step-0'>1107 South 3rd Street</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class='saved-var company_contact_city step-0'>Mount Vernon</span>,
+<span class='saved-var company_contact_state step-0'>Washington</span> <span class='saved-var company_contact_zip_code step-0'>98273</span><br style='mso-special-character:
+line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
+.25in;line-height:13.5pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#333333'><span class='saved-var effective_date step-12'>05/02/2017</span><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+            
+            
+        
