@@ -1,0 +1,177 @@
+@media only screen and (min-width: 1000px)
+  h6
+    font-size: 1.8rem
+    font-weight: 600
+    margin-bottom: $margin
+    line-height: $line
+  h5
+    font-size: 1.8rem
+    font-weight: 900
+    margin-bottom: $margin
+    line-height: $line
+  h4
+    font-size: 2.618rem
+    font-weight: 300
+    margin-bottom: $margin
+    line-height: $line
+  h3
+    font-size: 2.618rem
+    font-weight: 300
+    color: $highlight
+    margin-bottom: .8em
+    line-height: $line
+  h2
+    font-size: 4.236rem
+    font-weight: 300
+    margin-bottom: 1rem
+    line-height: $line
+  h1
+    font-size: 6.854rem
+    font-weight: 500
+    margin-bottom: 3rem
+  .hero
+    img
+      width: 35%
+    &.product-header
+      clip-path: none
+      img
+        width: 100%
+  .button ~ .button,a.button ~ a.button
+    margin: 0 0 0 2rem
+  .main
+    padding: 0 10%
+  .module
+    display: inline-block
+    &.signup
+      width: 55%
+    &.signupimg
+      width: 28%
+      margin-right: 5%
+    &.pricing
+      width: 33%
+  .intro
+    h1
+      font-size: 2.5em
+  .group, .landing-group
+    display: inline-flex
+    justify-content: space-around
+    align-items: center
+    flex-flow: row-reverse
+    .point
+      width: 50%
+      display: flex
+      flex-direction: column
+      margin-left: 10%
+    h1.point-title
+      font-size: 3em
+    .support-img
+      width: 30%
+  .featured
+    padding: 0
+    .row
+      display: flex
+      justify-content: space-between
+    &:hover
+      img
+        filter: brightness(40%)
+  .landing-feature
+    display: inline-flex
+    width: 50%
+    flex-direction: column
+    &:hover
+      img
+        filter: brightness(100%)
+    .point
+      text-align: center
+      padding: 2em
+      width: 100%
+    .support-img
+      margin: 0
+      padding: 0
+      width: 100%
+      display: inline-flex
+      img
+        height: 100%
+  .product-header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    .module
+      width: 55%
+      padding: 2%
+      & ~.module
+        width: 40%
+  .landing-product
+    display: inline-block
+    flex-direction: column
+    justify-content: space-between
+    width: 24%
+    height: 100%
+    text-align: center
+    margin-right: 1%
+    .price
+      opacity: 1
+      transition: $transition
+      top: 50%
+    a:hover
+      border: none
+      img
+        box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, .3)
+        width: 95%
+      .price
+        opacity: 1
+    &.done
+      margin-right: 0
+    img
+      height: 100%
+      transition: all ease-in-out .3s
+      border: 0px solid $highlight
+  .landing-group
+    margin-bottom: 50px
+    justify-content: center
+    .point
+      width: 70%
+    .support-img
+      margin-left: 5%
+      text-align: center
+      img
+        margin-bottom: 2em
+    .button
+      margin-top: 1em
+  .row.buy
+    display: flex
+    .pricing
+      padding: 2em
+      margin-top: 100px
+    .preferred
+      margin-top: 0
+  .assess
+    height: 100vh
+    &.container.first
+      height: 70vh
+  form#mc-embedded-subscribe-form
+    padding: 3em
+    .mc-field-group
+      display: inline-block
+      width: 100%
+      .checkbox
+        display: inline-block
+        width: auto
+        padding: 5%
+  .article
+    width: 75%
+    max-width: 960px
+    margin: 0 auto
+    @include center(true, false)
+  .article-thumb
+    p
+      font-size: 1em
+
+  input[data-continue="true"]:checked
+    & ~ nav ul
+      width: auto
+@media only print
+  *
+    color: #000 !important
+  body
+    font-size: 8pt !important

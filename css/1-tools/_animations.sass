@@ -1,0 +1,36 @@
+@keyframes scaleIn
+  from
+    transform: translate(-50%, -50%) scale(0)
+  to
+    transform: translate(-50%, -50%) scale(1)
+
+@keyframes slideIn
+  from
+    opacity: 0
+    transform: translateX(-50%)
+  to
+    opacity: 1
+    transform: translateX(0)
+    transition-timing-function: ease-in-out
+@keyframes hue
+  from
+    filter: hue-rotate(0deg)
+  to
+    filter: hue-rotate(360deg)
+@keyframes fadeIn
+  to
+    opacity: 1
+// @keyframes slider-sm
+//   0%
+//     background-image: url(../img/banner-1-sm.jpg)
+//   33%
+//     background-image: url(../img/banner-2-sm.jpg)
+//   66%
+//     background-image: url(../img/banner-3-sm.jpg)
+//   100%
+//     background-image: url(../img/banner-1-sm.jpg)
+// @keyframes slider-lg
+//   0%
+//     background-position: top
+//   100%
+//     background-position: bottom

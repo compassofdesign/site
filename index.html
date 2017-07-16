@@ -1,0 +1,66 @@
+---
+layout: default
+title: Compass Of Design - Learn to design with confidence, a site for new designers
+description: For people who are looking to level up their design skills, Compass of Design is a online community that teaches designers the elements of design as well as the guiding principles to help them get started.
+---
+<header class="container hero hero-index" id="hero">
+  <article class="row hero-inset">
+    <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
+
+  </article>
+</header>
+
+<section class="main container">
+  <article class="row">
+    <div class="module intro">
+      <h1>Want to level up your design skills?</h1>
+      <h3>Check out these specially crafted resources for Designers</h3>
+    </div>
+  </article>
+</section>
+
+<section class="container featured">
+    <article class="row">
+      <div class="module landing-feature">
+        <article class="module support-img">
+          <img src="/assets/img/community_mini.jpg"  alt="Community for the self start designers"/>
+        </article>
+        <article class="module point">
+          <h3 class="point-title">Online Design Community</h3>
+          <h3>Join up with other designers in the Compass of Design Community</h3>
+          <a href="{{site.baseurl}}/community" class="button">Join the pack</a>
+        </article>
+      </div>
+      <div class="module landing-feature">
+        <article class="module support-img">
+          <img src="/assets/img/course_mini.jpg"  alt="Making faster design decisions"/>
+        </article>
+        <article class="module point">
+          <h3 class="point-title">Design with Confidence</h3>
+          <h3>Solidify design skills to make better design decisions</h3>
+          <a href="{{site.baseurl}}/course" class="button">Get the Course</a>
+        </article>
+      </div>
+      </article>
+</section>
+<section class="main container">
+  <article class="row">
+    <div class="module intro">
+      <h3 id="products">Products</h3>
+    </div>
+  </article>
+</section>
+<section class="main container">
+  {% for post in site.categories.products%}
+    {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
+    {% if article == '1' %}<article class="row buy">{% endif %}
+        <article class="landing-product {% if article == '4'%}done{% endif %}">
+          <a class="product" href="{% if post.link%}{{post.link}}{% else %}{{post.url}}{%endif%}" >
+            <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
+            <h5>{{post.title}}</h5>
+            <h6>{{post.price}}</h6>
+          </a>
+        </article>
+    {% if article == '4' or forloop.last %}</article>{% endif %}
+  {% endfor %}
+</section>

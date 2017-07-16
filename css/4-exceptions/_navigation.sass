@@ -1,0 +1,30 @@
+.navigation li
+  display: none
+  animation: slideIn 0.3s backwards
+input[data-continue="true"]:checked
+  & ~ nav ul
+    display: flex
+    justify-content: space-between
+    width: 80%
+  & ~ nav ul li.hidden
+    display: inline-flex !important
+@for $i from 1 through 9
+  .navigation .list-item-#{$i}
+    animation-delay: ($i/6)+s
+.toggle
+  background-color: $light
+  border-bottom: $highlight-2 2px solid
+  border-radius: 50%
+  padding: 1em
+
+#toggle:checked
+  & ~ nav
+    top: 0
+    label
+      top: 50%
+  & ~ .escape
+    position: fixed
+    display: block
+    width: 100%
+    height: calc(100vw * 1.777)
+    z-index: 199
