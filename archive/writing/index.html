@@ -25,6 +25,7 @@ description: Here is where you can find posts about design, growing your design 
           <a class="" href="{% if post.link_to %}{{post.link_to}}{% else %}{{post.url}}{% endif %}" >
             <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/{{post.index_image}}{% endif %}"  alt="{{post.title}}"/>
             <h5>{{post.title}}</h5>
+            <p><em>by </em> <a href="{{post.author_link}}" target="_blank">{{post.article_author}}</a></p>
             <p >{{post.description | truncate:200}}</p>
           </a>
         </div>
