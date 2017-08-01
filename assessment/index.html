@@ -420,13 +420,13 @@ description: A self assessment tool to keep everyone on top of what they need to
       <div class="landing module">
         <h3>That's it for questions. Congrats, once you hit "get results," we'll score your answers and you'll have a printable learning path with some action steps.</h3>
           <input type="text" name="_gotcha" style="display: none">
-          <input type="text" name="_name" style="display: none" value="anonymous">
-          <input type="text" name="_scores" value="" class="hidden" id="message">
-          <input type="text" name="section1" value="" class="hidden" id="section1">
-          <input type="text" name="section2" value="" class="hidden" id="section2">
-          <input type="text" name="section3" value="" class="hidden" id="section3">
-          <input type="text" name="section4" value="" class="hidden" id="section4">
-          <input type="text" name="section4" value="" class="hidden" id="totals">
+          <input type="text" name="_name" style="display: none" value="anonymous" aria-hidden="true">
+          <input type="text" name="_scores" value="" class="hidden" id="message" aria-hidden="true">
+          <input type="text" name="section1" value="" class="hidden" id="section1" aria-hidden="true">
+          <input type="text" name="section2" value="" class="hidden" id="section2" aria-hidden="true">
+          <input type="text" name="section3" value="" class="hidden" id="section3" aria-hidden="true">
+          <input type="text" name="section4" value="" class="hidden" id="section4" aria-hidden="true">
+          <input type="text" name="section4" value="" class="hidden" id="totals" aria-hidden="true">
           <input id="results" type="hidden" name="_next" value="{{site.baseurl}}/results" />
           <button class="button" type="submit" id="submit">Get Results</button>
       </div>
