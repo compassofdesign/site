@@ -55,7 +55,7 @@ description: For people who are looking to level up their design skills, Compass
     {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
     {% if article == '1' %}<article class="row buy">{% endif %}
         <article class="landing-product {% if article == '4'%}done{% endif %}">
-          <a class="product" href="{% if post.link%}{{post.link}}{% else %}{{post.url}}{%endif%}" >
+          <a class="product" href="{{post.url}}" >
             <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
             <h5>{{post.title}}</h5>
             <h6>{{post.price}}</h6>
