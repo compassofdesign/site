@@ -11,7 +11,7 @@ price: $9
 bundle:
 bundle_title:
 product_image: assets/img/topograph-buy.png
-soon: yes
+soon:
 sitemap:
   lastmod: 2016-05-01
   priority: 0.7
