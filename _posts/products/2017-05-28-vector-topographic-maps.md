@@ -7,7 +7,7 @@ id: kit
 tags: [vector, category, kit, template, pdf]
 index_image: assets/img/t/topograph.jpg
 link: https://buy.compassofdesign.com/topographic-vectors-and-images
-price: $9
+price: $10
 bundle:
 bundle_title:
 product_image: assets/img/topograph-buy.png
