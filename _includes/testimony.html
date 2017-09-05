@@ -1,55 +1,15 @@
-<!-- <section class=" container testimony-container">
-  <div id="testimony" class="row">
-    <h3 class="hidden">Testimonies</h3>
-    <article class="person">
-      <h3>What are people saying about the community?</h3>
-      {% for post in site.categories.testimony %}
-      <div>
-        <div class="circle"><img src="{{site.baseurl}}/assets/img/testimonials/{{post.img}}" alt="{{post.who}}" /></div>
-        <h4><a href="{{post.where}}">{{post.who}}</a></h4>
-        <p class="Occupation">{{post.occupation}}</p>
 
-      </div>
-      <div>
-        <blockquote cite="">
-          &ldquo; {{post.content}}&rdquo;
-        </blockquote>
-      </div>
-      {% endfor %}
-    </article>
-  </div>
-</section> -->
-<!-- <section class="main container">
-  {% for post in site.categories.testimony%}
-  {%  if post.ready  %}
-  {% capture article %}{% cycle '1', '2'  %}{% endcapture %}
-  {% if article == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product {% if article == '2'%}done{% endif %}">
-          <a class="" href="{% if post.link_to %}{{post.link_to}}{% else %}{{post.url}}{% endif %}" >
-            <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/assets/img/community/{{post.img}}{% endif %}"  alt="{{post.title}}"/>
-            <h5>{{post.who}}</h5>
-            {% if post.where %}<p><em>from</em> <a href="{{post.where}}" target="_blank">{{post.where}}</a></p>{% endif %}
-            <p >&ldquo;{{post.content}}&rdquo;</p>
-          </a>
-        </div>
-    {% if article == '2' or forloop.last %}</article>{% endif %}
-
-    {%  endif %}
-  {% endfor %}
-</section> -->
 <section class="main container">
 <article class="row testimony-thumb">
   <h3>What are people saying about the community?</h3>
   {% for post in site.categories.testimony%}
   {%  if post.ready  %}
-    <!-- <div class="module"> -->
       <figure class="snip1192">
 
         <blockquote><h5>{{post.who}}</h5>{{post.content}}</blockquote>
         <div class="author">
           <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/assets/img/community/{{post.img}}{% endif %}"  alt="{{post.title}}"/>
           <h5>{{post.who}}</h5>
-        <!-- </div> -->
       </figure>
     </div>
     {%  endif %}
