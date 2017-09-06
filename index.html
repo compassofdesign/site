@@ -58,7 +58,7 @@ description: For people who are looking to level up their design skills, Compass
           <a class="product" href="{% if post.linking %}{{post.linking}}{% else %}{{post.url}}{% endif %}" >
             <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
             <h5>{{post.title}}</h5>
-            <h6>{% if post.price[1] %}<del>{{post.price[1]}}</del> {{post.price}} {% else %}{{post.price}}{% endif %}</h6>
+            <h6><del>{{post.price[1]}}</del> {{post.price[0]}}</h6>
           </a>
         </article>
     {% if article == '4' or forloop.last %}</article>{% endif %}
