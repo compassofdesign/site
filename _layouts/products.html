@@ -11,7 +11,7 @@ signup: product
       <h1 class="point-title">{{page.title}}</h1>
       <h3>Start projects faster</h3>
       <p>{{page.description}}</p>
-      <a href="{% if page.soon == true %}#mc_embed_signup{% elsif page.link %}{{page.link}}/buy{% else %}#buy{% endif%}" class="button " >Get Access {% if  page.soon == true %}Soon{% elsif page.bundle%}Below{% elsif page.title contains "community" %} for <del>$99</del> {{page.price}}{% elsif page.price %}for {% else %}{{page.price}}{% endif %}</a>
+      <a href="{% if page.soon == true %}#mc_embed_signup{% elsif page.link %}{{page.link}}/buy{% else %}#buy{% endif%}" class="button " >Get Access {% if  page.soon == true %}Soon{% elsif page.bundle%}Below{% elsif page.title contains "community" %} for <del>$99</del> {{page.price}} (30% off until October) {% elsif page.price %}for {{page.price}}{% endif %}</a> 
     </div>
   </article>
 </header>
@@ -36,7 +36,7 @@ signup: product
     {% if page.tier %}
       {% include 'tier.html' %}
     {% else %}
-    <a href="{% if page.soon == true %}#mc_embed_signup{% elsif page.link %}{{page.link}}/buy{% else %}#buy{% endif%}" class="button " >Get Access {% if  page.soon == true %}Soon{% elsif page.bundle%}Below{% elsif page.price %}for {% if page.title contains "community" %}<del>$99</del> {{page.price}}{% else %}{{page.price}}{% endif %}{% endif %}</a>
+    <a href="{% if page.soon == true %}#mc_embed_signup{% elsif page.link %}{{page.link}}/buy{% else %}#buy{% endif%}" class="button " > {% if  page.soon == true %}Get it Soon{% elsif page.bundle%}See Below{% elsif page.title contains "community" %} Buy now for <del>$99</del> {{page.price}} (30% off until October) {% elsif page.price %}Buy Now for {{page.price}}{% endif %}</a>
     {%endif%}
 
   </div>
