@@ -11,7 +11,7 @@ id: Membership
 tags: [template, pdf, freebie]
 index_image: assets/img/p/community/community.jpg
 link: https://buy.compassofdesign.com/compass-of-design-community-membership/
-price: $99
+price: $66 (33% off)
 bundle: false
 bundle_title:
 product_image: assets/img/p/community/community.jpg
