@@ -8,7 +8,7 @@
       </div>
       <div id="signup" class="module signup">
         <h3>{%if page.url contains "course" %}Enrollment for the course opens in July.
-        {%endif%}{% if page.soon == true %}Want early access?{% endif %} Want to become a more effective designer?</h3>
+        {%endif%}{% if page.soon == true %}Want early access? {% else %}Want to become a more effective designer?{% endif %} </h3>
         {%if page.url contains "course" %}<h5>While we're working hard at polishing the course and material, why not get started?</h5>
         {%endif%}
         {% if page.soon == true %}<h5>Get early access to new content</h5>{% endif %}

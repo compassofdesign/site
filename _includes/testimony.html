@@ -1,12 +1,17 @@
 
-<section class="main container">
+<section class="main container testimony">
+
+    <h3>What are people saying about the community?</h3>
 <article class="row testimony-thumb">
-  <h3>What are people saying about the community?</h3>
   {% for post in site.categories.testimony%}
   {%  if post.ready  %}
       <figure class="snip1192">
 
-        <blockquote><h5>{{post.who}}</h5>{{post.content}}</blockquote>
+        <blockquote>
+          <h5>{{post.who}}</h5>
+          {% if post.where %}<p><em>Founder of</em> <a href="{{post.where[0]}}">{{post.where[1]}}</a></p>{% endif %}
+          {{post.content}}
+        </blockquote>
         <div class="author">
           <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/assets/img/community/{{post.img}}{% endif %}"  alt="{{post.title}}"/>
           <h5>{{post.who}}</h5>

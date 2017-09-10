@@ -1,4 +1,57 @@
 @media only screen and (min-width: 1000px)
+  nav.navigation
+    flex-direction: row
+    top: -500px
+    height: auto
+    ul
+      display: flex
+      flex-direction: row
+      li
+        opacity: 1
+    &.active
+      top: -0
+      ul li
+        display: block !important
+    & ~ .escape
+      position: absolute
+      width: 1px
+      height: 1px
+      background: none
+    label
+      top: 50%
+
+  .navigation li
+    display: none
+    animation: slideIn 0.3s backwards
+  input[data-continue="true"]:checked
+    & ~ nav.navigation ul
+      display: flex
+      justify-content: space-around
+      width: 30%
+    & ~ nav.navigation ul li.hidden
+      display: inline-flex !important
+  @for $i from 1 through 9
+    .navigation .list-item-#{$i}
+      animation-delay: ($i/6)+s
+  .toggle
+    background-color: $light
+    border-bottom: $highlight-2 2px solid
+    border-radius: 50%
+    padding: 1em
+    &:hover
+      cursor: pointer
+
+  #toggle:checked
+    & ~ nav
+      top: 0
+      label
+        top: 50%
+    & ~ .escape
+      position: fixed
+      display: block
+      width: 100%
+      height: calc(100vw * 1.777)
+      z-index: 199
   h6
     font-size: 1.8rem
     font-weight: 600

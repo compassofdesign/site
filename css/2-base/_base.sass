@@ -66,7 +66,7 @@ nav.navigation
     transition: inherit
     display: block
     @include center(true, true)
-    top: calc(380px + 1em)
+    top: 100%
     width: 65px
     height: 65px
     img
@@ -317,7 +317,7 @@ hr
 // Testimonial
 figure.snip1192
   position: relative
-  float: left
+  // float: left
   overflow: hidden
   margin: 10px 1%
   width: 100%
@@ -434,3 +434,10 @@ fieldset
       padding: 1em
     & ~ label.module
       margin-left: 1em
+  .testimony
+    .row
+      display: grid
+      grid-template-columns: 1fr 1fr 1fr
+  figure.snip1192
+    min-width: 220px
+    max-width: 95%
