@@ -980,6 +980,9 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     .assess.container.first {
       height: 70vh; }
 
+  .special-group {
+    flex-flow: row; }
+
   form#mc-embedded-subscribe-form {
     padding: 3em; }
     form#mc-embedded-subscribe-form .mc-field-group {
