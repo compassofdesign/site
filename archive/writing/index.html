@@ -18,7 +18,7 @@ description: Here is where you can find posts about design, growing your design 
         {%for posts in site.categories.article %}
         {% assign total_words = 0 %}
         {% assign post_words = post.content %}
-        {% assign post_words = post|number_of_words %}
+        {% assign post_words = post_words|number_of_words %}
         {% assign total_words = post_words|plus:total_words %}
 
         {%endfor%}
