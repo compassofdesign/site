@@ -14,6 +14,7 @@ description: Here is where you can find posts about design, growing your design 
     <div class="module intro">
       <h1 id="products">Writing</h1>
       <h3>Curated design articles to help you be a better profesional designer</h3>
+      <h4>{%for posts in site.categories.article %}{% assign current = post[forloop.index] | number_of_words %}{% assign previous = post[forloop.index - 1] | number_of_words %}{% assign wordCount = current | plus: previous %}{%endfor%}{{wordCount}}</h4>
     </div>
   </article>
 </section>
