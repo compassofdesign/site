@@ -23,6 +23,38 @@ if(hero){
 });
 }
 
+var filter = byId('filter');
+var posts = byClass('list-item');
+
+function togglePosts(check) {
+  for(var c = 0; c < posts.length; c++) {
+      posts[c].classList.add('hidden');
+      if (posts[c].dataset.type == check) {
+        posts[c].classList.remove('hidden');
+      }
+      if (check == null || undefined) {
+        posts[c].classList.remove('hidden');
+      }
+  }
+}
+if(filter) {
+  filter.addEventListener('change', function() {
+
+    switch (filter.selectedIndex) {
+      case 1: togglePosts('web');
+        break;
+      case 2: togglePosts('brand');
+        break;
+      case 3: togglePosts('productivity');
+        break;
+      case 4: togglePosts('life');
+        break;
+      case 5: togglePosts('external');
+        break;
+      default:  togglePosts();
+    }
+  });
+}
 var total,
 		answers,
 		questions,

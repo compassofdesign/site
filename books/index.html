@@ -1,0 +1,100 @@
+---
+layout: default
+title: Curated list of books for different design disciplines. These are the recommended books to start with when studying everything from Graphic design to UX and Product design.
+signup: books
+index_image: /assets/img/communitynew_mini.jpg
+price: $66
+---
+<header class="container hero hero-index" id="hero">
+  <article class="row hero-inset">
+    <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
+
+  </article>
+</header>
+<section class="main container">
+  <article class="row">
+    <div class="module intro">
+      <h1 id="products">Book Shelf</h1>
+      <h3>These books are recommended reads by members of the community.</h3>
+      <p>If you're looking for design books, you've come to the right place. These links here are books that have helped us get to where we are as designers.</p>
+    </div>
+    <div class="module intro">
+      <h4>Searching for a specific design discipline?</h4>
+      <ul id="filter">
+        <div>
+          <li>
+            <input class="hidden" type="radio" name="" value="All Books">
+            <label class="filter" for="">All Books</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="Branding / Marketing">
+            <label class="filter" for="">Branding / Marketing</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="Lettering">
+            <label class="filter" for="">Hand Lettering</label>
+          </li>
+        </div>
+        <div>
+          <li>
+            <input class="hidden" type="radio" name="" value="Typography">
+            <label class="filter" for="">Typography</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="UI">
+            <label class="filter" for="">UI Design</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="UX">
+            <label class="filter" for="">UX Design</label>
+          </li>
+        </div>
+        <div>
+          <li>
+            <input class="hidden" type="radio" name="" value="Print">
+            <label class="filter" for="">Print Design</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="Illustration">
+            <label class="filter" for="">Illustration</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="Logo">
+            <label class="filter" for="">Logo Design</label>
+          </li>
+        </div>
+        <div>
+          <li>
+            <input class="hidden" type="radio" name="" value="Strategy">
+            <label class="filter" for="">Design Strategy</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="Freelancers">
+            <label class="filter" for="">Freelancers and Agencies</label>
+          </li>
+          <li>
+            <input class="hidden" type="radio" name="" value="Principles">
+            <label class="filter" for="">Design Principles</label>
+          </li>
+        </div>
+
+        </ul>
+    </div>
+  </article>
+</section>
+<section class="list-item main container">
+  <h2>Branding</h2>
+  <h4>Sample text lol lol lol</h4>
+  {% for post in site.categories.books %}
+  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
+  {% if book == '1' %}<article class="row buy">{% endif %}
+      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
+            {{post.content}}
+            <h5>{{post.title}}</h5>
+            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+            <p >{{post.description}}</p>
+          </a>
+        </div>
+    {% if book == '4' or forloop.last %}</article>{% endif %}
+  {% endfor %}
+</section>
