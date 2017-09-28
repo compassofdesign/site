@@ -395,6 +395,11 @@ span.highlight {
   .landing-product .product h5, .landing-product .product h6 {
     color: #353263;
     font-size: 1em; }
+  .landing-product.book img {
+    width: 45%;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%; }
   .landing-product img {
     width: 100%;
     margin-bottom: 2em; }

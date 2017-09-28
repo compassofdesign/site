@@ -44,7 +44,7 @@ if(filter) {
   filter.addEventListener('change', function() {
     var selected_val = filter[filter.selectedIndex].value;
     if(selected_val.length === 0){
-      togglePosts(null);
+      togglePosts();
     }
     else {
       togglePosts(selected_val);
