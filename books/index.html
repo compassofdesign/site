@@ -11,267 +11,42 @@ price: $66
 
   </article>
 </header>
-<section class="main navigation container">
+<section class="main landing navigation container">
   <article class="row">
-    <div class="module intro">
+    <div class="module point">
       <h1 id="products">Book Shelf</h1>
       <h3>These books are recommended reads by members of the community.</h3>
       <p>If you're looking for design books, you've come to the right place. These links here are books that have helped us get to where we are as designers.</p>
       <p>Use this list of books as a reading guide to get a leg up in your career. By purchasing through the links, you're helping support the Compass of Design so we can continue to help other designers.</p>
     </div>
     <div class="module intro">
-      <h4>Searching for a specific design discipline?</h4>
+      <h3>Searching for a specific design discipline?</h3>
       <select class="filter" name="filter" id="filter">
         <option value="Filter All">Filter All</option>
-        <option value="branding">Branding</option>
-        <option value="lettering">Hand Lettering</option>
-        <option value="typography">Typography</option>
-        <option value="ui">UI Design</option>
-        <option value="ux">UX Design</option>
-        <option value="print">Filter All</option>
-        <option value="illustration">Illustration</option>
-        <option value="logo">Logo Design</option>
-        <option value="strategy">Design Strategy</option>
-        <option value="freelance">Freelancers and Design Agencies</option>
-        <option value="principle">Design Principles</option>
+        {% for collection in site.collections %}
+          {% assign name = collection.label %}
+          {% if name == "posts" %}{% else %}
+          <option value="{{name}}">{{collection.h2}}</option>
+          {% endif %}
+      {% endfor %}
       </select>
-      <!-- <ul id="">
-        <div>
-          <li>
-            <input class="hidden" type="radio" name="" value="All Books">
-            <label class="filter" for="">All Books</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="Branding / Marketing">
-            <label class="filter" for="">Branding / Marketing</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="Lettering">
-            <label class="filter" for="">Hand Lettering</label>
-          </li>
-        </div>
-        <div>
-          <li>
-            <input class="hidden" type="radio" name="" value="Typography">
-            <label class="filter" for="">Typography</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="UI">
-            <label class="filter" for="">UI Design</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="UX">
-            <label class="filter" for="">UX Design</label>
-          </li>
-        </div>
-        <div>
-          <li>
-            <input class="hidden" type="radio" name="" value="Print">
-            <label class="filter" for="">Print Design</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="Illustration">
-            <label class="filter" for="">Illustration</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="Logo">
-            <label class="filter" for="">Logo Design</label>
-          </li>
-        </div>
-        <div>
-          <li>
-            <input class="hidden" type="radio" name="" value="Strategy">
-            <label class="filter" for="">Design Strategy</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="Freelancers">
-            <label class="filter" for="">Freelancers and Agencies</label>
-          </li>
-          <li>
-            <input class="hidden" type="radio" name="" value="Principles">
-            <label class="filter" for="">Design Principles</label>
-          </li>
-        </div>
-
-        </ul> -->
     </div>
   </article>
-<section data-type="branding" class="list-item main container">
-  <h2>Branding and Marketing</h2>
-  <h4>Books written to understand the entire brand experience.</h4>
-  {% for post in site.categories.branding %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
 </section>
+  {% for collection in site.collections %}
 
-<section data-type="principle" class="list-item main container">
-  <h2>Design Principles</h2>
-  <h4>These books are to help understand the funtamentals of design</h4>
-  {% for post in site.categories.principle %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="strategy" class="list-item main container">
-  <h2>Design Strategy</h2>
-  <h4>Design thinking, design strategy, and help with applying the design process.</h4>
-  {% for post in site.categories.strategy %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="ui" class="list-item main container">
-  <h2>UI Design</h2>
-  <h4>Books to help understand user interaction with interface design.</h4>
-  {% for post in site.categories.ui %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-
-<section data-type="ux" class="list-item main container">
-  <h2>UX Design</h2>
-  <h4>User experience in everyday things. UX design counts for physical and digital goods</h4>
-  {% for post in site.categories.ux %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="print" class="list-item main container">
-  <h2>Print Design</h2>
-  <h4>Books for the best practices of designign for print.</h4>
-  {% for post in site.categories.print %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="typography" class="list-item main container">
-  <h2>Typography</h2>
-  <h4>Good type is the foundation for nearly every form of design.</h4>
-  {% for post in site.categories.typography %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="lettering" class="list-item main container">
-  <h2>Hand Lettering</h2>
-  <h4>Some of the best books out there for hand lettering artists</h4>
-  <article class="row buy">
-  {% for post in site.categories.lettering %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-
-        <div class="article-thumb landing-product book {% if book == '4' or forloop.first %}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p>{{post.description}}</p>
-          </a>
-        </div>
+    {% assign name = collection.label %}
+<section data-type="{{name}}" class="list-item main container">
+  <h2>{{collection.h2}}</h2>
+  <h4>{{collection.h4}}</h4>
+  <article class="row buy book-list">
+  {% for post in site.categories[name] %}
+    <div class="article-thumb landing-product book">
+      {{post.content}}
+      <h5><a href="{{post.link}}">{{post.title}}</a></h5>
+      <p >{{post.description}}</p>
+    </div>
   {% endfor %}
   </article>
 </section>
-<section data-type="illustration" class="list-item main container">
-  <h2>Illustration</h2>
-  <h4>Books for applying illustration to the business world.</h4>
-  {% for post in site.categories.illustration %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="logo" class="list-item main container">
-  <h2>Logo Design</h2>
-  <h4>Books from some of the best logo designers alive and un-dead.</h4>
-  {% for post in site.categories.logo %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-<section data-type="freelance" class="list-item main container">
-  <h2>Freelancing and Agency work</h2>
-  <h4>Books to help you run your agency or freelance business with ease.</h4>
-  {% for post in site.categories.freelance %}
-  {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
-            {{post.content}}
-            <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-
-            <p >{{post.description}}</p>
-          </a>
-        </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
-  {% endfor %}
-</section>
-</section>
+{% endfor %}

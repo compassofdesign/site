@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+  # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -35,3 +35,34 @@ exclude:
   - Gemfile.lock
 
 permalink: archive/:title
+collections:
+  principle:
+    h2: Design Principles
+    h4: These books are to help understand the funtamentals of design
+  strategy:
+    h2: Design Strategy
+    h4: Design thinking, design strategy, and help with applying the design process.
+  freelance:
+    h2: Freelancing and Agency work
+    h4: Books to help you run your agency or freelance business with ease.
+  typography:
+    h2: Typography and Hand Lettering
+    h4: Good type is the foundation for nearly every form of design.
+  logo:
+    h2: Logo Design
+    h4: Books from some of the best logo designers alive and un-dead.
+  branding:
+    h2: Branding and Marketing
+    h4: Books written to understand the entire brand experience.
+  printdesign:
+    h2: Print Design
+    h4: Books for the best practices of designign for print.
+  ui:
+    h2: UI Design
+    h4: Books to help understand user interaction with interface design.
+  ux:
+    h2: UX Design
+    h4: User experience in everyday things. UX design counts for physical and digital goods.
+  illustration:
+    h2: Illustration
+    h4: Books for applying illustration to the business world.

@@ -1,6 +1,5 @@
 ---
 category:
-- books
 - branding
 title: Don't Call it that.
 description:  A book on branding names and the messages behind them. Make sure that you search the sellers because someone's trying to sell one for 900 and that's not the price of the book.

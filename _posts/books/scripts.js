@@ -137,22 +137,14 @@ function togglePosts(check) {
 }
 if(filter) {
   filter.addEventListener('change', function() {
-
-    switch (filter.selectedIndex) {
-      case 1: togglePosts('web');
-        break;
-      case 2: togglePosts('brand');
-        break;
-      case 3: togglePosts('productivity');
-        break;
-      case 4: togglePosts('life');
-        break;
-      case 5: togglePosts('external');
-        break;
-      default:  togglePosts();
+    var selected_val = filter[filter.selectedIndex].value;
+    togglePosts(selected_val);
     }
-  });
+  );
 }
+
+
+
 // Adding Masonry because my solution without it doesn't cut cross browser portfolio-website
 var elem = document.querySelector('.grid');
 var msnry = new Masonry( elem, {
