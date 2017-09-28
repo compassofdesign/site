@@ -43,7 +43,12 @@ function togglePosts(check) {
 if(filter) {
   filter.addEventListener('change', function() {
     var selected_val = filter[filter.selectedIndex].value;
-    togglePosts(selected_val);
+    if(selected_val.length === 0){
+      togglePosts(null);
+    }
+    else {
+      togglePosts(selected_val);
+    }
     }
   );
 }
@@ -205,4 +210,3 @@ if(window.location.href.indexOf("results") > -1) {
 		};
 
 });
-  
