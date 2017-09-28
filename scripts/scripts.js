@@ -42,34 +42,10 @@ function togglePosts(check) {
 }
 if(filter) {
   filter.addEventListener('change', function() {
-
-    switch (filter.selectedIndex) {
-      case 1: togglePosts('branding');
-        break;
-      case 2: togglePosts('lettering');
-        break;
-      case 3: togglePosts('typography');
-        break;
-      case 4: togglePosts('ui');
-        break;
-      case 5: togglePosts('ux');
-        break;
-      case 6: togglePosts('print');
-        break;
-      case 7: togglePosts('illustration');
-        break;
-      case 8: togglePosts('logo');
-        break;
-      case 9: togglePosts('strategy');
-        break;
-      case 10: togglePosts('freelance');
-        break;
-      case 11: togglePosts('principle');
-        break;
-        break;
-      default:  togglePosts();
+    var selected_val = filter[filter.selectedIndex].value;
+    togglePosts(selected_val);
     }
-  });
+  );
 }
 var total,
 		answers,
