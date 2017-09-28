@@ -229,3 +229,4 @@ if(window.location.href.indexOf("results") > -1) {
 		};
 
 });
+  
