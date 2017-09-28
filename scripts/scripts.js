@@ -28,12 +28,15 @@ var posts = byClass('list-item');
 
 function togglePosts(check) {
   for(var c = 0; c < posts.length; c++) {
-      posts[c].classList.add('hidden');
+    posts[c].classList.add('hidden');
+    posts[c].classList.remove('list-item-2');
       if (posts[c].dataset.type == check) {
         posts[c].classList.remove('hidden');
+        posts[c].classList.add('list-item-2');
       }
       if (check == null || undefined) {
         posts[c].classList.remove('hidden');
+        posts[c].classList.add('list-item-2');
       }
   }
 }
@@ -41,15 +44,28 @@ if(filter) {
   filter.addEventListener('change', function() {
 
     switch (filter.selectedIndex) {
-      case 1: togglePosts('web');
+      case 1: togglePosts('branding');
         break;
-      case 2: togglePosts('brand');
+      case 2: togglePosts('lettering');
         break;
-      case 3: togglePosts('productivity');
+      case 3: togglePosts('typography');
         break;
-      case 4: togglePosts('life');
+      case 4: togglePosts('ui');
         break;
-      case 5: togglePosts('external');
+      case 5: togglePosts('ux');
+        break;
+      case 6: togglePosts('print');
+        break;
+      case 7: togglePosts('illustration');
+        break;
+      case 8: togglePosts('logo');
+        break;
+      case 9: togglePosts('strategy');
+        break;
+      case 10: togglePosts('freelance');
+        break;
+      case 11: togglePosts('principle');
+        break;
         break;
       default:  togglePosts();
     }

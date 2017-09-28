@@ -224,6 +224,9 @@ body {
 .cf::after, .cf::before {
   display: block; }
 
+.book a ~ img {
+  opacity: 0; }
+
 nav.navigation {
   transition: all ease 0.3s;
   position: relative;
@@ -551,10 +554,14 @@ hr {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between; }
-    #filter div li {
-      border: 1px #353263 solid;
-      border-radius: 5px;
-      padding: 0.5em; }
+
+.filter {
+  border: 1px #353263 solid;
+  border-radius: 5px;
+  padding: 0.5em;
+  position: relative;
+  transform: translate(-50%, 0);
+  left: 50%; }
 
 figure.snip1192 {
   position: relative;

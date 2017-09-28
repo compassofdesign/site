@@ -11,7 +11,7 @@ price: $66
 
   </article>
 </header>
-<section class="main container">
+<section class="main navigation container">
   <article class="row">
     <div class="module intro">
       <h1 id="products">Book Shelf</h1>
@@ -21,7 +21,21 @@ price: $66
     </div>
     <div class="module intro">
       <h4>Searching for a specific design discipline?</h4>
-      <ul id="filter">
+      <select class="filter" name="filter" id="filter">
+        <option value="Filter All">Filter All</option>
+        <option value="branding">Branding</option>
+        <option value="lettering">Hand Lettering</option>
+        <option value="typography">Typography</option>
+        <option value="ui">UI Design</option>
+        <option value="ux">UX Design</option>
+        <option value="print">Filter All</option>
+        <option value="illustration">Illustration</option>
+        <option value="logo">Logo Design</option>
+        <option value="strategy">Design Strategy</option>
+        <option value="freelance">Freelancers and Design Agencies</option>
+        <option value="principle">Design Principles</option>
+      </select>
+      <!-- <ul id="">
         <div>
           <li>
             <input class="hidden" type="radio" name="" value="All Books">
@@ -79,10 +93,10 @@ price: $66
           </li>
         </div>
 
-        </ul>
+        </ul> -->
     </div>
   </article>
-<section id="" class="list-item main container">
+<section data-type="branding" class="list-item main container">
   <h2>Branding and Marketing</h2>
   <h4>Books written to understand the entire brand experience.</h4>
   {% for post in site.categories.branding %}
@@ -91,30 +105,31 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+
+<section data-type="principle" class="list-item main container">
   <h2>Design Principles</h2>
   <h4>These books are to help understand the funtamentals of design</h4>
-  {% for post in site.categories.principles %}
+  {% for post in site.categories.principle %}
   {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
   {% if book == '1' %}<article class="row buy">{% endif %}
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="strategy" class="list-item main container">
   <h2>Design Strategy</h2>
   <h4>Design thinking, design strategy, and help with applying the design process.</h4>
   {% for post in site.categories.strategy %}
@@ -123,14 +138,14 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="ui" class="list-item main container">
   <h2>UI Design</h2>
   <h4>Books to help understand user interaction with interface design.</h4>
   {% for post in site.categories.ui %}
@@ -139,7 +154,7 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
@@ -147,7 +162,7 @@ price: $66
   {% endfor %}
 </section>
 
-<section id="" class="list-item main container">
+<section data-type="ux" class="list-item main container">
   <h2>UX Design</h2>
   <h4>User experience in everyday things. UX design counts for physical and digital goods</h4>
   {% for post in site.categories.ux %}
@@ -156,14 +171,14 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="print" class="list-item main container">
   <h2>Print Design</h2>
   <h4>Books for the best practices of designign for print.</h4>
   {% for post in site.categories.print %}
@@ -172,14 +187,14 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="typography" class="list-item main container">
   <h2>Typography</h2>
   <h4>Good type is the foundation for nearly every form of design.</h4>
   {% for post in site.categories.typography %}
@@ -188,30 +203,30 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="lettering" class="list-item main container">
   <h2>Hand Lettering</h2>
   <h4>Some of the best books out there for hand lettering artists</h4>
+  <article class="row buy">
   {% for post in site.categories.lettering %}
   {% capture book %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-  {% if book == '1' %}<article class="row buy">{% endif %}
-      <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
+
+        <div class="article-thumb landing-product book {% if book == '4' or forloop.first %}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
-            <p >{{post.description}}</p>
+            <p>{{post.description}}</p>
           </a>
         </div>
-    {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
+  </article>
 </section>
-<section id="" class="list-item main container">
+<section data-type="illustration" class="list-item main container">
   <h2>Illustration</h2>
   <h4>Books for applying illustration to the business world.</h4>
   {% for post in site.categories.illustration %}
@@ -220,14 +235,14 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="logo" class="list-item main container">
   <h2>Logo Design</h2>
   <h4>Books from some of the best logo designers alive and un-dead.</h4>
   {% for post in site.categories.logo %}
@@ -236,14 +251,14 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
 </section>
-<section id="" class="list-item main container">
+<section data-type="freelance" class="list-item main container">
   <h2>Freelancing and Agency work</h2>
   <h4>Books to help you run your agency or freelance business with ease.</h4>
   {% for post in site.categories.freelance %}
@@ -252,10 +267,11 @@ price: $66
       <div class="article-thumb landing-product book {% if book == '4'%}done{% endif %}">
             {{post.content}}
             <h5><a href="{{post.link}}">{{post.title}}</a></h5>
-            <p><strong>Category</strong>: <em>{{post.tags}}</em></p>
+
             <p >{{post.description}}</p>
           </a>
         </div>
     {% if book == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
+</section>
 </section>

@@ -1,6 +1,6 @@
 ---
 category: branding
-title: Nice To Meet You Too, Visual Greetings from Business Cards to Identity Packages 
+title: Nice To Meet You Too, Visual Greetings from Business Cards to Identity Packages
 description:  This book is great for visual design, personal branding, and business card design.
 link:  http://amzn.to/2wEWJKR
 id: branding

@@ -43,7 +43,9 @@ body
   clear: both
 .cf::after, .cf::before
   display: block
-
+.book
+  a ~ img
+    opacity: 0
 // Logo & nav
 nav.navigation
   transition: $transition
@@ -323,11 +325,11 @@ hr
     display: inline-flex
     flex-direction: column
     justify-content: space-between
-    li
-      border: 1px $main solid
-      border-radius: 5px
-      padding: .5em
-
+.filter
+  border: 1px $main solid
+  border-radius: 5px
+  padding: .5em
+  @include center(true, false)
 // Testimonial
 figure.snip1192
   position: relative
