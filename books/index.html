@@ -15,8 +15,8 @@ price: $66
   <article class="row">
     <div class="module point">
       <h1 id="products">Book Shelf</h1>
-      <h3>These books are recommended reads by members of the community.</h3>
-      <p>If you're looking for design books, you've come to the right place. These links here are books that have helped us get to where we are as designers.</p>
+      <h3>A collection of the best reads for designers.</h3>
+      <p>If you're looking for design books, you've come to the right place. These links here are books that have helped us in the community get to where we are as designers.</p>
       <p>Use this list of books as a reading guide to get a leg up in your career. By purchasing through the links, you're helping support the Compass of Design so we can continue to help other designers.</p>
     </div>
     <div class="module intro">
@@ -43,7 +43,7 @@ price: $66
   {% for post in site.categories[name] %}
     <div class="article-thumb landing-product book">
       {{post.content}}
-      <h5><a href="{{post.link}}">{{post.title}}</a></h5>
+      <h5><a href="{{post.link}}" target="_blank">{{post.title}}</a></h5>
       <p >{{post.description}}</p>
     </div>
   {% endfor %}

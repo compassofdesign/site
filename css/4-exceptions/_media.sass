@@ -1,4 +1,11 @@
 @media only screen and (min-width: 1000px)
+  .button, a.button
+    display: inline-block
+    transform: none
+    left: auto
+  .button ~ .button, a.button ~ a.button
+    margin:  0 0 0 2rem
+
   nav.navigation
     flex-direction: row
     top: -500px

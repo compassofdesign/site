@@ -144,14 +144,16 @@ span
 // Buttons
 .button, a.button
   transition: $transition
-  display: inline-block
+  display: block
   min-width: 8em
+  width: fit-content
   background: $main
   font-size: 1.8rem
   color: $light
   border: none
   border-radius: 5px
   padding: 1.3em
+  @include center(true, false)
   &.secondary
     background: $light
     color: $dark
@@ -172,7 +174,7 @@ span
   &.secondary
     background-color: $grey
 .button ~ .button,a.button ~ a.button
-  margin:  0 0 0 2rem
+  margin:  2rem 0 0 0
 
 // Scaffolding
 .intro

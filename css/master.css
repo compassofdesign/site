@@ -343,14 +343,18 @@ span.highlight {
 
 .button, a.button {
   transition: all ease 0.3s;
-  display: inline-block;
+  display: block;
   min-width: 8em;
+  width: fit-content;
   background: #353263;
   font-size: 1.8rem;
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 1.3em; }
+  padding: 1.3em;
+  position: relative;
+  transform: translate(-50%, 0);
+  left: 50%; }
   .button.secondary, a.button.secondary {
     background: #fff;
     color: #331141;
@@ -374,7 +378,7 @@ span.highlight {
     background-color: #333; }
 
 .button ~ .button, a.button ~ a.button {
-  margin: 0 0 0 2rem; }
+  margin: 2rem 0 0 0; }
 
 .intro {
   position: relative;
@@ -769,6 +773,14 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
   z-index: 199; }
 
 @media only screen and (min-width: 1000px) {
+  .button, a.button {
+    display: inline-block;
+    transform: none;
+    left: auto; }
+
+  .button ~ .button, a.button ~ a.button {
+    margin: 0 0 0 2rem; }
+
   nav.navigation {
     flex-direction: row;
     top: -500px;
