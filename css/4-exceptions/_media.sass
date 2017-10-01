@@ -190,11 +190,18 @@
       border: 0px solid $highlight
     &.book
       img
+        height: auto
         width: 50%
-        @include center(true, false)
-      a:hover
+        transform-origin: bottom
+        @include center(false,false)
+        left: auto
+      & a:hover
         img
-          width: 47%
+          width: 45%
+      a ~ img
+        position: absolute
+        height: 0
+        width: 0
   .landing-group
     margin-bottom: 50px
     justify-content: center

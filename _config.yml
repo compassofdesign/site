@@ -36,13 +36,13 @@ exclude:
 
 permalink: archive/:title
 collections:
-  principle:
+  1principle:
     h2: Design Principles
     h4: These books are to help understand the funtamentals of design
-  strategy:
+  2strategy:
     h2: Design Strategy
     h4: Design thinking, design strategy, and help with applying the design process.
-  freelance:
+  3freelance:
     h2: Freelancing and Agency work
     h4: Books to help you run your agency or freelance business with ease.
   typography:

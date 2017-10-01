@@ -225,6 +225,7 @@ body {
   display: block; }
 
 .book a ~ img {
+  position: absolute;
   opacity: 0; }
 
 .book-list {
@@ -1000,12 +1001,18 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
       transition: all ease-in-out 0.3s;
       border: 0px solid #eb2441; }
     .landing-product.book img {
+      height: auto;
       width: 50%;
+      transform-origin: bottom;
       position: relative;
-      transform: translate(-50%, 0);
-      left: 50%; }
+      transform: translate(0, 0);
+      left: auto; }
     .landing-product.book a:hover img {
-      width: 47%; }
+      width: 45%; }
+    .landing-product.book a ~ img {
+      position: absolute;
+      height: 0;
+      width: 0; }
 
   .landing-group {
     margin-bottom: 50px;
