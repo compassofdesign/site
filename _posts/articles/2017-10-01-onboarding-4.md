@@ -1,7 +1,7 @@
 ---
 layout: articles
 category: articles
-title: Onboarding new Design Clients — How to deliver the design proposal
+title: Onboarding new Design Clients — How to deliver the design proposal 
 description: You’ll only need a proposal if there’s a client you’re trying to secure. For most of us, we write proposals to help with onboarding the client. It’s a part of the process that may seem tedious, but you’ll thank yourself later on for using one.
 link_to: https://cmps.co/client-onboard-4
 index_image: https://cdn-images-1.medium.com/max/1200/1*OFIYXAq_ZpND6BypKiJnAg.jpeg
