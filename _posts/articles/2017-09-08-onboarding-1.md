@@ -4,7 +4,7 @@ category: articles
 title: Onboarding new Design Clients — Asking the right questions
 description: A great designer can be measured by the quality of questions they ask. It’s not the defining characteristic, but having an arsenal of great questions to ask helps ensure that you are able to do the best work you can possibly do and have the client on the same page as you.
 link_to: https://cmps.co/client-onboard-1
-index_image: https://darianrosebrook.com/assets/img/posts/articles/great-designer/great-designer.jpg
+index_image: https://cdn-images-1.medium.com/max/1200/1*T3KwOJrtf8jTqq9wZvtQzQ.jpeg
 article_author: Darian Rosebrook
 author_link: https://twitter.com/d_evyn
 ---
