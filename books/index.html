@@ -36,7 +36,7 @@ price: $66
   {% for collection in site.collections %}
 
     {% assign name = collection.label %}
-<section data-type="{{name}}" class="list-item main container">
+<section data-type="{{name}}" id="{{name}}" class="list-item main container">
   <h2>{{collection.h2}}</h2>
   <h4>{{collection.h4}}</h4>
   <article class="row buy book-list">
