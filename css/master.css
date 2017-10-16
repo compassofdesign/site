@@ -788,7 +788,8 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     height: auto; }
     nav.navigation ul {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      justify-content: space-around; }
       nav.navigation ul li {
         opacity: 1; }
     nav.navigation.active {
@@ -809,8 +810,9 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
 
   input[data-continue="true"]:checked ~ nav.navigation ul {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    width: 30%; }
+    width: auto; }
   input[data-continue="true"]:checked ~ nav.navigation ul li.hidden {
     display: inline-flex !important; }
 
