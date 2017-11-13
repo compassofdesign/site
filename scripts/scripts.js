@@ -52,15 +52,8 @@ if(filter) {
     }
   );
 }
-var total,
-		answers,
-		questions,
-		string,
-		submit;
-answers = [,,,,,,,,,,,,,,,,,,,,,];
-
 $(document).ready(function(){
-
+  // Smooth Scroll for all pages
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 	    var target = this.hash;
@@ -73,6 +66,7 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+  // assessment result
 	submit = $('#submit');
 	questions = $('[id^="q"]:not([id*="-"])');
 	if(window.location.href.indexOf("assessment") > -1) {
