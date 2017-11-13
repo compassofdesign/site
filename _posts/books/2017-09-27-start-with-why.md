@@ -1,7 +1,7 @@
 ---
 category: branding
 title: Start with Why — How Great Leaders Inspire Everyone to Take Action
-description:  This book is great for visual design, personal branding, and business card design.
+description:  The entire basis of Simon Sinek's talk, "start with why." This book is really good to go over to learn about the true motivation behind decisions. Essentially instead of jumping straight to work from inquiry, you start by asking the right questions first.
 link: http://amzn.to/2wER2g2
 id: branding
 tags: [branding]
