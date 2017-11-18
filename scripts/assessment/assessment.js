@@ -9,7 +9,6 @@ function checkCookie(){
     }
     return cookieEnabled;
 }
-
 // Test to see if local storage is enabled
 function storageAvailable(type) {
   try {
@@ -34,12 +33,26 @@ function storageAvailable(type) {
       storage.length !== 0;
   }
 }
-
-function resultsStorage() {
-  localStorage.setItem('bgcolor', document.getElementById('bgcolor').value);
-
-  setStyles();
-}
+// storage options
+// function resultMethod();
+//
+//   					var original = $('#results').attr('value');
+//   					var section1 = answers.slice(0, 5);
+//   					var section2= answers.slice(5, 10);
+//   					var section3 = answers.slice(10, 15);
+//   					var section4 = answers.slice(15, 21);
+//   					var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 23;
+//   					var s2a = section2.reduce(function(a,b){return a +b;}, 0) / 20;
+//   					var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 20;
+//   					var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 25;
+//   					$('#results').attr('value', original + '?=' + answers);
+//   					$('#message').attr('value', answers);
+//   					section1score.attr('value', section1);
+//   					section2score.attr('value', section2);
+//   					section3score.attr('value', section3);
+//   					section4score.attr('value', section4);
+//   					totals.attr('value', [s1a, s2a, s3a, s4a])
+// }
 
 // Variables
 
@@ -49,24 +62,26 @@ var resultMethod,
 		questions,
 		string,
 		submit;
-answers = [,,,,,,,,,,,,,,,,,,,,,];
+    // answers = [,,,,,,,,,,,,,,,,,,,,,];
 
 // Conditions
 
-// Write results to cookie, if cookie unavailable, use local storage, if localStorage isn't available, carry results in query string
-if (checkCookie()) {
-  method = "ck";
-}
-else if (storageAvailable('localStorage')) {
-  method = "ls";
-}
-else {
-  method = "qs"
-}
+// choose method for writing results.
+(function() {
+  if (checkCookie()) {
+    resultMethod = "ck";
+  } else if (storageAvailable('localStorage')) {
+    resultMethod = "ls";
+  } else {
+    resultMethod = "qs"
+  }
+})();
+// use method Write results to cookie, if cookie unavailable, use local storage, if localStorage isn't available, carry results in query string
+
 
 // listeners
 
-(document).ready(function(){
+$(document).ready(function(){
   submit = $('#submit');
   questions = $('[id^="q"]:not([id*="-"])');
   if(window.location.href.indexOf("assessment") > -1) {
@@ -91,23 +106,7 @@ else {
 			var section4score = $('#section4');
 			var totals =$('#totals');
 		submit.on('click', function(e){
-
-					var original = $('#results').attr('value');
-					var section1 = answers.slice(0, 5);
-					var section2= answers.slice(5, 10);
-					var section3 = answers.slice(10, 15);
-					var section4 = answers.slice(15, 21);
-					var s1a = section1.reduce(function(a,b){return a +b;}, 0) / 23;
-					var s2a = section2.reduce(function(a,b){return a +b;}, 0) / 20;
-					var s3a = section3.reduce(function(a,b){return a +b;}, 0) / 20;
-					var s4a = section4.reduce(function(a,b){return a +b;}, 0) / 25;
-					$('#results').attr('value', original + '?=' + answers);
-					$('#message').attr('value', answers);
-					section1score.attr('value', section1);
-					section2score.attr('value', section2);
-					section3score.attr('value', section3);
-					section4score.attr('value', section4);
-					totals.attr('value', [s1a, s2a, s3a, s4a])
+      // Run result type to method of choice
 		})
 		var scoring = function(a) {
 	}
@@ -204,4 +203,4 @@ else {
   		};
 
 
-}
+});

@@ -344,7 +344,6 @@ span.highlight {
 
 .button, a.button {
   transition: all ease 0.3s;
-  display: block;
   min-width: 8em;
   width: fit-content;
   background: #353263;
@@ -528,6 +527,11 @@ footer.main.container {
     width: 100%;
     transition: all ease 0.3s;
     transform-origin: 50% 50%; }
+  .module .icon {
+    width: 45%;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%; }
   .module .landing {
     width: 70%; }
 
@@ -608,7 +612,7 @@ figure.snip1192 blockquote {
   position: relative;
   background-color: #fafafa;
   padding: 30px 50px 65px 50px;
-  font-size: 0.8em;
+  font-size: 1.1em;
   font-weight: 500;
   margin: 0 0 -50px;
   line-height: 1.6em;
@@ -700,7 +704,7 @@ fieldset {
     grid-template-columns: 1fr 1fr 1fr; }
 
   figure.snip1192 {
-    min-width: 220px;
+    min-width: 335px;
     max-width: 95%; } }
 .hero-index {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../assets/img/top1.png") bottom center;
@@ -1041,6 +1045,9 @@ input[data-continue="true"]:checked ~ nav ul li.hidden {
     height: 100vh; }
     .assess.container.first {
       height: 70vh; }
+
+  .module .icon {
+    width: 100%; }
 
   .special-group {
     flex-flow: row; }

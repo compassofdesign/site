@@ -145,7 +145,7 @@ span
 // Buttons
 .button, a.button
   transition: $transition
-  display: block
+  // display: block
   min-width: 8em
   width: fit-content
   background: $main
@@ -301,6 +301,9 @@ footer.main.container
     width: 100%
     transition: $transition
     transform-origin: 50% 50%
+  .icon
+    width: 45%
+    @include center(true, false)
   .landing
     width: 70%
 @media only screen and (min-width: 800px)
@@ -373,7 +376,7 @@ figure.snip1192 blockquote
   position: relative
   background-color: #fafafa
   padding: 30px 50px 65px 50px
-  font-size: 0.8em
+  font-size: 1.1em
   font-weight: 500
   margin: 0 0 -50px
   line-height: 1.6em
@@ -465,5 +468,5 @@ fieldset
       display: grid
       grid-template-columns: 1fr 1fr 1fr
   figure.snip1192
-    min-width: 220px
+    min-width: 335px
     max-width: 95%
