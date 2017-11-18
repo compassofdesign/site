@@ -344,6 +344,7 @@ span.highlight {
 
 .button, a.button {
   transition: all ease 0.3s;
+  display: block;
   min-width: 8em;
   width: fit-content;
   background: #353263;
@@ -705,7 +706,9 @@ fieldset {
 
   figure.snip1192 {
     min-width: 335px;
-    max-width: 95%; } }
+    max-width: 95%; }
+
+  display: inline-block; }
 .hero-index {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../assets/img/top1.png") bottom center;
   background-size: cover;
