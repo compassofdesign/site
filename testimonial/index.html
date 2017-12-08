@@ -12,25 +12,34 @@ description: If you need to get in contact with us at all, send a message using 
 <section class="main container">
   <article class="row">
     <div class="landing module">
-      <h1>Need to get in touch?</h1>
-      <h3>We're maintained by a very small team but we'll get back to you as soon as possible.</h3>
+      <h1>Testimonial</h1>
+      <h3>Can I feature you? (Compass of Design Testimonial)</h3>
     </div>
   </article>
 </section>
 <section class="main container">
   <article class="row">
     <div class="landing module">
-      <h2>Any Questions? Send us a message!</h2>
+      <p>Have you gotten any value from being in the community? I would love to feature you. If you have a few minutes, it would mean a great deal to me to hear about your experience!</p>
       <form action="https://formspree.io/xwlyzklm" method="POST" class="signup"> 
         <input type="text" name="_gotcha" style="display: none">
         <label for="form-name">Full Name</label>
-        <input id="form-name" type="text" name="_Name" placeholder="Full Name" required="true">
-        <label for="form-name">Email</label>
-        <input id="form-name" type="text" name="_Email" placeholder="So I can email you back.">
-        <label for="form-subject">Subject</label>
-        <input id="form-subject" type="text" name="_Subject" placeholder="Subject" required="true">
-        <label for="form-message"></label>
+        <input id="form-firstname" type="text" name="_FirstName" placeholder="First Name" required="true"><input id="form-lastname" type="text" name="_LastName" placeholder="Last Name" required="true">
+        <label for="form-email">Email</label>
+        <p><small>In case I need to follow up.</small></p>
+        <input id="form-email" type="text" name="_Email" placeholder="In case i need to follow up.">
+        <label for="form-backlink">If you would like me to leave a link back to your profile or work, put that in here.</label>
+        <p><small>*optional for backlinking (: </small></p>
+        <input id="form-backlink" type="text" name="_backlink" placeholder="Your Link" >
+        <label for="form-message">What would you say to someone considering to join the community?</label>
+        <p><small>*Did you have any initial hesitations? How has that changed by being here? </small></p>
         <textarea id="form-message" name="Message" required="true"></textarea>
+        <h4>Permission</h4>
+        <label>*Do you grant permission for Compass of Design to use any or all of your feedback in publicly displayed testimonials, marketing, and/or promotion?</label>
+        <ul>
+          <li><input id="form-yes" name="_yes" type="radio" value="I grant permission for this feedback to be shared publicly" checked="checked"></input><label for="form-yes">I grant permission for this feedback to be shared publicly.</label></li>
+          <li><input id="form-no" name="_no" type="radio" value="No, I only want this to be used for internal feedback"></input><label for="form-no">No. I just want this to be for internal feedback.</label></li>
+        </ul>
         <br />
         <input type="hidden" name="_next" value="{{site.baseurl}}/form" />
         <button class="button" type="submit">Send</button>
