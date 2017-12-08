@@ -13,7 +13,7 @@ description: If you need to get in contact with us at all, send a message using 
   <article class="row">
     <div class="landing module">
       <h1>Testimonial</h1>
-      <h3>Can I feature you? (Compass of Design Testimonial)</h3>
+      <h3>Can I ask how the experience had been for you? (Compass of Design Testimonial)</h3>
     </div>
   </article>
 </section>
@@ -27,7 +27,8 @@ description: If you need to get in contact with us at all, send a message using 
         <label for="form-name">Full Name</label>
         <input id="form-firstname" type="text" name="_FirstName" placeholder="First Name" required="true"><input id="form-lastname" type="text" name="_LastName" placeholder="Last Name" required="true">
         <label for="form-email">Email</label>
-        <p><small>In case I need to follow up.</small></p>
+      
+        <p><small>*required in case I need to follow up. Will never be publicly shared.</small></p>
         <input id="form-email" type="text" name="_Email" placeholder="In case i need to follow up.">
         <label for="form-backlink">If you would like me to leave a link back to your profile or work, put that in here.</label>
         <p><small>*optional for backlinking (: </small></p>
@@ -41,8 +42,8 @@ description: If you need to get in contact with us at all, send a message using 
         
          <input id="form-yes" name="_permission" type="radio" value="I grant permission for this feedback to be shared publicly" checked="checked"></input><label for="form-yes">I grant permission for this feedback to be shared publicly.</label><br />
          <input id="form-no" name="_permission" type="radio" value="No, I only want this to be used for internal feedback"></input><label for="form-no">No. I just want this to be for internal feedback.</label>
-        </ul>
-        <br />
+        
+        <br /> <br />
         <input type="hidden" name="_next" value="{{site.baseurl}}/form" />
         <button class="button" type="submit">Send</button>
       </form>
