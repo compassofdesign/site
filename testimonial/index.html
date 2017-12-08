@@ -21,7 +21,8 @@ description: If you need to get in contact with us at all, send a message using 
   <article class="row">
     <div class="landing module">
       <p>Have you gotten any value from being in the community? I would love to feature you. If you have a few minutes, it would mean a great deal to me to hear about your experience!</p>
-      <form action="https://formspree.io/xwlyzklm" method="POST" class="signup"> 
+      <form action="https://formspree.io/xnpwkebx" method="POST" class="signup"> 
+        <input type="hidden" name="Testimonial" value="New testmonial from /Testimonial">
         <input type="text" name="_gotcha" style="display: none">
         <label for="form-name">Full Name</label>
         <input id="form-firstname" type="text" name="_FirstName" placeholder="First Name" required="true"><input id="form-lastname" type="text" name="_LastName" placeholder="Last Name" required="true">
@@ -36,9 +37,9 @@ description: If you need to get in contact with us at all, send a message using 
         <textarea id="form-message" name="Message" required="true"></textarea>
         <h4>Permission</h4>
         <label>*Do you grant permission for Compass of Design to use any or all of your feedback in publicly displayed testimonials, marketing, and/or promotion?</label>
-        <ul>
-          <li><input id="form-yes" name="_permission" type="radio" value="I grant permission for this feedback to be shared publicly" checked="checked"></input><label for="form-yes">I grant permission for this feedback to be shared publicly.</label></li>
-          <li><input id="form-no" name="_permission" type="radio" value="No, I only want this to be used for internal feedback"></input><label for="form-no">No. I just want this to be for internal feedback.</label></li>
+        
+         <input id="form-yes" name="_permission" type="radio" value="I grant permission for this feedback to be shared publicly" checked="checked"></input><label for="form-yes">I grant permission for this feedback to be shared publicly.</label><br />
+         <input id="form-no" name="_permission" type="radio" value="No, I only want this to be used for internal feedback"></input><label for="form-no">No. I just want this to be for internal feedback.</label>
         </ul>
         <br />
         <input type="hidden" name="_next" value="{{site.baseurl}}/form" />
