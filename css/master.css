@@ -658,7 +658,7 @@ form.signup {
   background-color: #f7f7f7;
   padding: 2em;
   border-radius: 10px; }
-  form.signup input {
+  form.signup input{
     display: block;
     margin: 1.5em 0; }
     form.signup input:not(.button), form.signup input ~ textarea {
