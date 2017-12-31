@@ -14,7 +14,7 @@ product_images:
 - /assets/img/p/proposal/proposal-template-rebound.jpg
 
 testimony:
-id: template
+type: Template
 tags: [template, pdf, freebie]
 index_image: assets/img/t/proposal.jpg
 link:

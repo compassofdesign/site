@@ -14,7 +14,7 @@ product_images:
 - /assets/img/p/dry-brush-texture/images.jpg
 - /assets/img/p/dry-brush-texture/test.jpg
 
-id: vector
+type: Custom Design Brush and Vector
 tags: [template, pdf, freebie]
 index_image: assets/img/t/flyer.jpg
 link: https://buy.compassofdesign.com/hi-resolution-dry-brushed-ink-textures

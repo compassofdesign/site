@@ -1,0 +1,14 @@
+<article class="row buy">
+  {% for titles in page.tier_info %}
+  {% assign iteration = forloop.index0 1%}
+  <div class="module pricing {%if forloop.index == 2%}preferred{%endif%}">
+    <h3>{{page.tier_title[iteration]}}</h3>
+    {%if forloop.index == 1%}<img src="{{site.baseurl}}/assets/img/landing/guide.svg" alt="30 day money back guarantee">{%elsif forloop.index == 2%}<img src="{{site.baseurl}}/assets/img/landing/video.svg" alt="">{%else%}<img src="{{site.baseurl}}/assets/img/landing/coach.svg" alt="">{%endif%}
+    <h4><em>{{page.tier_subtitle[iteration]}}</em></h4>
+    <p>{{page.tier_info[iteration]}}</p>
+    {% if page.soon %}<p><em>Enrollment opens {{page.enrollment}}</em></p>{% endif %}
+
+    <a href="#signup" class="button"><strong>{{page.tier_price[iteration]}}</strong></a>
+  </div>
+  {% endfor %}
+</article>

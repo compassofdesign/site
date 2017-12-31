@@ -5,7 +5,7 @@ signup: product
 <header id="hero" class="main hero container product-header">
   <article class="row">
     <div class="module">
-      <img src="{{site.baseurl}}/{{page.product_image}}" alt="Solid foundation in design priniciples"/>
+      <img src="{% if page.product_image contains 'http' %}{{page.product_image}}{% else %}{{site.baseurl}}/{{page.product_image}}{% endif %}" alt="Solid foundation in design priniciples"/>
     </div>
     <div class="module">
       <h1 class="point-title">{{page.title}}</h1>
@@ -22,7 +22,7 @@ signup: product
     {% for paragraphs in page.product_info %}
     {% assign iteration = forloop.index0 1%}
       <div class="module group">
-        <article class="module support-img" data-rellax-speed="10">
+        <article class="module support-img">
           <img src="{{page.product_images[iteration]}}" alt="Making faster design decisions"/>
         </article>
         <article class="module point">
@@ -32,15 +32,17 @@ signup: product
       </div>
     {% endfor %}
   </div>
+
+  </article>
+  {% if page.tier %}{% include tier.html %} {% else %}
+  <article class="row">
   <div class="module buy">
-    {% if page.tier %}
-      {% include 'tier.html' %}
-    {% else %}
+
     <a href="{% if page.soon == true %}#mc_embed_signup{% elsif page.link %}{{page.link}}/buy{% else %}#buy{% endif%}" class="button " > {% if  page.soon == true %}Get it Soon{% elsif page.bundle%}See Below{% elsif page.title contains "community" %} Buy now for {{page.price}} (30% off until October) {% elsif page.price %}Buy Now for {{page.price}}{% endif %}</a>
-    {%endif%}
+
 
   </div>
-  </article>
+  </article>{%endif%}
   </section>
 {% endif %}
 <section class="main container">
@@ -98,9 +100,10 @@ signup: product
 </section>
 
 
-<section id="join" class="container main ">
-  <article class="row">
-  {% if page.soon %}{% include mailchimp.html %}{% else %}
-    <a class="button" href="{{site.baseurl}}/community">Join the Design Community</a>{% endif %}
+<section id="join" class="main landing container ">
+
+  <article class="row"><div class="landing module" id="join">
+    {% if page.soon %}{% include mailchimp.html %}{% else %}
+    <a class="button" href="{{site.baseurl}}/community">Join the Design Community</a>{% endif %}</div>
   </article>
 </section>

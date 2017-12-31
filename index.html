@@ -60,7 +60,8 @@ place: home
           <a class="product" href="{% if post.linking %}{{post.linking}}{% else %}{{post.url}}{% endif %}" >
             <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
             <h5>{{post.title}}</h5>
-            <h6>{% if post.title contains "community" %}<del>$99</del> {% endif %} {{post.price}}</h6>
+            <p><em>{{post.type}}</em></p>
+            <h6 class="price">{% if post.title contains "community" %}<del>$99</del> {% endif %} {{post.price}}</h6>
           </a>
         </article>
     {% if article == '4' or forloop.last %}</article>{% endif %}

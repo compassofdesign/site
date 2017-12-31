@@ -7,7 +7,7 @@ product_info:
 paragraph_title:
 product_images:
 linking: /community
-id: Membership
+type: Membership
 tags: [template, pdf, freebie]
 index_image: assets/img/p/community/community.jpg
 link: https://buy.compassofdesign.com/compass-of-design-community-membership/

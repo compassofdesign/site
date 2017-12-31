@@ -18,11 +18,11 @@ product_images:
 - /assets/img/p/gift/sticker.png
 
 testimony:
-id: template
+type: Membership Bonus
 tags: [product, pdf, freebie]
 index_image: assets/img/p/gift/flyer.jpg
 link: /community
-price: Membership Only Bonus
+price: Included with Membership
 bundle:
 bundle_title:
 product_image: assets/img/p/gift/flyer.jpg
