@@ -12,6 +12,7 @@ product_images:
 - /assets/img/course.jpg
 testimony:
 type: Course
+signup: marketing-course
 tags: [course, pdf, freebie]
 index_image: assets/img/p/marketing-course/marketing-yourself.jpg
 link:
