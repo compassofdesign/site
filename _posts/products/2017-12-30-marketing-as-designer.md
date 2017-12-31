@@ -23,17 +23,17 @@ tier_title:
 - Class + Personal Coaching
 tier_subtitle:
 - A guide to marketing yourself better as a designer
-- Video lessons that
+- Video guides to accelerate your progress
 - All of the other tiers plus 3 personal coaching calls
 tier_info:
 - The best guide to making sure that you're marketing yourself the best you can as a designer. We cover topics well beyond just being a better creative. We go over how to audit your portfolio, your social media game, and even some tips on analyzing the traffic to all of your different channels. <br />  <br /> This guide will have action steps that will help you get further towards being a master at marketing your skills and your portfolio.
 - For every chapter in the guide, you get 3 in depth videos that outline the steps, further explaining on topics, and introducing more ideas with each part. <br />  <br /> Each video has actionable components as well as examples to use throughout the course.<br />  <br /> You'll also have access to the Compass of Design Community and the replays of the Marketing as a Designer Webinar
-- You are serious about becoming a better designer. You may already have goals and plans, or you need some help finding direction. You are going to get personalized coaching in order to grow your skills as a designer. You'll receive everything in the other tiers with direct access to me and four separate hour long coaching calls. <br />  <br /> These calls can be scheduled on your own time and we'll cover the material in the course as well as personal coaching to plan your path.
+- You are serious about becoming a better designer. You may already have goals and plans, or you need some help finding direction. You are going to get personalized coaching in order to grow your skills as a designer. You'll receive everything in the other tiers with direct access to me and three separate hour long coaching calls. <br />  <br /> These calls can be scheduled on your own time and we'll cover the material in the course as well as personal coaching to plan your path.
 tier_price:
 - Get Access Soon
 - Get Access Soon
 - Get Access Soon
-enrollment: late of March 2018
+enrollment: in March 2018
 bundle: true
 bundle_title: Professional Design Proposal
 product_image: https://pbs.twimg.com/media/DEoVmltXoAA2moZ.jpg
