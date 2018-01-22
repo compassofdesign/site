@@ -7,7 +7,7 @@ place: home
 ---
 <header class="container hero hero-index" id="hero">
   <article class="row hero-inset">
-    <img src="/assets/img/cod-logo.png" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
+    <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
 
   </article>
 </header>
@@ -15,13 +15,57 @@ place: home
 <section class="main container">
   <article class="row">
     <div class="module intro">
-      <h1>Want to level up your design skills?</h1>
-      <h3>Check out these specially crafted resources for Designers</h3>
+      <h1>Level up your design skills and start charging more for your work</h1>
+      <h3>Learn how to market your skills and improve your craft</h3>
+      <p>&ldquo;The thought-provoking newsletters and the  feedback I've received, has helped me improve my designs, and become more intentional with my design decisions.&rdquo;</p><p> &mdash; Manuel</p>
+      <p>&ldquo;Darian provides a constructive, yet energizing and fun environment through his Slack channel, and delivers professional, original ideas through his newsletter.&rdquo;</p>
+      <p> &mdash; Andrew</p>
+    </div>
+  </article>
+</section>
+<section class="main landing container" id="join">
+
+  <article class="row">
+    <div class="landing module">
+{% include mailchimp.html %}
+</div>
+  </article>
+</section>
+<section class="main container">
+  <article class=" row">
+    <div class="group special-group">
+      <div class="module support-img ">
+        <img class="icon" src="{{site.baseurl}}/assets/img/profile-alpha.png" alt="Darian Rosebrook from Compass of Design"/>
+      </div>
+      <div class="module point ">
+        <h2>So who made all of this? </h2>
+        <h4>AKA: Why should we listen to you?</h4>
+        <p>My name is Darian, I’m a Brand Identity Designer from the Pacific Northwest.</p>
+        <p>My mission is to empower other designers with the skills and resources they need to defeat impostor syndrome and start designing with confidence.</p>
+        <p>I started the Compass of Design because I wanted to fix the gaps in design learning.</p>
+        <p>People are trying their hardest to run creative freelancing businesses, trying to market their skills and products, and level up their design skills. I wanted to help them with that.</p>
+        <p>If you are someone who is just learning the principles of design or someone who's going back to master them, going out there alone is not an easy task. Designers like you are looking for the perfect place to get feedback on the design work they're doing.</p>
+        <p>Let the Compass of Design community point you in the direction you need to go in order to level up in your design career.</p>
+        <!-- <p><a target="_blank" href="https://buy.compassofdesign.com/compass-of-design-community-membership/buy">Join the community</a> to get started.</p> -->
+        <div class="">
+          <a target="_blank" href="https://buy.compassofdesign.com/compass-of-design-community-membership/buy" class="button">Join our design community</a>
+          <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Y45PKB8QQB2P4">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form> -->
+
+          <a href="#join" class="button secondary" >Get the newsletter</a>
+        </div>
+      </div>
     </div>
   </article>
 </section>
 
-<section class="container featured">
+
+
+<!-- <section class="container featured">
     <article class="row">
       <div class="module landing-feature">
         <article class=" support-img">
@@ -40,11 +84,10 @@ place: home
         <article class=" point">
           <h3 class="point-title">Compass of Design Newsletter</h3>
           <h3>Solidify design skills to make better design decisions</h3>
-          <a href="#join" class="button">Get the Newsletter</a>
         </article>
       </div>
       </article>
-</section>
+</section> -->
 <section class="main container">
   <article class="row">
     <div class="module intro">
@@ -66,12 +109,4 @@ place: home
         </article>
     {% if article == '4' or forloop.last %}</article>{% endif %}
   {% endfor %}
-</section>
-<section class="main landing container">
-
-  <article class="row">
-    <div class="landing module" id="join">
-{% include mailchimp.html %}
-</div>
-  </article>
 </section>
