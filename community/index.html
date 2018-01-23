@@ -4,13 +4,13 @@ title: Online Design Community for UI/UX designers, Graphic design, Web Develope
 description: One of the best online communities for getting design feedback, career advice, and ongoing support from other designers working on mastering their craft. This will be the go to place for getting a concrete path to becoming a more effective designer. You get access to early content from the site as well as some discounts and our newsletter to help you level up your design skills.
 signup: community
 index_image: /assets/img/communitynew_mini.jpg
-price: $99
+price: $99/yr
 ---
 <header class="container hero hero-index" id="hero">
   <article class="row hero-inset">
     <a href="{{site.baseurl}}/"><img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." /></a>
-    <h1>Stop getting stuck in a creative rut.</h1>
-    <h3>Boost your creative power by getting around other designers who can help you move forward. </h3>
+    <h1>Stop getting stuck in the same creative ruts.</h1>
+    <h3>The Compass of Design Community makes it easy to get answers and insights on how to get back on track and level up your skills. </h3>
 
   </article>
   <article class="row hero-inset">
@@ -25,11 +25,11 @@ price: $99
       </div>
       <div class="module point ">
         <h2>Getting to the next level of your design career...</h2>
-        <h3>Take a step towards moving forward by getting around people who have been in your shoes.</h3>
+        <h3>Boost your creative power by getting around other designers who can help you move forward.</h3>
         <p>If you are someone who is just learning the principles of design or someone who's going back to master them, going out there alone is not an easy task. Designers like you are looking for the perfect place to get feedback on the design work they're doing.</p>
         <h3>A community of talented and hard-working designers can fix that.</h3>
-        <p>Your time is a precious thing, so why waste time going months in the wrong direction or years without one?</p>
-        <p>Whether you have questions on how to handle client work, how to interview for design jobs, what to improve on your design work, or needing resources to improve your skills, our members are ready to share their feedback, experience, expertise, and creative strengths.</p>
+        <p>Your time is a precious thing, so why would you chance going months or years in the wrong direction?</p>
+        <p>Whether you have questions on how to handle client work, how to interview for design jobs, what to improve on your design work, or needing resources to improve your skills, many members inside the community have been in your shoes.</p>
         <p>Let the Compass of Design community point you in the direction you need to go in order to level up in your design career.</p>
         <!-- <p><a target="_blank" href="https://buy.compassofdesign.com/compass-of-design-community-membership/buy">Join the community</a> to get started.</p> -->
         <div class="">
@@ -47,6 +47,8 @@ price: $99
     </div>
   </article>
 </section>
+
+{% include testimony.html %}
 <section class="main container">
   <article class="row">
   <div class="">
@@ -57,15 +59,8 @@ price: $99
       <article class="module point">
         <h2 class="point-title"  id="more">Learn from Smart People</h2>
         <h3>What you get out of a community is what you put into it.</h3>
-        <p>The community is open 24/7. We have a growing group of people from all around the world sharing work they've done and giving feedback to others. These are like-minded individuals who are focused on becoming better at design themselves, so should you have any questions, we are capable of handling them.</p>
-        <p>This group functions like an active chat where you are able to do: Q&amp;A threads; share gifs, code, links, and images; and create message threads to go further into topics.</p><p>We have categories like:</p>
-<ul>
-  <li><strong>Design-Review:  </strong>As a member of the community, you can seek good feedback on your work while it's in progress. We'll help where we can to take your design to the next level.
-</li>
-<li><strong>Resources: </strong>Keep updated with all sorts of great resources that you and others find outside of the community for designers.</li>
-<li><strong>Work:</strong> Here, you can collaborate with other members, seek new job opportunities, or hire freelancers to help you.</li>
-<li><strong>Today I Made: </strong> Share something you've made today, if you were a part of it, be proud! We can join in the fun with likes, comments, etc.</li>
-</ul>
+        <p>The community is open 24/7. We have a growing group of people from all around the world sharing work they've done and giving feedback to others. These are like-minded individuals who are focused on becoming better at design themselves, so should you have any questions, our members are ready to share their feedback based on their experience, expertise, and creative strengths.</p>
+        <p>This group functions like an active chat where you are able to do: Q&amp;A threads; share gifs, code, links, and images; and create message threads to go further into topics.</p>
       </article>
     </div>
   </div>
@@ -113,8 +108,31 @@ price: $99
   </div>
   </article>
 </section>
+<section class="main container testimony">
 
-{% include testimony.html %}
+    <h3>What are people saying about the community?</h3>
+<article class="row testimony-thumb">
+  {% for post in site.categories.testimony%}
+    {% capture article %}{% cycle '1', '2' %}{% endcapture %}
+    {%  if forloop.index > 3 %}
+      {%  if post.ready %}
+        <figure class="snip1192">
+
+          <blockquote>
+            <h5>{{post.who}}</h5>
+            {% if post.where[1] %}<p><em>Find me at: </em> <a href="{{post.where[0]}}">{{post.where[1]}}</a></p>{% endif %}
+            {{post.content}}
+          </blockquote>
+          <div class="author">
+            <a href="{{post.where[0]}}" target="_blank"> <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/assets/img/community/{{post.img}}{% endif %}"  alt="{{post.title}}"/></a>
+            <h5>{{post.who}}</h5>
+        </figure>
+      </div>
+      {%  endif %}
+      {%  endif %}
+    {% endfor %}
+    </article>
+    </section>
 <section class="main container">
   <article class="row">
     <div class="">
