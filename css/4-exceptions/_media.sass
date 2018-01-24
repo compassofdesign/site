@@ -8,8 +8,10 @@
 
   nav.navigation
     flex-direction: row
-    top: -500px
+    top: -0
     height: auto
+    ul li
+      display: block !important
     ul
       display: flex
       flex-direction: row
@@ -18,8 +20,6 @@
         opacity: 1
     &.active
       top: -0
-      ul li
-        display: block !important
     & ~ .escape
       position: absolute
       width: 1px
@@ -114,6 +114,8 @@
   .intro
     h1
       font-size: 2.5em
+    p
+      width: 65%
   .group, .landing-group
     display: inline-flex
     justify-content: space-around

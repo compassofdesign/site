@@ -63,12 +63,12 @@ nav.navigation
   text-align: center
   border-bottom: $highlight-2 2px solid
   background-color: $light
-  top: -500px
+  top: -360px
   height: 400px
-  position: fixed
   z-index: 200
   width: 100%
   color: $dark
+  position: fixed
   label
     transition: inherit
     display: block
@@ -83,6 +83,7 @@ nav.navigation
     li
       opacity: 1
   &.active
+    position: fixed
     top: -360px
   & ~ .escape
     position: absolute
@@ -187,7 +188,7 @@ span
     font-size: 1.5em
     margin-bottom: 0
   p
-    width: 50%
+    width: 75%
     @include center(true, false)
 .featured
   padding: 0 4%
