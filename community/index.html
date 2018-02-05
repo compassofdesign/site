@@ -120,8 +120,9 @@ price: $99/yr
 
           <blockquote>
             <h5>{{post.who}}</h5>
-            {% if post.where[1] %}<p><em>Find me at: </em> <a href="{{post.where[0]}}">{{post.where[1]}}</a></p>{% endif %}
             {{post.content}}
+
+            {% if post.where[1] %}<p><em>Find me at: </em> <a href="{{post.where[0]}}">{{post.where[1]}}</a></p>{% endif %}
           </blockquote>
           <div class="author">
             <a href="{{post.where[0]}}" target="_blank"> <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/assets/img/community/{{post.img}}{% endif %}"  alt="{{post.title}}"/></a>
