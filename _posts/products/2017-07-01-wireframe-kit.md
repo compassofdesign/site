@@ -7,7 +7,7 @@ type: Template
 tags: [template, pdf, freebie]
 index_image: assets/img/p/user-flow/userflow-landing.jpg
 link: https://buy.compassofdesign.com/wireframe-starter-kit
-price: $19
+price: $10 (earlybird price)
 bundle: false
 bundle_title:
 product_image: assets/img/p/user-flow/userflow.png
