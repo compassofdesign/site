@@ -6,12 +6,12 @@ description: One thing that might bottleneck your projects is creating wireframe
 type: Template
 tags: [template, pdf, freebie]
 index_image: assets/img/p/user-flow/userflow-landing.jpg
-link:
+link: https://buy.compassofdesign.com/wireframe-starter-kit
 price: $19
 bundle: false
 bundle_title:
 product_image: assets/img/p/user-flow/userflow.png
-soon: yes
+soon:
 sitemap:
   lastmod: 2016-05-01
   priority: 0.7
