@@ -1,7 +1,7 @@
 ---
 layout: articles
 category: articles
-title: Great Brands & their Makers: Starbucks
+title: Great Brands & their Makers — Starbucks
 description: Brands that transcend their visual presence and embed themselves squarely in culture
 link_to: https://read.compassofdesign.com/great-brands-their-makers-starbucks-7f3697a079bb
 index_image: https://cdn-images-1.medium.com/max/1800/1*g_nSNP99XWjwnRwZ3SFmiQ.jpeg
