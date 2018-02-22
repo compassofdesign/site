@@ -6,7 +6,7 @@ description: I found myself once aimlessly clicking links in an effort to find v
 link_to: https://read.compassofdesign.com/idea-catalystss-cf68efc90668
 index_image: assets/img/articles/creative-icons.gif
 article_author: Juliane Bone
-author_link: https://twitter.com/automagicalley
+author_link: https://twitter.com/julianebone
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*Kz3fhW3ReHEu0IuyasHc3w.gif)
 

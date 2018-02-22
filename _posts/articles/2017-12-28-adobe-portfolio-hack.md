@@ -6,7 +6,7 @@ description: Adobe offers a no-brainer solution if you’re a creative just look
 link_to: https://read.compassofdesign.com/adobe-portfolio-form-hack-4c9a6e2f3c42
 index_image: assets/img/articles/portfolio-hack.jpg
 article_author: Juliane Bone
-author_link: https://twitter.com/automagicalley
+author_link: https://twitter.com/julianebone
 ---
 # Adobe Portfolio Form Hack
 
