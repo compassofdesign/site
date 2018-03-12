@@ -57,7 +57,7 @@ signup: product
 
 <section class="main container">
   <h3>Other products you may enjoy</h3>
-  <article class="row buy">
+  <article class="row grid">
 
 {% comment %}---> the maximum number of related to posts
                to be printed {% endcomment %}
@@ -83,7 +83,7 @@ signup: product
      {% endif %}
    {% endfor %}
    {% if sameTagCount >= minCommonTags %}
-   <article class="landing-product ">
+   <article class="grid-item ">
      <a class="product" href="{{post.url}}" >
        <img src="{{site.baseurl}}/{{post.index_image}}"  alt="{{post.title}}"/>
        <h5>{{post.title}}</h5>

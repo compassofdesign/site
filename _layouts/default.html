@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>{{page.title}}</title>
     <meta name="description" content="{{page.description | truncate: 200}}" />
+    <style media="all">
+      @font-face{font-family:"hk-nova-bold";src:url("/assets/fonts//assets/fonts/HKNova-Bold.eot");src:url("/assets/fonts/HKNova-Bold.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/HKNova-Bold.woff") format("woff"),url("/assets/fonts/HKNova-Bold.ttf") format("truetype")}@font-face{font-family:"hk-nova-heavy";src:url("/assets/fonts/HKNova-Heavy.eot");src:url("/assets/fonts/HKNova-Heavy.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/HKNova-Heavy.woff") format("woff"),url("/assets/fonts/HKNova-Heavy.ttf") format("truetype")}@font-face{font-family:"hk-nova-regular";src:url("/assets/fonts/HKNova-Regular.eot");src:url("/assets/fonts/HKNova-Regular.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/HKNova-Regular.woff") format("woff"),url("/assets/fonts/HKNova-Regular.ttf") format("truetype")}@font-face{font-family:"hk-nova-thin";src:url("/assets/fonts/HKNova-Thin.eot");src:url("/assets/fonts/HKNova-Thin.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/HKNova-Thin.woff") format("woff"),url("/assets/fonts/HKNova-Thin.ttf") format("truetype")}
+    </style>
     <link rel="stylesheet" href="{{site.baseurl}}/css/master.css" type="text/css" media="all">
 
     <link rel="author" href="https://plus.google.com/106679625106063278529" />
@@ -57,7 +60,7 @@
   </head>
   <body class="main">
     <input type="checkbox" class="hidden " data-continue="true" id="toggle" name="toggle" value="" >
-    <nav class="navigation transition" id="nav">
+    <nav class="container navigation transition" id="nav">
       <label class="transition toggle " for="toggle"><img src="{{site.baseurl}}/assets/img/cod-avatar.svg" alt="" /></label>
       <ul>
         <li class="list-item-1 hidden"><a href="{{site.baseurl}}/">Home</a></li>
