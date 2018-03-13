@@ -59,25 +59,30 @@
     </script>
   </head>
   <body class="main">
+
     <input type="checkbox" class="hidden " data-continue="true" id="toggle" name="toggle" value="" >
     <nav class="container navigation transition" id="nav">
-      <label class="transition toggle " for="toggle"><img src="{{site.baseurl}}/assets/img/cod-avatar.svg" alt="" /></label>
-      <ul>
-        <li class="list-item-1 hidden"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="list-item-2 hidden"><a href="{% if page.place %}#products{% else %}/#products{% endif %}">Products</a></li>
-        <li class="list-item-3 hidden"><a href="{{site.baseurl}}/books">Design Books </a></li>
-        <li class="list-item-4 hidden"><a href="{{site.baseurl}}{% if page.place %}#join{% else %}/#join{% endif %}">Newsletter</a></li>
-        <li class="list-item-5 hidden"><a href="{{site.baseurl}}/archive/writing">Articles</a></li>
-      </ul>
-      <ul>
-        <li class="list-item-4 hidden"><a href="{{site.baseurl}}/contact">Contact</a></li>
-        <li class="list-item-5 hidden"><a href="https://compassofdesign.slack.com" >Sign In</a></li>
-        <li class="list-item-6 hidden"><a href="{{site.baseurl}}/community" class="button">Register</a></li>
-      </ul>
+      <article class="row">
+        <label class="transition toggle " for="toggle"><img src="{{site.baseurl}}/assets/img/cod-avatar.svg" alt="" /></label>
+        <ul class="module">
+          <li class="list-item-1"><a href="{{site.baseurl}}/">Home</a></li>
+          <li class="list-item-2"><a href="{% if page.place %}#products{% else %}/#products{% endif %}">Products</a></li>
+          <li class="list-item-3"><a href="{{site.baseurl}}/books">Design Books </a></li>
+          <li class="list-item-4"><a href="{{site.baseurl}}{% if page.place %}#join{% else %}/#join{% endif %}">Newsletter</a></li>
+          <li class="list-item-5"><a href="{{site.baseurl}}/archive/writing">Articles</a></li>
+        </ul>
+        <ul class="module">
+          <li class="list-item-4"><a href="{{site.baseurl}}/contact">Contact</a></li>
+          <li class="list-item-5"><a href="https://compassofdesign.slack.com" >Sign In</a></li>
+          <li class="list-item-6"><a href="{{site.baseurl}}/community" class="button">Register</a></li>
+        </ul>
+      </article>
     </nav>
     <label class="transition escape " for="toggle"><span style="opacity: 0">close</span></label>
-    {{content}}
-    <footer class="main container">
+    <main>
+      {{content}}
+    </main>
+    <footer class="container">
       <article class="row">
           <div class="landing module">
             <h6>Copyright 2017 &mdash; {{ site.time | date: '%Y' }} of Compass of Design</h6><h6>Logo Design and Branding crafted by <a href="https://somagnetic.com">So Magnetic</a></h6>

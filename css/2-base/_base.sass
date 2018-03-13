@@ -18,6 +18,9 @@ body
   opacity: 0
   transition: all ease .4s
   overflow-x: hidden
+.hidden
+  display: none !important
+  opacity: 0
 .cf::after
   content: ' '
   visibility: hidden
@@ -118,7 +121,7 @@ i
   color: $light
   cursor: pointer
   border: none
-  border-radius: 1em
+  border-radius: .5em
   padding: 1em
   &.secondary
     background: $light
@@ -161,8 +164,10 @@ i
   font-size: 0
 
 .row
+  font-size: 1rem
   width: 90vw
   @include center(true, false)
+  margin-bottom: 3em
 
 .module
   display: inline-block
@@ -171,132 +176,78 @@ i
 
 .grid-item
   font-size: 1rem
+  position: relative
   img
+
     @include center(true, false)
 
 // Forms
 
 // Navigation
-nav.container
-  transition: $transition
-  @include center(true, false)
-  display: flex
-  flex-direction: column
-  justify-content: space-around
-  align-items: center
-  align-content: center
-  text-align: center
-  border-bottom: $highlight-2 2px solid
-  background-color: $light
-  top: -360px
-  height: 400px
-  z-index: 200
-  width: 100%
-  font-size: 1rem
-  color: $dark
-  position: fixed
-  label
-    transition: inherit
-    display: block
-    @include center(true, true)
-    top: 100%
-    width: 65px
-    height: 65px
-    img
-      width: 40px
-      @include center(true, true)
-  ul
-    display: flex
-    align-items: center
-    li
-      opacity: 1
-  &.active
-    position: fixed
-    top: -360px
-  & ~ .escape
-    position: absolute
-    width: 1px
-    height: 1px
-    background: none
-.navigation li
-  display: none
-  animation: slideIn 0.3s backwards
-input[data-continue="true"]:checked
-  & ~ nav ul
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-between
-    width: 80%
-  & ~ nav ul li.hidden
-    display: inline-flex !important
-@for $i from 1 through 9
-  .navigation .list-item-#{$i}
-    animation-delay: ($i/6)+s
-.toggle
-  background-color: $light
-  border-bottom: $highlight-2 2px solid
-  border-radius: 50%
-  padding: 1em
-  &:hover
-    cursor: pointer
 
-#toggle:checked
-  & ~ nav
-    top: 0
-    label
-      top: 50%
-  & ~ .escape
-    position: fixed
-    display: block
-    width: 100%
-    height: calc(100vw * 1.777)
-    z-index: 199
+
 // Media Queries
-@media only screen and (min-width: 800px)
-  .row
-    width: 70vw
-  .module
-    & ~ .module
-      margin: 0 0 0 4rem
-  .grid
-    grid-template-columns: 1fr 1fr 1fr 1fr
-  .grid-item
-    &:hover
+
+@media only screen and (max-width: 799px)
+  main
+    margin-top: -35vh
+  nav
+    transition: $transition
+    @include center(true, false)
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    align-content: center
+    text-align: center
+    border-bottom: $highlight-2 2px solid
+    background-color: $light
+    top: -210px
+    height: 250px
+    z-index: 200
+    width: 100%
+    color: $dark
+    position: fixed
+    label
+      transition: inherit
+      display: block
+      @include center(true, false)
+      width: 65px
+      height: 65px
+
       img
-        width: 95%
-        box-shadow: 0 4px 6px 0 hsla(0, 0, 0, 0.2)
-  nav.container
-    flex-direction: row
-    top: -0
-    height: auto
-    ul li
-      display: block !important
+        width: 40px
+        @include center(true, true)
     ul
+      list-style-type: none
       display: flex
       flex-direction: row
-      justify-content: space-around
+      align-items: center
       li
+        font-size: 1.23em
         opacity: 1
+        & ~ li
+          margin-left: .3em
     &.active
-      top: -0
+      position: fixed
+      top: -210px
+      & ~ main
+        margin-top: 2vh
     & ~ .escape
       position: absolute
       width: 1px
       height: 1px
       background: none
-    label
-      top: 50%
-
   .navigation li
     display: none
     animation: slideIn 0.3s backwards
   input[data-continue="true"]:checked
-    & ~ nav.navigation ul
+    & ~ nav ul
       display: flex
-      flex-wrap: nowrap
-      justify-content: space-around
-      width: auto
-    & ~ nav.navigation ul li.hidden
+      flex-wrap: wrap
+      justify-content: space-between
+      width: 80%
+    & ~ nav ul li
       display: inline-flex !important
   @for $i from 1 through 9
     .navigation .list-item-#{$i}
@@ -306,6 +257,7 @@ input[data-continue="true"]:checked
     border-bottom: $highlight-2 2px solid
     border-radius: 50%
     padding: 1em
+    transform: translate(-50%, 275%)
     &:hover
       cursor: pointer
 
@@ -313,10 +265,233 @@ input[data-continue="true"]:checked
     & ~ nav
       top: 0
       label
-        top: 50%
     & ~ .escape
       position: fixed
       display: block
       width: 100%
       height: calc(100vw * 1.777)
       z-index: 199
+
+@media only screen and (min-width: 800px)
+  nav
+    min-height: 5vw
+    border-bottom: $highlight-2 2px solid
+    .row
+      @include center(true, true)
+    ul.module
+      list-style-type: none
+      width: auto
+      @include center(false, true)
+      ~ ul
+        margin-left: auto
+        right: 0
+
+    li
+      display: inline-block
+      animation: slideIn 0.3s backwards
+      vertical-align: middle
+      ~ li
+        margin-left: 1.5rem
+    label
+      width: 2vw
+      display: inline-block
+      margin-right: 2em
+  @for $i from 1 through 9
+    nav .list-item-#{$i}
+      animation-delay: ($i/6)+s
+
+  .row
+    width: 70vw
+  .module
+    & ~ .module
+      margin: 0 0 0 4rem
+
+  .point
+    width: 65%
+  .support-img
+    width: 30%
+    vertical-align: top
+  .grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    &:hover
+      .grid-item
+        opacity: .75
+    .grid-item
+      &:hover
+        opacity: 1
+        img
+          transform: translate(-50%, -1em)
+          box-shadow: 0 4px 6px 0 hsla(0, 0, 0, 0.2)
+  .book
+    img
+      max-height: 15vw
+      width: auto
+      @include center(true, false)
+  .hero-inset
+    width: 50%
+.assess
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  height: calc(105vw * 1.777)
+  &.first
+    height: calc(70vw * 1.777)
+  .row
+    transform: none
+    left: auto
+.testimony-thumb
+  display: block
+hr
+  margin-bottom: $margin
+#filter
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  font-size: .7em
+  div
+    display: inline-flex
+    flex-direction: column
+    justify-content: space-between
+.filter
+  border: 1px $main solid
+  border-radius: 5px
+  padding: .5em
+  @include center(true, false)
+// Testimonial
+figure.snip1192
+  position: relative
+  // float: left
+  overflow: hidden
+  margin: 10px 1%
+  width: 100%
+  color: #333
+  text-align: left
+  box-shadow: none !important
+  font-size: .9em
+
+figure.snip1192 *
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+figure.snip1192 img
+  max-width: 100%
+  height: 100px
+  width: 100px
+  border-radius: 50%
+  margin-bottom: 15px
+  display: inline-block
+  z-index: 1
+  position: relative
+
+figure.snip1192 blockquote
+  margin: 0
+  display: block
+  border-radius: 8px
+  position: relative
+  background-color: #fafafa
+  padding: 30px 50px 65px 50px
+  font-size: 1.1em
+  font-weight: 500
+  margin: 0 0 -50px
+  line-height: 1.6em
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15)
+
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after
+  font-family: 'FontAwesome'
+  content: "\201C"
+  position: absolute
+  font-size: 50px
+  opacity: 0.3
+  font-style: normal
+
+figure.snip1192 blockquote:before
+  top: 35px
+  left: 20px
+
+figure.snip1192 blockquote:after
+  content: "\201D"
+  right: 20px
+  bottom: 35px
+
+figure.snip1192 .author
+  margin: 0
+  text-transform: uppercase
+  text-align: center
+  color: #ffffff
+
+figure.snip1192 .author h5
+  opacity: 0.8
+  margin: 0
+  font-weight: 800
+
+figure.snip1192 .author h5 span
+  font-weight: 400
+  text-transform: none
+  display: block
+
+// Forms
+
+form.signup
+  display: block
+  background-color: #f7f7f7
+  padding: 2em
+  border-radius: 10px
+  input
+    display: block
+    margin: $margin 0
+    &:not(.button), & ~ textarea
+      width: 75%
+      border: #ddd 2px solid
+      border-radius: 5px
+      padding: .5em
+
+  input.radio-button
+    width: 15%
+    display: inline-block
+    & ~ label
+      width: 60%
+  textarea
+    display: block
+    height: 15vw
+    resize: none
+    margin-bottom: $margin
+    color: $main
+  &.assessment
+    background: none
+    display: block
+    padding: 0
+    border-radius: 0
+fieldset
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  margin-bottom: $margin
+  label:not(.dont)
+    display: block
+    margin-bottom: $margin
+    padding: .3em
+    line-height: 1.5
+    &:hover
+      cursor: pointer
+
+@media only screen and (min-width: 800px)
+  form
+    label.module
+      padding: 1em
+    & ~ label.module
+      margin-left: 1em
+  .testimony
+    .row
+      display: grid
+      grid-template-columns: 1fr 1fr 1fr
+  figure.snip1192
+    min-width: 335px
+    max-width: 95%
+  .button, a.button
+    display: inline-block
+  .assess
+    height: 100vh
+    &.container.first
+      height: 70vh

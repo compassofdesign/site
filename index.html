@@ -7,35 +7,41 @@ place: home
 ---
 <header class="container hero hero-index" id="hero">
   <article class="row hero-inset">
-    <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
+
+      <div class="module intro">
+        <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
+        <h1>Level up your design skills and start charging more for your work</h1>
+        <h3>Learn how to market your skills and improve your craft</h3>
+      </div>
 
   </article>
 </header>
 
-<section class="main container">
+<!-- <section class="container">
   <article class="row">
     <div class="module intro">
+      <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
       <h1>Level up your design skills and start charging more for your work</h1>
       <h3>Learn how to market your skills and improve your craft</h3>
     </div>
   </article>
-</section>
-<section class="main landing container" id="join">
+</section> -->
+<section class="container" id="join">
 
+  {% include mailchimp.html %}
   <article class="row">
     <div class="landing module">
-      {% include mailchimp.html %}
       <p>&ldquo;The thought-provoking newsletters and the  feedback I've received, has helped me improve my designs, and become more intentional with my design decisions.&rdquo;</p><p> &mdash; Manuel</p>
       <p>&ldquo;Darian provides a constructive, yet energizing and fun environment through his Slack channel, and delivers professional, original ideas through his newsletter.&rdquo;</p>
       <p> &mdash; Andrew</p>
     </div>
   </article>
 </section>
-<section class="main container">
+<section class="container">
   <article class=" row">
     <div class="group special-group">
       <div class="module support-img ">
-        <img class="icon" src="{{site.baseurl}}/assets/img/profile-alpha.png" alt="Darian Rosebrook from Compass of Design"/>
+        <img class="" src="{{site.baseurl}}/assets/img/profile-alpha.png" alt="Darian Rosebrook from Compass of Design"/>
       </div>
       <div class="module point ">
         <h2>So who made all of this? </h2>
@@ -55,9 +61,6 @@ place: home
     </div>
   </article>
 </section>
-
-
-
 <!-- <section class="container featured">
     <article class="row">
       <div class="module landing-feature">
@@ -81,14 +84,14 @@ place: home
       </div>
       </article>
 </section> -->
-<section class="main container">
+<section class="container">
   <article class="row">
     <div class="module intro">
       <h3 id="products">Products</h3>
     </div>
   </article>
 </section>
-<section class="main container">
+<section class="container">
   <article class="row grid">
   {% for post in site.categories.products%}
     <!-- {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}

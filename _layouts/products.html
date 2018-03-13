@@ -4,10 +4,10 @@ signup: product
 ---
 <header id="hero" class="main hero container product-header">
   <article class="row">
-    <div class="module">
+    <div class="module support-img">
       <img src="{% if page.product_image contains 'http' %}{{page.product_image}}{% else %}{{site.baseurl}}/{{page.product_image}}{% endif %}" alt="Solid foundation in design priniciples"/>
     </div>
-    <div class="module">
+    <div class="module point">
       <h1 class="point-title">{{page.title}}</h1>
       <h3>{%if page.subtitle %}{{page.subtitle}}{%else%}Start projects faster{%endif%}</h3>
       <p>{{page.description}}</p>
@@ -16,12 +16,10 @@ signup: product
   </article>
 </header>
 {% if page.product_info %}
-  <section class="main container">
-    <article class="row">
-    <div class=" module">
+  <section class="container">
     {% for paragraphs in page.product_info %}
     {% assign iteration = forloop.index0 1%}
-      <div class="module group">
+    <article class="row">
         <article class="module support-img">
           <img src="{{page.product_images[iteration]}}" alt="Making faster design decisions"/>
         </article>
@@ -29,11 +27,9 @@ signup: product
           <h3 class="point-title">{{page.paragraph_title[iteration]}}</h3>
           <p>{{paragraphs}}</p>
         </article>
-      </div>
-    {% endfor %}
-  </div>
+    </article>
 
-  </article>
+    {% endfor %}
   {% if page.tier %}{% include tier.html %} {% else %}
   <article class="row">
   <div class="module buy">
@@ -56,7 +52,10 @@ signup: product
  {% comment %}---> Other products that someone will enjoy {% endcomment %}
 
 <section class="main container">
-  <h3>Other products you may enjoy</h3>
+  <article class="row">
+
+    <h3>Other products you may enjoy</h3>
+  </article>
   <article class="row grid">
 
 {% comment %}---> the maximum number of related to posts

@@ -37,12 +37,14 @@ index_image: /assets/img/index.jpg
   {% for collection in site.collections %}
 
     {% assign name = collection.label %}
-<section data-type="{{name}}" id="{{name}}" class="list-item main container">
-  <h2>{{collection.h2}}</h2>
-  <h4>{{collection.h4}}</h4>
-  <article class="row buy book-list">
+<section data-type="{{name}}" id="{{name}}" class="ist-item container">
+  <article class="row">
+    <h2>{{collection.h2}}</h2>
+    <h4>{{collection.h4}}</h4>
+  </article>
+  <article class="row grid">
   {% for post in site.categories[name] %}
-    <div class="article-thumb module book">
+    <div class="grid-item book">
       {{post.content}}
       <h5><a href="{{post.link}}" target="_blank">{{post.title}}</a></h5>
       <p >{{post.description}}</p>

@@ -99,18 +99,17 @@ price: $99/yr
         <p>There's tons of new products, courses, and resources being added for free specifically for community members before the end of the year. Along side community membership, you'll be added to the newsletter to get community updates, early access to other products, and design training in your emails each week.</p>
         <h4>There are plans for much more as we continue to grow.</h4>
         <p>We're always working on improving the platform to make this experience one of the best for you.</p>
+        <a href="https://buy.compassofdesign.com/compass-of-design-membership/11/buy" class="button " >Become a member</a>
       </article>
     </div>
-  </div>
-  <div class="module buy"><a href="https://buy.compassofdesign.com/compass-of-design-membership/11/buy" class="button " >Become a member</a>
-
-
   </div>
   </article>
 </section>
 <section class="main container testimony">
+  <article class="row">
 
-    <h3>What are people saying about the community?</h3>
+      <h3>What are people saying about the community?</h3>
+  </article>
 <article class="row testimony-thumb">
   {% for post in site.categories.testimony%}
     {% capture article %}{% cycle '1', '2' %}{% endcapture %}
@@ -126,7 +125,6 @@ price: $99/yr
           </blockquote>
           <div class="author">
             <a href="{{post.where[0]}}" target="_blank"> <img src="{% if post.index_image contains "http"%}{{post.index_image}}{% else %}{{site.baseurl}}/assets/img/community/{{post.img}}{% endif %}"  alt="{{post.title}}"/></a>
-            <h5>{{post.who}}</h5>
         </figure>
       </div>
       {%  endif %}
@@ -153,10 +151,10 @@ price: $99/yr
 </section>
 <section id="join" class="main hero container product-header">
   <article class="row">
-    <div class="module">
+    <div class="module support-img">
       <img src="{{site.baseurl}}/assets/img/communitynew_mini.jpg" alt="Solid foundation in design priniciples"/>
     </div>
-    <div class="module">
+    <div class="module point">
       <h3 class="point-title">Ready to get started?</h3>
       <h4>Become a Member of the Compass of Design Community</h4>
       <p>{{page.description}}</p>
