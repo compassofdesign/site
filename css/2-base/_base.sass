@@ -272,63 +272,6 @@ i
       height: calc(100vw * 1.777)
       z-index: 199
 
-@media only screen and (min-width: 800px)
-  nav
-    min-height: 5vw
-    border-bottom: $highlight-2 2px solid
-    .row
-      @include center(true, true)
-    ul.module
-      list-style-type: none
-      width: auto
-      @include center(false, true)
-      ~ ul
-        margin-left: auto
-        right: 0
-
-    li
-      display: inline-block
-      animation: slideIn 0.3s backwards
-      vertical-align: middle
-      ~ li
-        margin-left: 1.5rem
-    label
-      width: 2vw
-      display: inline-block
-      margin-right: 2em
-  @for $i from 1 through 9
-    nav .list-item-#{$i}
-      animation-delay: ($i/6)+s
-
-  .row
-    width: 70vw
-  .module
-    & ~ .module
-      margin: 0 0 0 4rem
-
-  .point
-    width: 65%
-  .support-img
-    width: 30%
-    vertical-align: top
-  .grid
-    grid-template-columns: 1fr 1fr 1fr 1fr
-    &:hover
-      .grid-item
-        opacity: .75
-    .grid-item
-      &:hover
-        opacity: 1
-        img
-          transform: translate(-50%, -1em)
-          box-shadow: 0 4px 6px 0 hsla(0, 0, 0, 0.2)
-  .book
-    img
-      max-height: 15vw
-      width: auto
-      @include center(true, false)
-  .hero-inset
-    width: 50%
 .assess
   display: flex
   flex-direction: column
@@ -477,6 +420,62 @@ fieldset
       cursor: pointer
 
 @media only screen and (min-width: 800px)
+  nav
+    min-height: 5vw
+    border-bottom: $highlight-2 2px solid
+    .row
+      @include center(true, true)
+    ul.module
+      list-style-type: none
+      width: auto
+      @include center(false, true)
+      ~ ul
+        margin-left: auto
+        right: 0
+
+    li
+      display: inline-block
+      animation: slideIn 0.3s backwards
+      vertical-align: middle
+      ~ li
+        margin-left: 1.5rem
+    label
+      width: 2vw
+      display: inline-block
+      margin-right: 2em
+  @for $i from 1 through 9
+    nav .list-item-#{$i}
+      animation-delay: ($i/6)+s
+
+  .row
+    width: 70vw
+  .module
+    & ~ .module
+      margin: 0 0 0 4rem
+
+  .point
+    width: 65%
+  .support-img
+    width: 30%
+    vertical-align: top
+  .grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    &:hover
+      .grid-item
+        opacity: .75
+    .grid-item
+      &:hover
+        opacity: 1
+        img
+          transform: translate(-50%, -1em)
+          box-shadow: 0 4px 6px 0 hsla(0, 0, 0, 0.2)
+  .book
+    img
+      max-height: 15vw
+      width: auto
+      @include center(true, false)
+  .hero-inset
+    width: 50%
   form
     label.module
       padding: 1em
