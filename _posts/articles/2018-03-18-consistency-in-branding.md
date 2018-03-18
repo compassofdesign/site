@@ -1,8 +1,8 @@
 ---
 layout: articles
 category: articles
-title: Defining the brand experience through the user experience roadmap A look into user flow charts
-description: Recently, I announced to the members of the community that I’m building something pretty intense for them in the background. Both the front end and the back end of the website are in dire need of an update, so my plan is to get a more permanent design solution for the site.
+title: The power of consistency in branding design Defining the experience of your products and services
+description: Branding starts happening when you take the brand’s Visual Identity, Messaging, Activity, Products/Services, and Name and give it meaning. Your collection of previous work, products, services, marketing efforts, and different social media accounts for your company become a part of your brand.
 link_to: https://cmps.co/brand-consistency
 index_image: https://cdn-images-1.medium.com/max/1000/1*DlFE4sV73nvncdqiAS44GA.jpeg
 article_author: Darian Rosebrook
