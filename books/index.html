@@ -16,13 +16,13 @@ index_image: /assets/img/index.jpg
     <div class="module point">
       <h1 id="products">Book Shelf</h1>
       <h3>A collection of the best book for designers in {{ site.time | date: '%Y' }}.</h3>
-      <p>This book list helped many of the designers within our community to get where they are today.</p><p> You can use this list as a guide of what to read, building up your own library of great design books.</p><p>Click through to see the item on Amazon and to help support what we're doing here with the Compass of Design Community.</p>
+      <p>This book list helped many of the designers within our community to get where they are today. If you have been looking for a list of quality design books, a lot of these have been read and implemented by a lot of designers within our group.</p><p> You can use this list as a guide of what to read, building up your own library of great design books, or you can <a href="{{site.baseurl}}/join">sign up for our newsletter</a> to get access to a custom learning path for you and your design career.</p><p>Click through to see the item on Amazon and to help support what we're doing here with the Compass of Design Community.</p>
     </div>
   </article>
   <article class="row">
     <div class="module intro">
       <h3>Searching for a specific design discipline?</h3>
-      <select class="filter" name="filter" id="filter">
+      <p><select class="filter" name="filter" id="filter">
         <option value="">Filter All</option>
         {% for collection in site.collections %}
           {% assign name = collection.label %}
@@ -30,7 +30,7 @@ index_image: /assets/img/index.jpg
           <option value="{{name}}">{{collection.h2}}</option>
           {% endif %}
       {% endfor %}
-      </select>
+    </select></p>
     </div>
   </article>
 </section>
