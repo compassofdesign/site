@@ -6,7 +6,7 @@ description: I love-love-love letterpress prints. It leaves an impression (liter
 link_to: https://read.compassofdesign.com/why-letterpress-is-my-favorite-printing-method-ddcd1aafb77d
 index_image: https://cdn-images-1.medium.com/max/800/1*A7kbqyY1qUO_perYFe8HSw.gif
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*A7kbqyY1qUO_perYFe8HSw.gif)

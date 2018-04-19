@@ -6,7 +6,7 @@ description: I’m going to (probably incorrectly) guess that you don’t deal w
 link_to: https://read.compassofdesign.com/are-you-over-thinking-too-often-2b743b1a586d
 index_image: https://cdn-images-1.medium.com/max/1200/1*HBPl7x30X0-ErvKtWk_Elw.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*HBPl7x30X0-ErvKtWk_Elw.jpeg)
 
@@ -319,7 +319,7 @@ Improvement](https://read.compassofdesign.com/tagged/self-improvement?source=pos
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for  [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

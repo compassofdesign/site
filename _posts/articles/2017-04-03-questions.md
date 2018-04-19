@@ -6,7 +6,7 @@ description: We all love clickbait. There’s some sort of unsatisfying feeling 
 link_to: https://medium.com/compass-of-design/are-we-asking-designers-the-right-questions-b70d056cac9f
 index_image: https://cdn-images-1.medium.com/max/1000/0*X5s0j-Q1JVl8tzoK.jpg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/0*X5s0j-Q1JVl8tzoK.jpg)
 
@@ -140,7 +140,7 @@ Code](https://read.compassofdesign.com/tagged/learning-to-code?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

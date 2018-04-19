@@ -6,7 +6,7 @@ description: Sometimes we’re forced into gatherings to socialize with other pe
 link_to: https://cmps.co/client-onboard-3
 index_image: https://cdn-images-1.medium.com/max/1200/1*eZFYhOX6D8fw4sCGGEoFZw.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*eZFYhOX6D8fw4sCGGEoFZw.jpeg)
 
@@ -202,7 +202,7 @@ Thinking](https://read.compassofdesign.com/tagged/design-thinking?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

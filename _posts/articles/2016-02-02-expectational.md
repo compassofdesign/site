@@ -6,7 +6,7 @@ description: Time is a commodity. It is both finite and infinite. We only have 2
 link_to: https://medium.com/compass-of-design/handling-expectational-debt-and-falling-behind-9a658c33edd1
 index_image: https://darianrosebrook.com/assets/img/posts/articles/expectational-debt/expectational-debt.jpg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 # Handling expectational debt and falling behind.
 
@@ -120,7 +120,7 @@ things?**
 Want to follow my work? Come visit me at
 [darianrosebrook.com](http://darianrosebrook.com/)
 
-**Find me on **[twitter ](http://twitter.com/d_evyn)**! **<br> I post great
+**Find me on **[twitter ](http://twitter.com/darianrosebrook)**! **<br> I post great
 finds on UX and Design as well as some great content of my own creation! Hope to
 see you there!
 
@@ -130,7 +130,7 @@ see you there!
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

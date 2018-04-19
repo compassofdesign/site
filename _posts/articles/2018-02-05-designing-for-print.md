@@ -6,7 +6,7 @@ description: You control the cost for printing through your designs, so having a
 link_to: https://read.compassofdesign.com/print-design-tips-for-the-digital-age-75461d12912f
 index_image: https://cdn-images-1.medium.com/max/1000/0*YKhIRiQiwFwO9ZlW.jpg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1000/0*YKhIRiQiwFwO9ZlW.jpg)

@@ -6,7 +6,7 @@ description: Have you felt recently that there’s a gap between where you are a
 link_to: https://read.compassofdesign.com/please-mind-the-gap-54803d2b3b9c
 index_image: https://cdn-images-1.medium.com/max/1000/1*VbdLlu3lxq4AMTm6i-9p9A.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*VbdLlu3lxq4AMTm6i-9p9A.jpeg)
 
@@ -190,7 +190,7 @@ Improvement](https://read.compassofdesign.com/tagged/self-improvement?source=pos
 
 By clapping more or less, you can signal to us which stories really stand out.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for  [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

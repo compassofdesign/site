@@ -6,7 +6,7 @@ description: It always seems the more you read into someone or something, the mo
 link_to: https://cmps.co/goldminer-mindset
 index_image: https://cdn-images-1.medium.com/max/1200/1*fCHVtFONYQmo07BKusPpcg.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*fCHVtFONYQmo07BKusPpcg.jpeg)
 
@@ -230,7 +230,7 @@ Research](https://read.compassofdesign.com/tagged/design-research?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for  [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

@@ -6,7 +6,7 @@ description: One of the things that you begin to wonder when you’re starting o
 link_to: https://cmps.co/business-or-personal
 index_image: https://cdn-images-1.medium.com/max/1200/1*T-WjwpMTovwjY7W6mh6ONA.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*T-WjwpMTovwjY7W6mh6ONA.jpeg)
 
@@ -274,7 +274,7 @@ Thinking](https://read.compassofdesign.com/tagged/design-thinking?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

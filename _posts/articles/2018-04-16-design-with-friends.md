@@ -6,7 +6,7 @@ description: Just a lighthearted talk today about the connections we make as des
 link_to: https://read.compassofdesign.com/design-is-better-with-friends-279494355d52
 index_image: https://cdn-images-1.medium.com/max/800/0*sQDUA4oHQi14h72F.PNG
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 # Design is better with friends

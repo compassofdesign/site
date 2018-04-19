@@ -6,7 +6,7 @@ description: This term means a many different things to designers nowadays. What
 link_to: https://read.compassofdesign.com/what-is-design-strategy-497453c9d83a
 index_image: https://cdn-images-1.medium.com/max/1200/1*5PFeKnwrCgPXdk0J7xHiCg.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1200/1*5PFeKnwrCgPXdk0J7xHiCg.jpeg)
@@ -184,7 +184,7 @@ The client will then either leave you now, or never come back later.
 > Design strategy is actually Business Strategy in disguise.
 
 A while back, [I had sent out this
-tweet](https://twitter.com/d_evyn/status/915605019512078337). It was kind of a
+tweet](https://twitter.com/darianrosebrook/status/915605019512078337). It was kind of a
 revelation because I’ve been reading and studying strategy for designers, only
 to learn that design strategy has very little upfront to do with design.
 

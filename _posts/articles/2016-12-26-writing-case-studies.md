@@ -6,7 +6,7 @@ description: Writing case studies is a difficult task for many beginners. Some p
 link_to: https://medium.com/compass-of-design/writing-more-effective-case-studies-3dede1333c6a
 index_image: assets/img/casestudy.jpg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*JRHIHjy4wnZzMRUNca4dUA.png)
 
@@ -190,7 +190,7 @@ with like-minded designers.
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

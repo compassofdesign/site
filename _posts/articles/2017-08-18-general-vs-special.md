@@ -6,7 +6,7 @@ description: When you start to focus on growing your skills, you poke around and
 link_to: https://cmps.co/generalist-specialist
 index_image: https://cdn-images-1.medium.com/max/1200/1*pY9KzkH9hO0AV13O9d1CVw.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*pY9KzkH9hO0AV13O9d1CVw.jpeg)
 
@@ -254,7 +254,7 @@ Development](https://read.compassofdesign.com/tagged/web-development?source=post
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [https://mgntc.co](https://mgntc.co/), running designer
 network at [https://cmps.co](https://cmps.co/) I ate a whole large dominos pizza

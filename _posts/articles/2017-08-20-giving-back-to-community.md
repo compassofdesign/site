@@ -6,7 +6,7 @@ description: Sometimes we forget what it was like to start out in the design ind
 link_to: https://read.compassofdesign.com/the-compass-of-design-community-fdab714328bd
 index_image: https://cdn-images-1.medium.com/max/800/1*fGpOEQt8gz6GkLTNXKcMGw.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 # The Compass of Design Community
 
@@ -28,7 +28,7 @@ Community](http://cmps.co/) was created to be the compass to guide designers in
 the right direction.
 
 ![](https://cdn-images-1.medium.com/max/600/1*TDCOEZcVrL6U3vlNqGq_qQ.jpeg)
-<span class="figcaption_hack">[Darian Rosebrook](https://twitter.com/d_evyn) — Brand Identity Designer</span>
+<span class="figcaption_hack">[Darian Rosebrook](https://twitter.com/darianrosebrook) — Brand Identity Designer</span>
 
 #### So who did all this?
 
@@ -228,7 +228,7 @@ Design](https://read.compassofdesign.com/tagged/graphic-design?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [https://mgntc.co](https://mgntc.co/), running designer
 network at [https://cmps.co](https://cmps.co/) I ate a whole large dominos pizza

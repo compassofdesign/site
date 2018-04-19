@@ -6,7 +6,7 @@ description: While we have been fighting over whether or not to become a special
 link_to: https://read.compassofdesign.com/rise-of-the-t-skill-designer-2184cc54d140
 index_image: https://cdn-images-1.medium.com/max/800/0*Q6gIT5G-FUz5EBD7.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/800/0*Q6gIT5G-FUz5EBD7.png)

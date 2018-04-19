@@ -6,7 +6,7 @@ description: The width that this design discipline can span is insane. Throughou
 link_to: https://read.compassofdesign.com/the-secret-heroes-of-ux-design-56014d087dee
 index_image: https://cdn-images-1.medium.com/max/1000/1*4x3kgk2I-F7G_B9vdo2Ukw.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*4x3kgk2I-F7G_B9vdo2Ukw.jpeg)

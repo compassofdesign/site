@@ -7,7 +7,7 @@ description: We artists and designers alike love to create visual gold. We find 
 link_to: https://read.compassofdesign.com/building-your-personal-brand-3e1178ed2679
 index_image: https://cdn-images-1.medium.com/max/1000/1*mqH9UBCUt8Qg7MBi2mIAhQ.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*mqH9UBCUt8Qg7MBi2mIAhQ.jpeg)
 
@@ -388,7 +388,7 @@ Development](https://read.compassofdesign.com/tagged/personal-development?source
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [https://mgntc.co](https://mgntc.co/), running designer
 network at [https://cmps.co](https://cmps.co/) I ate a whole large dominos pizza

@@ -6,7 +6,7 @@ description: Let’s talk about your heroes. Boy, wouldn’t it be nice to be no
 link_to: https://cmps.co/design-influencers
 index_image: https://cdn-images-1.medium.com/max/1200/1*yTxS-zdVbLge9UKyCH1YDQ.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*yTxS-zdVbLge9UKyCH1YDQ.jpeg)
 
@@ -221,7 +221,7 @@ Marketing](https://read.compassofdesign.com/tagged/social-media-marketing?source
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for  [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

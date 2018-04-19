@@ -6,7 +6,7 @@ description: Branding starts happening when you take the brand’s Visual Identi
 link_to: https://cmps.co/brand-consistency
 index_image: https://cdn-images-1.medium.com/max/1000/1*DlFE4sV73nvncdqiAS44GA.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*DlFE4sV73nvncdqiAS44GA.jpeg)

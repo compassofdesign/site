@@ -6,7 +6,7 @@ description: Design is a beautiful thing. You have the ability to take an idea e
 link_to: https://cmps.co/ethics-for-designers
 index_image: https://cdn-images-1.medium.com/max/1000/1*gwmB5no8gS-D6y4Rq91X3Q.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*gwmB5no8gS-D6y4Rq91X3Q.jpeg)
 
@@ -247,7 +247,7 @@ carrier we didn’t need because we were “given” (never actually received it
 default a new wifi-hotspot for signing up for a certain plan. We didn’t know
 about it because of automatic billing and payments so when we went to switch to
 the new plan, [the old account never
-closed.](https://twitter.com/d_evyn/status/912127961951637504)
+closed.](https://twitter.com/darianrosebrook/status/912127961951637504)
 
 The default choice here was not being told we can opt out, nor telling us we
 were being added to the additional plan in the contract.
@@ -345,7 +345,7 @@ Thinking](https://read.compassofdesign.com/tagged/design-thinking?source=post)
 
 By clapping more or less, you can signal to us which stories really stand out.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

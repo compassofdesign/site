@@ -6,7 +6,7 @@ description: We’ve been having a lot of great conversation in the community ab
 link_to: https://read.compassofdesign.com/quick-update-for-those-interested-in-the-community-3a395f3743e
 index_image: https://cdn-images-1.medium.com/max/800/0*SspzSvg_ChNEU3P6.jpg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 # Quick update for those interested in the Community:

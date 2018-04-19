@@ -6,7 +6,7 @@ description: Details are a huge part of what makes a design go from good to grea
 link_to: https://read.compassofdesign.com/design-is-about-the-details-just-dont-fret-over-the-little-things-957b406369d3
 index_image: https://cdn-images-1.medium.com/max/800/0*VFZHFBl9dC6PNYeV.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 # Design *is* “about the details,” just don’t ignore the bigger picture

@@ -6,7 +6,7 @@ description: What do you remember about the last person you met? Usually the fir
 link_to: https://medium.com/compass-of-design/5-tips-for-setting-the-right-tone-with-your-email-list-93a5afbb8d8b
 index_image: https://darianrosebrook.com/assets/img/posts/articles/welcome-email/welcome-email.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 # 5 tips for setting the right tone with your email list.
 
@@ -168,7 +168,7 @@ Marketing](https://read.compassofdesign.com/tagged/content-marketing?source=post
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

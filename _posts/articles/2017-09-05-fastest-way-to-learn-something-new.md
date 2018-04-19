@@ -6,7 +6,7 @@ description: Having that much to say about something shows that you either know 
 link_to: https://cmps.co/quick-learner
 index_image: https://cdn-images-1.medium.com/max/1200/1*nS-j4ARcKs9_z-_OlHxhCA.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*nS-j4ARcKs9_z-_OlHxhCA.jpeg)
 
@@ -385,7 +385,7 @@ Thinking](https://read.compassofdesign.com/tagged/design-thinking?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [https://mgntc.co](https://mgntc.co/), running designer
 network at [https://cmps.co](https://cmps.co/) I ate a whole large dominos pizza

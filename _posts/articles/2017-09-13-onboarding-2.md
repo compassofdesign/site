@@ -6,7 +6,7 @@ description: A professional is someone who holds themselves to a high standard A
 link_to: https://cmps.co/client-onboard-2-b
 index_image: https://cdn-images-1.medium.com/max/1200/1*_pkevHuKWDIG9hRnSb9e_Q.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*_pkevHuKWDIG9hRnSb9e_Q.jpeg)
 
@@ -242,7 +242,7 @@ Thinking](https://read.compassofdesign.com/tagged/design-thinking?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate

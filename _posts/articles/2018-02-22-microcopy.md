@@ -6,7 +6,7 @@ description: A few weeks ago, I released an article going over some simple steps
 link_to: cmps.co/microcopy
 index_image: https://cdn-images-1.medium.com/max/1000/1*NBefEZaEzk8-j-RwyXidcg.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*NBefEZaEzk8-j-RwyXidcg.png)

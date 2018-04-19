@@ -6,7 +6,7 @@ description: One of the fun things about being a branding designer is that not e
 link_to: https://read.compassofdesign.com/a-compass-guide-to-designing-custom-stickers-3ba8e5ab9a09
 index_image: https://cdn-images-1.medium.com/max/1000/0*h-WF442MQ67WTodx.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1000/0*h-WF442MQ67WTodx.png)

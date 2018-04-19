@@ -6,7 +6,7 @@ description: Often, I am trying to finish a logo design or branding project with
 link_to: https://read.compassofdesign.com/stop-getting-stuck-on-your-digital-design-concepts-6aff4ef6d042
 index_image: https://cdn-images-1.medium.com/max/1000/1*FYln1kxn0OLaqXd0D-7xgQ.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/2000/1*FYln1kxn0OLaqXd0D-7xgQ.jpeg)
 
@@ -231,7 +231,7 @@ Design](https://read.compassofdesign.com/tagged/product-design?source=post)
 
 By clapping more or less, you can signal to us which stories really stand out.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for  [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

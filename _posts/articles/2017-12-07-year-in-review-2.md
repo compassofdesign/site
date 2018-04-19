@@ -6,7 +6,7 @@ description: Here’s what building two design focused businesses at the same ti
 link_to: https://read.compassofdesign.com/i-just-completed-two-years-of-moonlighting-as-a-freelance-designer-e13ad247acaf
 index_image: https://cdn-images-1.medium.com/max/800/1*VhoE7JmWYNvFZpxEaaVM3A.gif
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img:
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*Ela67mPWfErWNS2B_5c1fQ.png)

@@ -6,7 +6,7 @@ description: As we continue to improve our design skills, we train our eye to no
 link_to: https://read.compassofdesign.com/designer-crimes-of-the-21st-century-4b672e9f39b9
 index_image: https://cdn-images-1.medium.com/max/1000/0*ArKZMhpaum02M8_0.png
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 author_img: 
 ---
 ![](https://cdn-images-1.medium.com/max/1000/0*ArKZMhpaum02M8_0.png)
@@ -252,7 +252,7 @@ Thinking](https://read.compassofdesign.com/tagged/design-thinking?source=post)
 
 By clapping more or less, you can signal to us which stories really stand out.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Identity Designer for  [@itssomagnetic](http://twitter.com/itssomagnetic),
 running a design community at

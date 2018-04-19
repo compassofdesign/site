@@ -6,7 +6,7 @@ description: A great designer can be measured by the quality of questions they a
 link_to: https://cmps.co/client-onboard-1
 index_image: https://cdn-images-1.medium.com/max/1200/1*T3KwOJrtf8jTqq9wZvtQzQ.jpeg
 article_author: Darian Rosebrook
-author_link: https://twitter.com/d_evyn
+author_link: https://twitter.com/darianrosebrook
 ---
 ![](https://cdn-images-1.medium.com/max/1000/1*T3KwOJrtf8jTqq9wZvtQzQ.jpeg)
 
@@ -352,7 +352,7 @@ Process](https://read.compassofdesign.com/tagged/design-process?source=post)
 
 Clapping shows how much you appreciated Darian Rosebrook’s story.
 
-### [Darian Rosebrook](https://read.compassofdesign.com/@d_evyn)
+### [Darian Rosebrook](https://read.compassofdesign.com/@darianrosebrook)
 
 Brand Consultant at [@itssomagnetic](http://twitter.com/itssomagnetic), running
 designer network at [@compassofdesign](http://twitter.com/compassofdesign) I ate
