@@ -10,101 +10,10 @@ place: home
 
       <div class="module intro">
         <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
-        <h1>Level up your design skills and start charging more for your work</h1>
-        <h3>Learn how to market your skills and improve your craft</h3>
+        <h1>Switch to Experience design</h1>
+        <h3>This site is to help designers learn how to become an experience designer.</h3>
       </div>
 
   </article>
 </header>
 
-<!-- <section class="container">
-  <article class="row">
-    <div class="module intro">
-      <img src="/assets/img/cod-logo.svg" alt="Compass of Design is created by So Magnetic as a tool for designers to learn how to overcome imposter syndrome and learn to design with confidence." />
-      <h1>Level up your design skills and start charging more for your work</h1>
-      <h3>Learn how to market your skills and improve your craft</h3>
-    </div>
-  </article>
-</section> -->
-<section class="container" id="join">
-
-  {% include mailchimp.html %}
-  <article class="row">
-    <div class="landing module">
-      <p>&ldquo;The thought-provoking newsletters and the  feedback I've received, has helped me improve my designs, and become more intentional with my design decisions.&rdquo;</p><p> &mdash; Manuel</p>
-      <p>&ldquo;Darian provides a constructive, yet energizing and fun environment through his Slack channel, and delivers professional, original ideas through his newsletter.&rdquo;</p>
-      <p> &mdash; Andrew</p>
-    </div>
-  </article>
-</section>
-<section class="container">
-  <article class=" row">
-    <div class="group special-group">
-      <div class="module support-img ">
-        <img class="" src="{{site.baseurl}}/assets/img/profile-alpha.png" alt="Darian Rosebrook from Compass of Design"/>
-      </div>
-      <div class="module point ">
-        <h2>So who made all of this? </h2>
-        <h4>Why make a new resource platform for designers?</h4>
-        <p>My name is Darian, I’m a Brand Identity Designer from the Pacific Northwest.</p>
-        <p>My mission is to empower other designers with the skills and resources they need to defeat impostor syndrome and start designing with confidence.</p>
-        <p>I started the Compass of Design because I wanted to fix the gaps in design education.</p>
-        <p>People are trying their hardest to run creative freelancing businesses, trying to market their skills and products, and level up their design skills. I wanted to help them with that.</p>
-        <p>If you are someone who is just learning the principles of design or someone who's going back to master them, going out there alone is not an easy task. Designers like you are looking for the perfect place to get feedback on the design work they're doing.</p>
-        <p>Let the Compass of Design community point you in the direction you need to go in order to level up in your design career.</p>
-        <div class="">
-          <a target="_blank" href="{{site.baseurl}}/community" class="button">Join our design community</a>
-
-          <a href="#join" class="button secondary" >Get the newsletter</a>
-        </div>
-      </div>
-    </div>
-  </article>
-</section>
-<!-- <section class="container featured">
-    <article class="row">
-      <div class="module landing-feature">
-        <article class=" support-img">
-          <a href="{{site.baseurl}}/community"><img src="/assets/img/communitynew_mini.jpg"  alt="Community for the self start designers"/></a>
-        </article>
-        <article class=" point">
-          <h3 class="point-title">Online Design Community</h3>
-          <h3>Join up with other designers in the Compass of Design Community</h3>
-          <a href="{{site.baseurl}}/community" class="button">Join the pack</a>
-        </article>
-      </div>
-      <div class="module landing-feature">
-        <article class=" support-img">
-          <a href="#join"><img src="/assets/img/newsletter_mini.jpg"  alt="Making faster design decisions"/></a>
-        </article>
-        <article class=" point">
-          <h3 class="point-title">Compass of Design Newsletter</h3>
-          <h3>Solidify design skills to make better design decisions</h3>
-        </article>
-      </div>
-      </article>
-</section> -->
-<section class="container">
-  <article class="row">
-    <div class="module intro">
-      <h3 id="products">Products</h3>
-    </div>
-  </article>
-</section>
-<section class="container">
-  <article class="row grid">
-  {% for post in site.categories.products%}
-    <!-- {% capture article %}{% cycle '1', '2', '3', '4'  %}{% endcapture %}
-    {% if article == '1' %}{% endif %} {% if article == '4'%}done{% endif %} -->
-        <div class="grid-item">
-          <a class="product" href="{% if post.linking %}{{post.linking}}{% else %}{{post.url}}{% endif %}" >
-            <img src="{{site.baseurl}}{{post.index_image}}"  alt="{{post.title}}"/>
-            <h5>{{post.title}}</h5>
-            <p><em>{{post.type}}</em></p>
-            <h6 class="price">{% if post.title contains "community" %}<del>$99</del> {% endif %} {{post.price}}</h6>
-          </a>
-        </div>
-    {% if article == '4' or forloop.last %}{% endif %}
-  {% endfor %}
-  </article>
-</section>
